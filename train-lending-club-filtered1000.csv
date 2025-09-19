@@ -1,0 +1,1001 @@
+issue_d,sub_grade,term,home_ownership,fico_range_low,pub_rec,revol_util,int_rate,application_type,verification_status,addr_state,fico_range_high,id,emp_length,loan_status
+2015-11-01,A1,36 months,MORTGAGE,725.0,0.0,40.1,5.32,Individual,Not Verified,TX,729.0,65180191,8.0,1
+2015-08-01,A2,36 months,OWN,700.0,0.0,42.8,6.24,Individual,Source Verified,MI,704.0,57598216,11.0,1
+2015-05-01,C2,36 months,OWN,675.0,0.0,77.9,12.69,Individual,Verified,TX,679.0,46825262,0.0,0
+2015-11-01,B2,60 months,RENT,680.0,0.0,63.2,9.17,Individual,Source Verified,CA,684.0,63495933,11.0,1
+2016-05-01,B2,36 months,RENT,675.0,0.0,52.3,9.16,Individual,Not Verified,NV,679.0,78640132,0.0,0
+2015-05-01,D1,36 months,RENT,670.0,0.0,91.7,15.61,Individual,Verified,AK,674.0,48030491,11.0,1
+2015-01-01,B2,36 months,RENT,690.0,0.0,82.5,9.49,Individual,Source Verified,CA,694.0,39480694,11.0,1
+2015-04-01,C4,36 months,MORTGAGE,665.0,1.0,64.3,13.99,Individual,Source Verified,MD,669.0,46467281,11.0,1
+2014-12-01,C2,36 months,RENT,715.0,0.0,3.1,12.99,Individual,Verified,SC,719.0,36078813,8.0,0
+2015-07-01,C4,36 months,RENT,680.0,0.0,70.0,13.99,Individual,Not Verified,NC,684.0,55514675,11.0,1
+2015-11-01,C2,36 months,MORTGAGE,670.0,0.0,55.9,12.59,Individual,Verified,FL,674.0,65594620,2.0,1
+2016-02-01,E2,36 months,MORTGAGE,695.0,0.0,72.8,20.75,Individual,Verified,TX,699.0,71747076,1.0,1
+2014-06-01,A4,36 months,RENT,695.0,0.0,89.7,7.69,Individual,Not Verified,GA,699.0,17695528,9.0,1
+2014-03-01,G5,60 months,RENT,675.0,0.0,79.1,26.06,Individual,Verified,FL,679.0,12565907,11.0,1
+2015-05-01,B3,60 months,RENT,665.0,1.0,6.0,9.99,Individual,Source Verified,TX,669.0,48584377,11.0,0
+2016-05-01,C4,36 months,MORTGAGE,680.0,0.0,64.6,14.46,Individual,Source Verified,NE,684.0,78240056,5.0,1
+2016-01-01,A2,36 months,RENT,715.0,0.0,58.0,6.49,Individual,Verified,CO,719.0,69060563,1.0,1
+2015-04-01,A4,36 months,MORTGAGE,790.0,0.0,17.3,6.92,Individual,Not Verified,MO,794.0,46655412,11.0,1
+2016-02-01,D2,36 months,RENT,665.0,2.0,62.6,17.27,Individual,Verified,FL,669.0,70550487,2.0,1
+2015-01-01,D1,36 months,MORTGAGE,670.0,0.0,64.0,15.59,Individual,Source Verified,GA,674.0,38655159,9.0,1
+2015-10-01,A1,36 months,OWN,750.0,0.0,14.1,5.32,Individual,Source Verified,TX,754.0,61248206,11.0,1
+2014-06-01,C3,60 months,MORTGAGE,705.0,0.0,35.4,13.98,Individual,Source Verified,NY,709.0,17072974,2.0,1
+2015-01-01,C2,60 months,MORTGAGE,670.0,0.0,91.7,12.99,Individual,Verified,NC,674.0,38618521,11.0,1
+2014-01-01,D5,60 months,MORTGAGE,660.0,0.0,69.4,19.97,Individual,Source Verified,AZ,664.0,11256070,11.0,0
+2016-01-01,D2,36 months,RENT,710.0,0.0,85.3,16.59,Individual,Verified,CA,714.0,69336333,0.0,1
+2015-12-01,A5,36 months,RENT,685.0,0.0,89.4,7.89,Individual,Verified,CA,689.0,67436754,11.0,1
+2016-02-01,B5,36 months,OWN,705.0,0.0,41.4,11.47,Individual,Source Verified,IN,709.0,71845458,9.0,1
+2016-03-01,A1,36 months,MORTGAGE,700.0,0.0,96.0,5.32,Individual,Source Verified,IL,704.0,73735291,11.0,1
+2015-12-01,C5,36 months,RENT,665.0,1.0,31.6,14.48,Individual,Source Verified,MI,669.0,67475905,11.0,1
+2015-04-01,B5,36 months,RENT,665.0,0.0,47.7,11.53,Individual,Not Verified,TX,669.0,44733368,7.0,1
+2015-09-01,C5,60 months,MORTGAGE,740.0,0.0,45.7,14.65,Individual,Not Verified,NJ,744.0,59130781,11.0,1
+2015-01-01,C5,36 months,RENT,660.0,0.0,5.0,14.99,Individual,Source Verified,TX,664.0,39329313,4.0,1
+2016-03-01,C5,36 months,OWN,685.0,0.0,35.1,15.31,Individual,Source Verified,CO,689.0,75026169,8.0,1
+2015-07-01,D5,60 months,MORTGAGE,670.0,1.0,25.6,17.86,Individual,Verified,MI,674.0,55747556,5.0,1
+2015-11-01,B3,36 months,RENT,745.0,1.0,5.1,9.99,Individual,Not Verified,OH,749.0,64290796,11.0,1
+2015-10-01,C3,36 months,RENT,675.0,1.0,19.0,13.33,Individual,Verified,PA,679.0,62137343,5.0,1
+2015-10-01,A4,36 months,MORTGAGE,715.0,0.0,39.2,7.26,Individual,Not Verified,CA,719.0,61812809,8.0,1
+2014-04-01,C3,36 months,MORTGAGE,700.0,0.0,58.0,14.64,Individual,Not Verified,PA,704.0,15099126,3.0,1
+2015-10-01,B4,36 months,RENT,680.0,0.0,49.0,10.99,Individual,Source Verified,NY,684.0,61742449,4.0,1
+2016-01-01,A2,36 months,RENT,715.0,0.0,93.5,6.49,Individual,Not Verified,WV,719.0,68822412,11.0,1
+2015-01-01,C1,60 months,MORTGAGE,705.0,1.0,60.2,12.39,Individual,Source Verified,TX,709.0,38628406,3.0,1
+2015-12-01,C1,36 months,RENT,685.0,1.0,55.6,11.99,Individual,Verified,NM,689.0,65631386,1.0,0
+2014-11-01,B4,36 months,MORTGAGE,675.0,1.0,74.4,11.44,Individual,Source Verified,NC,679.0,33711503,11.0,1
+2015-12-01,C2,60 months,MORTGAGE,685.0,0.0,49.0,12.59,Individual,Not Verified,NJ,689.0,67347880,11.0,0
+2015-11-01,B1,60 months,RENT,825.0,0.0,3.0,8.18,Individual,Not Verified,CO,829.0,65304621,5.0,1
+2014-10-01,C3,36 months,OWN,690.0,0.0,84.9,13.98,Individual,Source Verified,TX,694.0,27501509,11.0,1
+2014-11-01,C1,36 months,OWN,660.0,1.0,83.7,12.39,Individual,Not Verified,CA,664.0,34712829,7.0,1
+2015-02-01,A5,36 months,MORTGAGE,705.0,0.0,18.6,7.89,Individual,Not Verified,NC,709.0,41081233,11.0,1
+2015-06-01,B1,36 months,RENT,780.0,0.0,5.7,8.18,Individual,Not Verified,VA,784.0,50104193,0.0,1
+2016-03-01,C2,36 months,RENT,735.0,0.0,33.2,12.99,Individual,Not Verified,NJ,739.0,76153829,11.0,0
+2015-12-01,D4,60 months,MORTGAGE,670.0,0.0,89.4,17.57,Individual,Verified,NY,674.0,65696102,11.0,1
+2015-01-01,C2,36 months,RENT,670.0,0.0,92.4,12.99,Individual,Not Verified,CA,674.0,38892323,9.0,0
+2014-03-01,A2,36 months,RENT,765.0,0.0,10.8,6.62,Individual,Verified,NY,769.0,12429317,4.0,1
+2014-10-01,C1,36 months,RENT,660.0,0.0,77.7,12.99,Individual,Verified,CT,664.0,31166860,0.0,0
+2015-06-01,A2,36 months,OWN,750.0,0.0,36.8,6.24,Individual,Source Verified,NJ,754.0,50580037,4.0,1
+2014-04-01,B2,36 months,MORTGAGE,675.0,0.0,32.8,10.99,Individual,Verified,FL,679.0,14338039,5.0,0
+2016-06-01,B1,36 months,RENT,670.0,1.0,94.5,8.39,Individual,Not Verified,PA,674.0,80741175,7.0,1
+2014-10-01,B3,36 months,OWN,685.0,0.0,56.3,10.99,Individual,Source Verified,IL,689.0,28392770,4.0,1
+2014-02-01,D1,60 months,MORTGAGE,730.0,0.0,32.0,16.99,Individual,Source Verified,FL,734.0,11415709,1.0,0
+2016-02-01,C3,36 months,MORTGAGE,690.0,0.0,46.1,13.67,Individual,Verified,TX,694.0,70877305,3.0,0
+2016-04-01,A1,36 months,OWN,770.0,0.0,3.1,5.32,Individual,Source Verified,FL,774.0,77029698,1.0,1
+2015-03-01,B4,36 months,MORTGAGE,710.0,0.0,82.8,10.99,Individual,Verified,OR,714.0,41101113,11.0,1
+2015-08-01,C2,60 months,MORTGAGE,675.0,0.0,66.2,12.69,Individual,Source Verified,OH,679.0,59239166,7.0,1
+2014-10-01,C2,36 months,MORTGAGE,725.0,0.0,53.2,13.35,Individual,Verified,WI,729.0,28102624,9.0,1
+2014-06-01,A3,36 months,RENT,715.0,0.0,64.6,7.12,Individual,Not Verified,CA,719.0,19167275,8.0,1
+2015-05-01,C3,36 months,RENT,700.0,0.0,44.5,13.33,Individual,Verified,WA,704.0,49653682,0.0,1
+2015-02-01,B2,36 months,OWN,675.0,0.0,89.0,9.17,Individual,Not Verified,CA,679.0,41091605,11.0,1
+2014-02-01,A4,36 months,MORTGAGE,760.0,0.0,21.6,7.9,Individual,Not Verified,VA,764.0,11935511,2.0,1
+2014-01-01,C1,36 months,MORTGAGE,675.0,0.0,59.0,13.98,Individual,Source Verified,CA,679.0,10083008,11.0,1
+2016-06-01,D1,36 months,MORTGAGE,675.0,0.0,60.3,16.99,Individual,Verified,CA,679.0,83837669,11.0,1
+2015-10-01,A1,36 months,RENT,765.0,0.0,27.4,5.32,Individual,Not Verified,CA,769.0,63084304,11.0,1
+2015-10-01,B3,36 months,RENT,670.0,0.0,99.5,9.99,Individual,Verified,OH,674.0,63395931,11.0,0
+2014-06-01,A5,36 months,RENT,720.0,0.0,43.7,8.39,Individual,Source Verified,OH,724.0,18514581,2.0,1
+2014-07-01,C2,36 months,RENT,690.0,0.0,46.9,13.35,Individual,Not Verified,CO,694.0,21261549,11.0,1
+2015-06-01,B5,36 months,MORTGAGE,665.0,1.0,40.1,11.53,Individual,Not Verified,MN,669.0,51486635,11.0,1
+2016-05-01,E1,36 months,RENT,660.0,0.0,56.5,20.99,Individual,Not Verified,OK,664.0,77441346,5.0,0
+2015-03-01,B5,36 months,MORTGAGE,680.0,0.0,56.4,11.53,Individual,Source Verified,TN,684.0,43539971,11.0,1
+2015-07-01,C5,60 months,MORTGAGE,705.0,0.0,24.5,14.65,Individual,Not Verified,NC,709.0,56011437,11.0,0
+2016-04-01,B4,36 months,MORTGAGE,720.0,0.0,29.9,10.75,Individual,Verified,FL,724.0,77496755,7.0,1
+2015-10-01,C4,36 months,MORTGAGE,665.0,0.0,18.9,13.99,Individual,Source Verified,TN,669.0,63398264,4.0,1
+2014-10-01,E1,60 months,MORTGAGE,675.0,0.0,65.4,18.99,Individual,Source Verified,MI,679.0,28624472,3.0,1
+2015-09-01,C4,60 months,MORTGAGE,700.0,0.0,44.5,13.99,Individual,Source Verified,TX,704.0,60802586,2.0,1
+2015-05-01,C5,36 months,RENT,765.0,0.0,2.2,14.65,Individual,Source Verified,MD,769.0,49803302,3.0,1
+2014-05-01,B2,36 months,MORTGAGE,715.0,0.0,74.6,10.15,Individual,Source Verified,IL,719.0,16862465,0.0,1
+2015-07-01,B4,36 months,RENT,670.0,0.0,53.3,10.99,Individual,Source Verified,CA,674.0,55202139,0.0,1
+2016-01-01,B2,36 months,MORTGAGE,670.0,0.0,71.8,9.17,Individual,Verified,TX,674.0,69773232,7.0,1
+2015-07-01,B4,36 months,RENT,730.0,0.0,7.1,10.99,Individual,Source Verified,NY,734.0,55422774,3.0,0
+2015-01-01,D1,36 months,RENT,675.0,0.0,47.3,15.59,Individual,Verified,CT,679.0,39521789,8.0,1
+2015-11-01,B2,36 months,MORTGAGE,715.0,0.0,98.5,9.17,Individual,Source Verified,TN,719.0,63948879,8.0,1
+2016-06-01,A5,36 months,OWN,665.0,0.0,0.1,7.89,Individual,Not Verified,MI,669.0,81514919,11.0,0
+2015-09-01,B1,36 months,MORTGAGE,665.0,0.0,82.0,8.18,Individual,Source Verified,MN,669.0,58772633,0.0,1
+2015-12-01,C5,60 months,RENT,685.0,0.0,40.0,14.48,Individual,Verified,CA,689.0,67556069,0.0,1
+2015-10-01,D2,60 months,RENT,705.0,0.0,85.3,16.55,Individual,Verified,CA,709.0,61500905,1.0,1
+2015-02-01,D1,36 months,MORTGAGE,695.0,0.0,63.9,15.61,Individual,Verified,NY,699.0,41092873,11.0,1
+2014-03-01,C4,60 months,MORTGAGE,680.0,0.0,66.1,15.31,Individual,Source Verified,MN,684.0,12946641,6.0,1
+2015-06-01,C5,36 months,RENT,690.0,0.0,43.5,14.65,Individual,Verified,CT,694.0,51356948,2.0,1
+2015-02-01,B1,36 months,MORTGAGE,670.0,0.0,54.1,8.18,Individual,Not Verified,PA,674.0,39722687,11.0,1
+2015-04-01,C3,36 months,RENT,695.0,0.0,79.4,13.33,Individual,Source Verified,CA,699.0,44016975,5.0,1
+2015-03-01,E2,60 months,MORTGAGE,665.0,0.0,93.9,18.84,Individual,Verified,WV,669.0,43216528,11.0,0
+2015-03-01,D3,36 months,RENT,700.0,0.0,71.0,16.99,Individual,Verified,FL,704.0,41268020,2.0,1
+2014-04-01,B3,36 months,RENT,700.0,0.0,87.7,11.99,Individual,Source Verified,TX,704.0,13428519,1.0,1
+2014-11-01,B1,36 months,RENT,720.0,0.0,59.0,8.67,Individual,Source Verified,TX,724.0,35939558,11.0,1
+2015-08-01,B5,36 months,RENT,700.0,0.0,46.0,11.53,Individual,Source Verified,MA,704.0,57256496,5.0,1
+2015-01-01,B3,36 months,RENT,660.0,0.0,57.8,10.49,Individual,Source Verified,LA,664.0,38589397,7.0,1
+2015-01-01,B2,60 months,OWN,755.0,0.0,50.2,9.49,Individual,Verified,MA,759.0,38505703,11.0,1
+2015-01-01,C5,36 months,RENT,680.0,1.0,71.9,14.99,Individual,Not Verified,NJ,684.0,38485726,11.0,1
+2016-06-01,C1,36 months,MORTGAGE,705.0,0.0,59.8,11.99,Individual,Not Verified,WA,709.0,81524212,11.0,1
+2016-03-01,C2,60 months,RENT,670.0,1.0,56.7,12.99,Individual,Verified,TN,674.0,73734298,3.0,1
+2016-03-01,B2,36 months,RENT,660.0,0.0,64.7,9.16,Individual,Source Verified,TX,664.0,75103444,2.0,1
+2015-01-01,C2,36 months,MORTGAGE,690.0,0.0,60.0,12.99,Individual,Verified,IL,694.0,40147568,11.0,1
+2014-07-01,B5,36 months,RENT,685.0,1.0,30.0,12.49,Individual,Source Verified,PA,689.0,20120276,5.0,1
+2015-10-01,C2,36 months,RENT,710.0,0.0,90.5,12.69,Individual,Verified,AL,714.0,60774433,1.0,1
+2015-10-01,C1,60 months,RENT,700.0,0.0,25.8,12.29,Individual,Not Verified,MO,704.0,62479169,8.0,0
+2016-01-01,B2,36 months,OWN,670.0,0.0,35.5,9.17,Individual,Not Verified,WA,674.0,68721513,3.0,1
+2015-04-01,C5,36 months,RENT,665.0,0.0,90.9,14.65,Individual,Not Verified,WA,669.0,45714154,4.0,1
+2015-05-01,B1,36 months,MORTGAGE,675.0,0.0,47.8,8.18,Individual,Verified,CA,679.0,48140518,3.0,1
+2015-06-01,B3,60 months,RENT,765.0,0.0,33.1,9.99,Individual,Source Verified,CA,769.0,51317462,11.0,1
+2016-03-01,D2,36 months,RENT,660.0,0.0,35.9,17.27,Individual,Not Verified,GA,664.0,75215047,8.0,1
+2014-12-01,D3,60 months,MORTGAGE,715.0,0.0,46.5,16.49,Individual,Verified,NJ,719.0,36490530,5.0,0
+2014-10-01,C4,36 months,RENT,660.0,1.0,25.7,14.49,Individual,Source Verified,MI,664.0,30635755,8.0,1
+2015-05-01,E2,36 months,RENT,665.0,0.0,67.9,18.84,Individual,Verified,TX,669.0,48514235,5.0,1
+2014-01-01,B5,36 months,RENT,660.0,1.0,68.0,13.53,Individual,Source Verified,NY,664.0,10794760,11.0,1
+2016-04-01,A2,36 months,OWN,725.0,0.0,34.0,6.49,Individual,Not Verified,WV,729.0,77139282,1.0,1
+2015-08-01,B4,60 months,MORTGAGE,700.0,0.0,98.3,10.99,Individual,Verified,TN,704.0,57126729,4.0,1
+2016-02-01,C3,36 months,MORTGAGE,690.0,0.0,29.8,13.67,Individual,Source Verified,GA,694.0,71724387,11.0,1
+2015-06-01,D4,36 months,RENT,665.0,1.0,92.0,17.57,Individual,Not Verified,PA,669.0,51857455,7.0,1
+2015-12-01,B5,36 months,RENT,670.0,0.0,95.8,11.22,Individual,Source Verified,NY,674.0,65856038,1.0,1
+2015-10-01,F3,60 months,RENT,680.0,0.0,38.6,23.99,Individual,Verified,CA,684.0,63249034,3.0,0
+2015-07-01,B3,36 months,RENT,740.0,0.0,25.3,9.99,Individual,Source Verified,NC,744.0,55927913,3.0,1
+2015-05-01,C1,60 months,MORTGAGE,680.0,1.0,12.0,12.29,Individual,Source Verified,IL,684.0,48011609,2.0,1
+2014-02-01,C1,36 months,MORTGAGE,685.0,1.0,40.7,13.98,Individual,Verified,NV,689.0,10078881,11.0,1
+2014-11-01,E2,60 months,MORTGAGE,660.0,0.0,72.2,19.24,Individual,Source Verified,OH,664.0,34061807,11.0,1
+2015-10-01,B1,36 months,RENT,670.0,0.0,45.1,8.18,Individual,Source Verified,TX,674.0,61440818,5.0,1
+2016-05-01,C4,60 months,MORTGAGE,665.0,1.0,68.2,14.46,Joint App,Source Verified,TX,669.0,77121623,0.0,1
+2016-02-01,A5,36 months,MORTGAGE,690.0,3.0,59.0,7.89,Individual,Not Verified,WI,694.0,71735429,2.0,1
+2014-11-01,C1,36 months,RENT,675.0,2.0,25.4,12.99,Individual,Source Verified,CA,679.0,32320301,11.0,1
+2014-03-01,D5,60 months,MORTGAGE,680.0,0.0,79.7,19.47,Individual,Source Verified,MI,684.0,12677000,11.0,1
+2014-07-01,A1,36 months,MORTGAGE,820.0,0.0,8.4,6.03,Individual,Not Verified,NC,824.0,16342896,11.0,1
+2015-12-01,B4,36 months,OWN,670.0,0.0,34.0,10.64,Individual,Source Verified,NY,674.0,67105419,3.0,1
+2015-03-01,B4,36 months,MORTGAGE,680.0,0.0,69.6,10.99,Individual,Verified,TX,684.0,42495459,4.0,1
+2015-04-01,D1,36 months,MORTGAGE,665.0,1.0,26.0,15.61,Individual,Source Verified,NY,669.0,46587038,11.0,1
+2016-05-01,A5,36 months,MORTGAGE,700.0,0.0,48.5,7.89,Individual,Not Verified,SC,704.0,77765627,0.0,1
+2015-10-01,D1,60 months,RENT,675.0,0.0,77.0,15.61,Individual,Not Verified,NY,679.0,61539925,2.0,0
+2015-01-01,C3,36 months,MORTGAGE,660.0,0.0,43.9,13.66,Individual,Source Verified,WY,664.0,39550016,2.0,1
+2014-05-01,C5,60 months,MORTGAGE,695.0,0.0,74.9,14.99,Individual,Source Verified,NV,699.0,16342500,11.0,1
+2015-02-01,C3,60 months,RENT,665.0,1.0,69.0,13.33,Individual,Source Verified,FL,669.0,41328251,5.0,0
+2015-04-01,D1,36 months,MORTGAGE,685.0,1.0,36.2,15.61,Individual,Verified,OH,689.0,44806153,3.0,1
+2015-12-01,B1,36 months,RENT,715.0,0.0,48.7,8.38,Individual,Source Verified,TX,719.0,66591217,11.0,1
+2015-08-01,D1,36 months,RENT,670.0,0.0,4.3,15.61,Individual,Verified,NY,674.0,58674174,1.0,0
+2015-04-01,A4,36 months,RENT,665.0,0.0,70.4,6.92,Individual,Not Verified,WA,669.0,44563454,11.0,1
+2015-06-01,D5,60 months,MORTGAGE,710.0,0.0,98.7,17.86,Individual,Source Verified,TX,714.0,51376831,11.0,1
+2015-12-01,A5,36 months,OWN,720.0,0.0,23.2,7.89,Individual,Not Verified,MO,724.0,67035209,3.0,0
+2015-05-01,E1,36 months,MORTGAGE,725.0,0.0,33.6,18.25,Individual,Verified,CA,729.0,48675147,7.0,0
+2016-04-01,B2,36 months,RENT,670.0,1.0,53.5,9.16,Individual,Not Verified,OH,674.0,76324764,5.0,1
+2015-05-01,A5,36 months,MORTGAGE,715.0,0.0,30.9,7.89,Individual,Verified,RI,719.0,47068570,6.0,1
+2015-09-01,C3,36 months,MORTGAGE,695.0,0.0,49.5,13.33,Individual,Verified,NV,699.0,59422668,7.0,1
+2014-10-01,C3,60 months,RENT,680.0,0.0,83.2,13.98,Individual,Verified,WI,684.0,31597216,4.0,1
+2014-03-01,C4,36 months,MORTGAGE,710.0,0.0,35.3,15.31,Individual,Source Verified,TX,714.0,12957587,4.0,1
+2014-06-01,C4,36 months,RENT,660.0,1.0,74.0,14.49,Individual,Verified,NY,664.0,18575263,5.0,1
+2014-08-01,B1,36 months,RENT,695.0,0.0,69.9,9.17,Individual,Source Verified,PA,699.0,24746344,3.0,1
+2016-01-01,E3,36 months,MORTGAGE,665.0,0.0,45.5,19.89,Individual,Verified,CA,669.0,69583908,1.0,1
+2014-07-01,B1,36 months,MORTGAGE,665.0,0.0,42.1,9.17,Individual,Not Verified,CA,669.0,20127408,9.0,1
+2015-05-01,A2,36 months,RENT,725.0,0.0,26.9,6.39,Individual,Source Verified,CO,729.0,46787586,0.0,1
+2014-09-01,D3,36 months,RENT,710.0,1.0,26.3,16.99,Individual,Source Verified,FL,714.0,26539645,11.0,1
+2016-02-01,F5,60 months,RENT,700.0,0.0,30.6,26.06,Individual,Not Verified,PA,704.0,70301502,6.0,1
+2015-11-01,C1,60 months,OWN,695.0,0.0,46.0,12.05,Individual,Verified,SC,699.0,64988714,11.0,1
+2015-01-01,C2,36 months,MORTGAGE,680.0,0.0,80.1,12.99,Individual,Not Verified,TX,684.0,37938349,11.0,1
+2015-01-01,C4,36 months,MORTGAGE,670.0,1.0,49.0,14.31,Individual,Source Verified,AL,674.0,38659887,1.0,1
+2014-06-01,C2,36 months,MORTGAGE,665.0,0.0,77.0,13.35,Individual,Verified,TX,669.0,18714914,0.0,1
+2015-08-01,B4,36 months,OWN,680.0,0.0,64.3,10.99,Individual,Verified,IN,684.0,55717492,9.0,0
+2015-03-01,G3,60 months,MORTGAGE,685.0,0.0,19.1,25.89,Individual,Source Verified,MA,689.0,44115317,11.0,0
+2016-03-01,B2,60 months,MORTGAGE,665.0,0.0,40.1,9.16,Individual,Not Verified,AL,669.0,74001185,11.0,0
+2015-04-01,A1,36 months,MORTGAGE,785.0,0.0,52.0,5.93,Individual,Not Verified,CA,789.0,46348726,2.0,1
+2015-01-01,D4,36 months,OWN,665.0,1.0,37.8,17.14,Individual,Source Verified,FL,669.0,38507556,11.0,1
+2015-03-01,B1,36 months,RENT,675.0,0.0,44.4,8.18,Individual,Not Verified,CA,679.0,44076632,11.0,1
+2015-11-01,A2,36 months,MORTGAGE,720.0,0.0,83.2,6.24,Individual,Verified,VA,724.0,63400810,11.0,1
+2016-03-01,B1,36 months,OWN,665.0,0.0,54.5,8.39,Joint App,Source Verified,AL,669.0,71737331,3.0,0
+2014-10-01,A5,36 months,MORTGAGE,690.0,0.0,56.7,8.39,Individual,Not Verified,NV,694.0,30806084,11.0,1
+2014-10-01,A5,36 months,RENT,670.0,0.0,93.0,8.39,Individual,Not Verified,CA,674.0,32789628,11.0,1
+2015-12-01,B1,36 months,MORTGAGE,670.0,0.0,89.4,8.38,Individual,Source Verified,AZ,674.0,66601261,8.0,1
+2014-06-01,E3,60 months,MORTGAGE,660.0,0.0,96.9,20.2,Individual,Source Verified,UT,664.0,19316526,11.0,1
+2015-06-01,C1,36 months,RENT,665.0,0.0,86.7,12.29,Individual,Not Verified,NY,669.0,50952954,11.0,0
+2016-02-01,A5,60 months,MORTGAGE,735.0,0.0,17.2,7.89,Individual,Not Verified,TN,739.0,72664101,0.0,1
+2015-01-01,B4,60 months,MORTGAGE,720.0,0.0,67.2,11.44,Individual,Source Verified,PA,724.0,39581757,8.0,1
+2016-02-01,B3,36 months,RENT,700.0,0.0,73.2,9.75,Individual,Source Verified,CT,704.0,70671928,5.0,1
+2015-09-01,C2,36 months,MORTGAGE,690.0,0.0,58.1,12.69,Individual,Not Verified,CA,694.0,60547642,0.0,1
+2016-04-01,D2,36 months,RENT,805.0,0.0,0.0,17.27,Individual,Source Verified,CA,809.0,76403542,6.0,0
+2015-01-01,D3,60 months,MORTGAGE,685.0,0.0,91.8,16.49,Individual,Verified,CO,689.0,38952283,11.0,1
+2015-05-01,C3,36 months,RENT,670.0,0.0,81.7,13.33,Individual,Not Verified,CA,674.0,48615813,8.0,1
+2016-06-01,B3,36 months,RENT,700.0,0.0,28.9,9.75,Individual,Source Verified,MD,704.0,79795363,5.0,0
+2016-06-01,A2,36 months,MORTGAGE,705.0,0.0,78.0,6.49,Individual,Verified,CO,709.0,79552273,0.0,1
+2016-02-01,D1,60 months,MORTGAGE,675.0,0.0,39.8,16.29,Individual,Source Verified,WA,679.0,72043277,11.0,1
+2015-03-01,D1,36 months,RENT,665.0,0.0,59.7,15.61,Individual,Not Verified,NV,669.0,44025245,1.0,0
+2014-05-01,E1,36 months,MORTGAGE,675.0,0.0,4.0,19.99,Individual,Verified,AL,679.0,14918875,2.0,1
+2014-10-01,C5,36 months,RENT,700.0,0.0,65.4,14.99,Individual,Not Verified,CA,704.0,28712753,8.0,1
+2014-08-01,A1,36 months,MORTGAGE,750.0,0.0,50.7,6.03,Individual,Not Verified,CA,754.0,25387338,0.0,1
+2015-12-01,C1,36 months,MORTGAGE,710.0,0.0,48.0,11.99,Individual,Source Verified,IL,714.0,66094580,2.0,1
+2014-06-01,C5,36 months,RENT,660.0,0.0,44.2,14.99,Individual,Source Verified,OH,664.0,17805330,2.0,1
+2014-05-01,C4,36 months,RENT,675.0,0.0,57.1,14.49,Individual,Source Verified,TX,679.0,16281261,2.0,1
+2015-07-01,A1,36 months,RENT,680.0,0.0,39.5,5.32,Individual,Not Verified,CA,684.0,54869000,1.0,1
+2015-11-01,C2,36 months,RENT,700.0,0.0,83.3,12.59,Individual,Not Verified,CA,704.0,63969419,1.0,1
+2015-11-01,B2,36 months,MORTGAGE,730.0,0.0,58.5,9.17,Individual,Source Verified,MO,734.0,63388657,1.0,1
+2015-01-01,C2,36 months,MORTGAGE,680.0,0.0,71.6,12.99,Individual,Source Verified,CT,684.0,38477648,5.0,1
+2015-06-01,B4,36 months,MORTGAGE,705.0,0.0,69.6,10.99,Individual,Not Verified,AL,709.0,51195885,11.0,1
+2016-05-01,E5,60 months,MORTGAGE,660.0,0.0,98.2,22.45,Individual,Source Verified,SC,664.0,76123135,0.0,0
+2014-01-01,A3,36 months,RENT,705.0,0.0,68.5,7.62,Individual,Verified,IL,709.0,10071785,3.0,1
+2015-10-01,C2,36 months,RENT,715.0,0.0,65.4,12.69,Individual,Source Verified,CO,719.0,61319126,9.0,1
+2014-05-01,A5,36 months,MORTGAGE,695.0,0.0,63.2,8.9,Individual,Source Verified,WA,699.0,15521216,4.0,1
+2014-09-01,B2,36 months,MORTGAGE,730.0,0.0,33.6,10.15,Individual,Source Verified,IN,734.0,26028130,9.0,1
+2016-04-01,D1,60 months,OWN,700.0,0.0,32.2,16.29,Individual,Not Verified,TX,704.0,76423263,11.0,0
+2016-06-01,C4,36 months,MORTGAGE,665.0,0.0,44.0,14.46,Individual,Verified,TN,669.0,79731867,11.0,0
+2015-01-01,E3,60 months,MORTGAGE,680.0,1.0,44.3,19.99,Individual,Verified,OH,684.0,40530131,1.0,1
+2014-01-01,B3,36 months,MORTGAGE,685.0,0.0,61.7,11.99,Individual,Verified,MO,689.0,668016,3.0,1
+2014-07-01,D1,60 months,MORTGAGE,675.0,0.0,63.3,15.61,Individual,Verified,MI,679.0,20689629,11.0,1
+2015-02-01,B2,36 months,OWN,710.0,0.0,11.8,9.17,Individual,Verified,WA,714.0,41338991,11.0,1
+2015-10-01,E1,36 months,MORTGAGE,700.0,0.0,82.9,18.25,Individual,Source Verified,TX,704.0,61512947,5.0,1
+2015-01-01,E2,36 months,RENT,660.0,0.0,53.7,19.24,Individual,Source Verified,GA,664.0,37721749,5.0,1
+2016-05-01,B5,36 months,RENT,675.0,0.0,57.6,11.47,Individual,Verified,FL,679.0,78408975,2.0,1
+2014-09-01,A4,36 months,OWN,780.0,0.0,20.1,7.69,Individual,Source Verified,OH,784.0,27400111,11.0,1
+2015-01-01,B4,36 months,OWN,660.0,0.0,41.2,11.44,Individual,Not Verified,GA,664.0,38429295,1.0,1
+2015-11-01,B1,36 months,MORTGAGE,690.0,1.0,30.6,8.18,Individual,Verified,IL,694.0,63509759,9.0,1
+2016-01-01,B4,36 months,OWN,705.0,0.0,29.5,10.78,Individual,Not Verified,FL,709.0,69655115,3.0,1
+2015-11-01,D5,36 months,MORTGAGE,695.0,0.0,83.8,17.86,Individual,Source Verified,VT,699.0,65413693,5.0,1
+2016-05-01,A5,36 months,OWN,685.0,0.0,29.9,7.89,Individual,Source Verified,LA,689.0,78789854,0.0,1
+2016-02-01,B5,36 months,MORTGAGE,690.0,0.0,40.5,11.47,Individual,Not Verified,IL,694.0,72743609,9.0,1
+2015-08-01,C1,36 months,MORTGAGE,660.0,0.0,81.0,12.29,Individual,Source Verified,CA,664.0,57762335,11.0,1
+2016-03-01,D5,36 months,RENT,675.0,1.0,62.5,19.53,Individual,Verified,MA,679.0,73410627,0.0,1
+2016-04-01,B4,36 months,OWN,680.0,1.0,33.1,10.75,Individual,Not Verified,CA,684.0,77110753,11.0,1
+2014-10-01,B1,36 months,MORTGAGE,720.0,0.0,54.5,9.17,Individual,Source Verified,NJ,724.0,29625119,11.0,1
+2015-07-01,C2,60 months,MORTGAGE,660.0,0.0,58.8,12.69,Individual,Verified,NY,664.0,53392166,6.0,1
+2014-01-01,C3,60 months,MORTGAGE,710.0,2.0,34.0,14.98,Individual,Verified,GA,714.0,10588612,2.0,1
+2015-06-01,E2,60 months,MORTGAGE,705.0,0.0,76.2,18.55,Individual,Verified,CA,709.0,50468183,5.0,1
+2014-12-01,C3,36 months,RENT,660.0,0.0,32.0,13.66,Individual,Verified,IN,664.0,35999540,2.0,1
+2015-02-01,A4,36 months,RENT,670.0,2.0,76.3,6.92,Individual,Source Verified,IL,674.0,40337783,3.0,1
+2016-03-01,C5,36 months,RENT,695.0,0.0,0.0,15.31,Individual,Source Verified,NE,699.0,75259975,2.0,1
+2016-06-01,B2,36 months,RENT,660.0,0.0,86.2,9.49,Individual,Source Verified,FL,664.0,83378499,0.0,1
+2015-07-01,A2,36 months,MORTGAGE,725.0,0.0,45.3,6.24,Individual,Not Verified,MD,729.0,55934099,8.0,1
+2014-09-01,A4,36 months,RENT,720.0,0.0,60.2,7.69,Individual,Source Verified,WA,724.0,26669413,4.0,1
+2015-06-01,D3,36 months,RENT,670.0,0.0,44.3,16.99,Individual,Not Verified,FL,674.0,51887055,4.0,1
+2015-12-01,G1,60 months,MORTGAGE,685.0,0.0,49.6,26.77,Joint App,Verified,MI,689.0,65019631,0.0,0
+2015-04-01,C3,60 months,RENT,675.0,0.0,13.5,13.33,Individual,Source Verified,FL,679.0,46295049,6.0,1
+2015-07-01,D5,60 months,MORTGAGE,680.0,0.0,81.2,17.86,Individual,Source Verified,PA,684.0,55310726,11.0,1
+2015-09-01,A2,36 months,MORTGAGE,725.0,0.0,40.3,6.24,Individual,Source Verified,FL,729.0,60517409,1.0,1
+2015-01-01,D5,36 months,MORTGAGE,660.0,0.0,69.4,17.86,Individual,Verified,NJ,664.0,39088329,11.0,1
+2015-04-01,B2,36 months,RENT,695.0,0.0,79.2,9.17,Individual,Source Verified,TX,699.0,46185226,2.0,1
+2016-01-01,E3,60 months,MORTGAGE,675.0,0.0,52.2,19.89,Individual,Verified,CA,679.0,68386271,3.0,1
+2015-04-01,C5,36 months,RENT,690.0,0.0,46.1,14.65,Individual,Verified,CA,694.0,44895758,8.0,1
+2016-01-01,B2,36 months,MORTGAGE,660.0,1.0,78.8,9.17,Individual,Not Verified,CA,664.0,70131037,11.0,1
+2016-04-01,F2,36 months,RENT,680.0,0.0,87.4,24.11,Individual,Verified,OR,684.0,77519842,0.0,0
+2014-10-01,C1,36 months,MORTGAGE,695.0,0.0,58.2,12.99,Individual,Source Verified,CA,699.0,29614695,5.0,1
+2014-10-01,B4,60 months,MORTGAGE,720.0,0.0,20.1,11.67,Individual,Not Verified,TX,724.0,30175665,11.0,1
+2015-09-01,A1,36 months,OWN,770.0,0.0,28.1,5.32,Individual,Not Verified,VA,774.0,59562837,5.0,1
+2015-11-01,B5,36 months,MORTGAGE,660.0,0.0,76.7,11.49,Individual,Source Verified,MA,664.0,63969712,8.0,1
+2015-06-01,D1,36 months,RENT,675.0,0.0,92.4,15.61,Individual,Not Verified,FL,679.0,52076313,2.0,1
+2014-04-01,B3,36 months,RENT,660.0,0.0,89.6,11.99,Individual,Source Verified,IL,664.0,12856125,0.0,1
+2015-10-01,C2,36 months,OWN,675.0,0.0,68.4,12.69,Individual,Verified,KS,679.0,62489777,6.0,1
+2015-11-01,B1,36 months,MORTGAGE,675.0,2.0,23.1,8.18,Individual,Source Verified,FL,679.0,65763165,11.0,1
+2014-07-01,A1,36 months,RENT,695.0,0.0,72.0,6.03,Individual,Not Verified,MD,699.0,19876924,2.0,1
+2016-06-01,C1,36 months,MORTGAGE,675.0,1.0,32.0,11.99,Individual,Source Verified,TX,679.0,81487813,11.0,1
+2016-04-01,B2,36 months,RENT,670.0,0.0,44.3,9.16,Individual,Source Verified,CA,674.0,78358129,11.0,1
+2015-04-01,B2,36 months,MORTGAGE,670.0,0.0,91.6,9.17,Individual,Source Verified,PA,674.0,46832202,0.0,1
+2016-04-01,A5,60 months,MORTGAGE,690.0,0.0,46.2,7.89,Individual,Source Verified,TX,694.0,77071678,9.0,1
+2015-07-01,C4,36 months,RENT,670.0,0.0,64.0,13.99,Individual,Verified,CA,674.0,54324342,11.0,1
+2014-06-01,D3,36 months,RENT,660.0,2.0,90.1,16.99,Individual,Not Verified,MI,664.0,18905098,11.0,0
+2014-05-01,E3,60 months,RENT,700.0,0.0,7.7,20.2,Individual,Source Verified,NJ,704.0,17052462,0.0,1
+2016-06-01,C1,60 months,MORTGAGE,715.0,0.0,78.2,11.99,Individual,Not Verified,NY,719.0,81443562,8.0,1
+2014-10-01,A3,36 months,OWN,760.0,0.0,20.0,7.12,Individual,Verified,CA,764.0,33410641,11.0,1
+2015-02-01,C3,36 months,RENT,715.0,0.0,74.7,13.33,Individual,Verified,HI,719.0,40766412,0.0,1
+2015-06-01,C2,36 months,RENT,670.0,0.0,52.7,12.69,Individual,Not Verified,WA,674.0,51186470,0.0,1
+2015-11-01,D1,60 months,OWN,675.0,0.0,70.9,15.41,Individual,Source Verified,ME,679.0,65141447,11.0,0
+2016-03-01,A2,36 months,RENT,680.0,0.0,51.7,6.49,Individual,Source Verified,KY,684.0,73904152,6.0,1
+2015-03-01,B1,60 months,MORTGAGE,755.0,0.0,58.1,8.18,Individual,Not Verified,WI,759.0,42353212,11.0,1
+2015-03-01,B5,36 months,MORTGAGE,690.0,0.0,53.1,11.53,Individual,Source Verified,TX,694.0,43306549,0.0,1
+2015-05-01,B1,36 months,MORTGAGE,735.0,0.0,9.2,8.18,Individual,Not Verified,IL,739.0,46794995,11.0,1
+2014-07-01,B4,60 months,RENT,695.0,0.0,42.0,11.67,Individual,Not Verified,CA,699.0,20178117,11.0,0
+2015-11-01,B4,36 months,OWN,665.0,0.0,35.0,10.99,Individual,Verified,IL,669.0,65404035,11.0,1
+2015-09-01,E2,60 months,OWN,825.0,0.0,2.5,18.55,Individual,Not Verified,OK,829.0,59561446,0.0,1
+2014-11-01,E4,60 months,MORTGAGE,685.0,0.0,49.7,20.99,Individual,Source Verified,AZ,689.0,34473947,11.0,0
+2016-04-01,F1,60 months,RENT,700.0,0.0,14.4,23.13,Individual,Source Verified,MA,704.0,76854897,11.0,1
+2014-10-01,F4,60 months,RENT,695.0,0.0,43.7,24.99,Individual,Source Verified,NJ,699.0,30325920,3.0,1
+2015-08-01,C2,36 months,MORTGAGE,695.0,1.0,47.4,12.69,Individual,Verified,OH,699.0,56111338,4.0,1
+2015-04-01,B4,36 months,MORTGAGE,710.0,2.0,53.4,10.99,Individual,Source Verified,TX,714.0,46703252,0.0,1
+2015-05-01,C5,60 months,MORTGAGE,705.0,1.0,44.0,14.65,Individual,Source Verified,MI,709.0,49207683,0.0,1
+2016-03-01,B1,60 months,OWN,680.0,1.0,14.9,8.39,Individual,Not Verified,CA,684.0,72652376,11.0,0
+2015-11-01,A3,36 months,MORTGAGE,755.0,0.0,29.2,6.89,Individual,Not Verified,TX,759.0,63890169,7.0,1
+2014-02-01,D1,36 months,RENT,715.0,0.0,97.1,16.59,Individual,Source Verified,NY,719.0,11975309,6.0,1
+2015-12-01,B5,36 months,MORTGAGE,690.0,0.0,86.9,11.48,Individual,Verified,IL,694.0,67908510,3.0,1
+2014-11-01,B2,36 months,MORTGAGE,690.0,0.0,94.0,9.49,Individual,Source Verified,MA,694.0,33681864,11.0,1
+2014-10-01,E4,36 months,MORTGAGE,660.0,1.0,33.3,20.99,Individual,Verified,AR,664.0,29735215,0.0,1
+2015-06-01,D3,36 months,MORTGAGE,665.0,0.0,55.1,16.99,Individual,Verified,TX,669.0,50204360,4.0,1
+2015-08-01,B3,36 months,OWN,780.0,0.0,19.4,9.99,Individual,Source Verified,MI,784.0,57104243,11.0,1
+2014-04-01,B5,60 months,OWN,755.0,0.0,62.7,12.99,Individual,Source Verified,CA,759.0,13266954,11.0,1
+2015-06-01,B1,36 months,MORTGAGE,705.0,0.0,93.6,8.18,Individual,Verified,VA,709.0,53352479,5.0,1
+2015-07-01,D1,36 months,MORTGAGE,695.0,0.0,43.0,15.61,Individual,Verified,AZ,699.0,55091803,11.0,1
+2016-03-01,C2,36 months,OWN,685.0,0.0,82.3,12.99,Individual,Source Verified,TX,689.0,75739865,3.0,1
+2016-03-01,B3,36 months,RENT,665.0,1.0,66.9,9.75,Individual,Verified,WI,669.0,75171012,0.0,0
+2014-03-01,B3,36 months,MORTGAGE,695.0,0.0,40.6,11.99,Individual,Source Verified,FL,699.0,12925761,9.0,1
+2014-05-01,G3,60 months,RENT,675.0,0.0,95.9,25.89,Individual,Source Verified,CA,679.0,17413402,0.0,1
+2015-10-01,B3,36 months,MORTGAGE,670.0,0.0,61.2,9.99,Individual,Source Verified,MO,674.0,61543461,11.0,1
+2014-10-01,B4,36 months,RENT,660.0,1.0,76.6,11.67,Individual,Not Verified,GA,664.0,33280315,5.0,1
+2014-05-01,C2,36 months,RENT,695.0,0.0,39.5,13.35,Individual,Not Verified,WY,699.0,16481415,8.0,0
+2015-03-01,B2,36 months,RENT,665.0,0.0,72.9,9.17,Individual,Not Verified,NC,669.0,44085116,8.0,1
+2014-03-01,C5,36 months,MORTGAGE,665.0,0.0,49.0,15.61,Individual,Not Verified,DE,669.0,12407151,7.0,1
+2015-08-01,A5,36 months,RENT,725.0,0.0,53.8,7.89,Individual,Not Verified,CA,729.0,57227132,3.0,1
+2014-08-01,B4,36 months,RENT,670.0,0.0,43.0,11.67,Individual,Not Verified,FL,674.0,24045156,11.0,1
+2016-02-01,B3,36 months,MORTGAGE,670.0,0.0,90.6,9.75,Individual,Source Verified,VA,674.0,73007277,4.0,1
+2015-11-01,A1,36 months,RENT,800.0,0.0,9.6,5.32,Individual,Not Verified,RI,804.0,65454433,11.0,1
+2016-01-01,A3,36 months,MORTGAGE,735.0,0.0,23.9,6.99,Individual,Source Verified,WA,739.0,69832702,5.0,1
+2014-10-01,C3,60 months,RENT,680.0,1.0,23.2,13.98,Individual,Source Verified,FL,684.0,28252409,11.0,1
+2016-04-01,A3,60 months,MORTGAGE,705.0,0.0,87.2,6.97,Individual,Source Verified,VA,709.0,75668680,1.0,1
+2015-06-01,D4,36 months,MORTGAGE,670.0,0.0,87.4,17.57,Individual,Source Verified,NY,674.0,52808194,0.0,1
+2014-10-01,C4,36 months,MORTGAGE,685.0,0.0,49.0,14.49,Individual,Source Verified,CA,689.0,28512533,6.0,0
+2015-03-01,B3,36 months,RENT,675.0,0.0,70.5,9.99,Individual,Verified,IN,679.0,43359754,4.0,1
+2015-03-01,C2,36 months,RENT,660.0,1.0,94.1,12.69,Individual,Source Verified,GA,664.0,40483482,5.0,1
+2014-05-01,A5,36 months,MORTGAGE,715.0,0.0,19.6,8.9,Individual,Not Verified,TX,719.0,15651508,5.0,1
+2016-02-01,B2,36 months,OWN,730.0,0.0,54.0,9.16,Individual,Source Verified,TX,734.0,71895023,0.0,1
+2016-02-01,B5,36 months,RENT,680.0,0.0,53.1,11.47,Individual,Not Verified,NY,684.0,71014725,3.0,1
+2015-12-01,A5,36 months,MORTGAGE,675.0,0.0,56.4,7.91,Individual,Not Verified,MI,679.0,68496845,9.0,1
+2016-03-01,A5,36 months,OWN,710.0,0.0,68.1,7.89,Individual,Verified,WI,714.0,72967321,11.0,1
+2015-07-01,B2,60 months,MORTGAGE,755.0,0.0,17.8,9.17,Individual,Verified,CO,759.0,54057196,2.0,1
+2014-04-01,B3,36 months,RENT,665.0,1.0,57.6,11.99,Individual,Source Verified,CA,669.0,14708644,11.0,1
+2015-10-01,B2,36 months,RENT,670.0,1.0,71.0,9.17,Individual,Not Verified,NY,674.0,61752140,11.0,1
+2015-06-01,D1,60 months,MORTGAGE,665.0,0.0,93.6,15.61,Individual,Verified,CO,669.0,50931288,0.0,1
+2014-06-01,B2,36 months,MORTGAGE,680.0,0.0,19.9,10.15,Individual,Source Verified,NY,684.0,18905796,11.0,1
+2016-04-01,D4,36 months,RENT,725.0,0.0,34.6,18.99,Individual,Source Verified,NY,729.0,77512285,2.0,0
+2016-02-01,D5,60 months,MORTGAGE,720.0,0.0,78.8,19.53,Individual,Source Verified,TX,724.0,70941256,0.0,1
+2015-10-01,C5,60 months,OWN,665.0,2.0,58.3,14.65,Individual,Not Verified,MD,669.0,63525135,8.0,0
+2016-03-01,A1,36 months,MORTGAGE,785.0,0.0,6.2,5.32,Individual,Not Verified,IL,789.0,74554860,11.0,1
+2015-04-01,E4,60 months,MORTGAGE,660.0,0.0,0.0,20.49,Individual,Verified,VA,664.0,43799144,11.0,0
+2014-07-01,D1,36 months,RENT,705.0,0.0,75.0,15.61,Individual,Verified,NY,709.0,20689897,11.0,1
+2015-11-01,C2,36 months,RENT,680.0,0.0,54.6,12.59,Individual,Verified,TX,684.0,65304287,1.0,1
+2014-01-01,C3,60 months,OWN,660.0,0.0,59.5,14.98,Individual,Source Verified,CA,664.0,10606533,11.0,0
+2015-06-01,C3,60 months,MORTGAGE,705.0,0.0,97.7,13.33,Individual,Verified,AZ,709.0,52758206,11.0,1
+2015-03-01,A5,36 months,RENT,725.0,0.0,51.1,7.89,Individual,Source Verified,IL,729.0,43370761,2.0,1
+2014-11-01,C3,60 months,MORTGAGE,710.0,0.0,92.9,13.66,Individual,Verified,MN,714.0,36168722,3.0,1
+2016-05-01,B5,36 months,RENT,725.0,0.0,30.6,11.47,Individual,Source Verified,CO,729.0,75973770,1.0,1
+2016-03-01,D3,36 months,RENT,740.0,0.0,95.8,18.25,Individual,Source Verified,VT,744.0,74915722,11.0,1
+2016-01-01,C1,36 months,RENT,700.0,0.0,85.3,11.99,Individual,Verified,NY,704.0,68354175,11.0,1
+2016-01-01,A3,36 months,MORTGAGE,695.0,0.0,71.8,6.99,Individual,Source Verified,CA,699.0,69872334,11.0,1
+2015-07-01,A5,60 months,OWN,775.0,0.0,19.8,7.89,Individual,Not Verified,TN,779.0,57164205,0.0,0
+2014-07-01,F3,60 months,MORTGAGE,675.0,0.0,83.6,24.5,Individual,Verified,AZ,679.0,22235092,0.0,0
+2015-10-01,B2,36 months,MORTGAGE,720.0,0.0,28.5,9.17,Individual,Not Verified,OR,724.0,61480941,11.0,1
+2014-01-01,D3,36 months,RENT,660.0,0.0,97.0,18.25,Individual,Verified,NV,664.0,11296375,7.0,1
+2016-02-01,A1,36 months,OWN,735.0,0.0,31.0,5.32,Individual,Not Verified,CT,739.0,72927419,0.0,1
+2015-12-01,C5,36 months,MORTGAGE,675.0,0.0,59.6,14.48,Individual,Source Verified,TX,679.0,67685170,11.0,1
+2015-01-01,C3,60 months,OWN,660.0,1.0,63.0,13.66,Individual,Source Verified,AL,664.0,39250224,5.0,0
+2015-04-01,C2,60 months,MORTGAGE,670.0,0.0,52.0,12.69,Individual,Source Verified,FL,674.0,44430134,7.0,0
+2014-04-01,B4,36 months,RENT,660.0,1.0,56.9,12.49,Individual,Verified,GA,664.0,13236869,0.0,1
+2015-10-01,A5,36 months,MORTGAGE,710.0,0.0,40.8,7.89,Individual,Not Verified,AZ,714.0,63455511,2.0,1
+2015-10-01,A3,36 months,RENT,710.0,0.0,85.8,6.89,Individual,Not Verified,IL,714.0,62117467,9.0,1
+2015-04-01,B5,36 months,OWN,690.0,0.0,62.0,11.53,Individual,Source Verified,SD,694.0,46084479,11.0,1
+2014-07-01,B3,36 months,RENT,660.0,0.0,43.4,10.99,Individual,Not Verified,NC,664.0,21221747,11.0,1
+2016-02-01,C2,36 months,RENT,665.0,1.0,73.9,12.99,Individual,Verified,CO,669.0,72615070,11.0,1
+2016-02-01,B1,36 months,MORTGAGE,685.0,0.0,55.1,8.39,Individual,Source Verified,FL,689.0,72545574,11.0,1
+2015-04-01,A2,36 months,MORTGAGE,715.0,0.0,40.4,6.39,Individual,Not Verified,TN,719.0,46285126,3.0,1
+2015-12-01,B2,36 months,MORTGAGE,705.0,0.0,70.1,9.17,Individual,Not Verified,OH,709.0,67979233,4.0,1
+2015-06-01,D1,60 months,RENT,660.0,0.0,50.1,15.61,Individual,Verified,IL,664.0,51827050,3.0,1
+2014-05-01,A3,36 months,MORTGAGE,780.0,0.0,24.7,7.12,Individual,Verified,CA,784.0,16372713,7.0,1
+2015-04-01,A5,36 months,MORTGAGE,675.0,0.0,41.1,7.89,Individual,Source Verified,IL,679.0,45534557,11.0,1
+2016-04-01,B3,36 months,OWN,680.0,0.0,47.4,9.75,Individual,Verified,PA,684.0,77189640,11.0,1
+2015-09-01,C1,60 months,RENT,685.0,0.0,46.9,12.29,Individual,Verified,NY,689.0,60555745,11.0,1
+2014-04-01,B5,36 months,OWN,685.0,0.0,53.0,12.99,Individual,Source Verified,NV,689.0,13387802,11.0,1
+2015-12-01,D2,60 months,MORTGAGE,665.0,0.0,72.3,16.55,Individual,Source Verified,OH,669.0,67448671,11.0,0
+2014-02-01,B4,36 months,MORTGAGE,670.0,0.0,57.8,12.85,Individual,Not Verified,CT,674.0,11675565,1.0,1
+2014-04-01,B2,36 months,OWN,730.0,0.0,22.7,10.99,Individual,Source Verified,PA,734.0,14550900,11.0,1
+2015-10-01,A5,36 months,MORTGAGE,690.0,0.0,29.2,7.89,Individual,Source Verified,AL,694.0,63435635,11.0,1
+2015-04-01,A5,36 months,MORTGAGE,715.0,0.0,87.3,7.89,Individual,Not Verified,NC,719.0,46786043,11.0,1
+2015-05-01,A1,36 months,RENT,745.0,0.0,20.6,5.32,Individual,Verified,NY,749.0,49533175,11.0,1
+2015-11-01,C4,60 months,MORTGAGE,705.0,0.0,38.0,13.67,Individual,Verified,MI,709.0,63888323,11.0,0
+2014-05-01,F3,60 months,MORTGAGE,660.0,0.0,77.8,24.5,Individual,Source Verified,TX,664.0,11404799,11.0,1
+2015-04-01,A5,36 months,RENT,715.0,0.0,58.7,7.89,Individual,Source Verified,NH,719.0,43906196,5.0,1
+2015-08-01,B3,36 months,MORTGAGE,705.0,0.0,84.0,9.99,Individual,Source Verified,IN,709.0,56612129,6.0,1
+2015-07-01,B3,60 months,RENT,745.0,0.0,29.4,9.99,Individual,Source Verified,GA,749.0,54423571,4.0,1
+2016-04-01,E4,36 months,RENT,680.0,0.0,57.5,21.97,Individual,Source Verified,IN,684.0,76302543,0.0,1
+2014-08-01,B1,36 months,MORTGAGE,765.0,0.0,13.8,9.17,Individual,Source Verified,DE,769.0,23906317,5.0,1
+2014-01-01,A4,36 months,RENT,700.0,0.0,42.9,7.9,Individual,Not Verified,MO,704.0,10786124,0.0,1
+2014-07-01,B2,36 months,RENT,705.0,0.0,31.4,10.15,Individual,Not Verified,NY,709.0,17402826,1.0,1
+2016-02-01,A3,36 months,MORTGAGE,695.0,0.0,19.3,6.97,Individual,Source Verified,TX,699.0,70712280,4.0,1
+2015-09-01,B4,36 months,MORTGAGE,670.0,1.0,50.3,10.99,Individual,Source Verified,NM,674.0,59070259,11.0,1
+2014-05-01,C4,36 months,MORTGAGE,715.0,0.0,48.4,15.31,Individual,Source Verified,TX,719.0,15009164,11.0,1
+2014-04-01,E3,60 months,MORTGAGE,660.0,0.0,62.9,21.18,Individual,Verified,GA,664.0,13367292,6.0,0
+2016-05-01,D1,36 months,MORTGAGE,705.0,0.0,70.5,16.29,Individual,Source Verified,IL,709.0,80528890,11.0,0
+2016-03-01,A1,36 months,RENT,700.0,0.0,60.5,5.32,Individual,Not Verified,MA,704.0,75271405,4.0,0
+2015-07-01,D2,36 months,MORTGAGE,675.0,0.0,83.3,16.55,Individual,Not Verified,AZ,679.0,53744507,4.0,1
+2015-09-01,B5,60 months,MORTGAGE,695.0,0.0,34.7,11.53,Individual,Source Verified,KY,699.0,59211577,11.0,1
+2015-10-01,B2,36 months,RENT,665.0,0.0,53.1,9.17,Individual,Source Verified,IL,669.0,63450465,0.0,1
+2014-01-01,B5,36 months,MORTGAGE,700.0,0.0,45.4,13.53,Individual,Verified,AZ,704.0,10068467,7.0,1
+2015-01-01,F1,60 months,MORTGAGE,660.0,1.0,70.7,22.99,Individual,Verified,AL,664.0,40127630,6.0,0
+2015-11-01,C4,60 months,MORTGAGE,705.0,0.0,54.7,13.67,Individual,Verified,IL,709.0,65754583,11.0,1
+2014-09-01,C3,36 months,RENT,660.0,0.0,43.0,13.98,Individual,Source Verified,OH,664.0,25337148,11.0,1
+2016-06-01,B3,36 months,RENT,695.0,0.0,65.8,10.49,Individual,Source Verified,TX,699.0,81641438,2.0,1
+2014-02-01,B5,36 months,RENT,705.0,0.0,11.0,13.53,Individual,Verified,GA,709.0,10765895,11.0,1
+2016-03-01,B1,36 months,RENT,660.0,0.0,15.8,8.39,Individual,Source Verified,CA,664.0,73704246,5.0,1
+2016-03-01,A4,36 months,RENT,700.0,0.0,32.6,7.39,Individual,Source Verified,FL,704.0,74814154,6.0,1
+2014-11-01,B1,36 months,RENT,665.0,5.0,75.5,8.67,Individual,Source Verified,CA,669.0,34313907,11.0,1
+2016-05-01,C3,36 months,RENT,660.0,1.0,54.3,13.67,Individual,Source Verified,CA,664.0,79544058,0.0,1
+2015-07-01,B1,36 months,MORTGAGE,665.0,0.0,76.8,8.18,Individual,Not Verified,CA,669.0,55340342,11.0,1
+2014-04-01,C2,36 months,MORTGAGE,675.0,0.0,22.0,14.16,Individual,Verified,IN,679.0,13135988,0.0,0
+2015-03-01,A4,36 months,RENT,770.0,0.0,2.0,6.92,Individual,Not Verified,CA,774.0,43390699,2.0,1
+2015-07-01,B3,36 months,RENT,670.0,3.0,44.2,9.99,Individual,Not Verified,MA,674.0,56330478,5.0,1
+2015-11-01,C4,60 months,MORTGAGE,690.0,0.0,66.4,13.67,Individual,Source Verified,NY,694.0,65737561,3.0,0
+2016-04-01,A4,36 months,OWN,720.0,0.0,72.5,7.39,Individual,Source Verified,GA,724.0,76194914,8.0,1
+2015-09-01,B5,36 months,MORTGAGE,680.0,0.0,70.9,11.53,Individual,Source Verified,MD,684.0,60535423,0.0,1
+2015-01-01,A5,36 months,MORTGAGE,670.0,0.0,29.8,8.19,Individual,Source Verified,VA,674.0,40197676,11.0,1
+2014-10-01,D4,36 months,RENT,665.0,2.0,55.4,17.57,Individual,Verified,CA,669.0,32399203,11.0,0
+2015-11-01,B2,36 months,MORTGAGE,715.0,0.0,37.3,9.17,Individual,Source Verified,CA,719.0,64291399,11.0,1
+2015-05-01,B1,36 months,OWN,670.0,1.0,49.1,8.18,Individual,Not Verified,PA,674.0,49247578,6.0,1
+2014-10-01,A5,36 months,RENT,780.0,0.0,31.6,8.39,Individual,Source Verified,TX,784.0,29114492,6.0,1
+2016-04-01,F4,36 months,RENT,685.0,0.0,26.2,25.88,Individual,Source Verified,NE,689.0,76313740,1.0,1
+2016-05-01,C2,36 months,MORTGAGE,715.0,0.0,64.8,12.99,Individual,Verified,OH,719.0,78011503,11.0,1
+2015-07-01,E3,60 months,MORTGAGE,660.0,3.0,23.1,19.19,Individual,Source Verified,IN,664.0,55268648,8.0,0
+2015-12-01,D1,36 months,MORTGAGE,725.0,0.0,50.3,15.77,Individual,Not Verified,OH,729.0,68394562,2.0,1
+2016-02-01,A2,36 months,RENT,715.0,0.0,44.5,6.49,Individual,Not Verified,NJ,719.0,72582757,11.0,1
+2015-05-01,C3,36 months,RENT,680.0,0.0,60.4,13.33,Individual,Source Verified,AZ,684.0,48031639,5.0,1
+2016-06-01,C2,36 months,MORTGAGE,700.0,0.0,62.3,13.49,Individual,Verified,TX,704.0,83980674,6.0,0
+2015-06-01,E2,36 months,RENT,660.0,0.0,55.4,18.55,Individual,Not Verified,MS,664.0,49713232,3.0,0
+2015-10-01,B1,36 months,MORTGAGE,695.0,0.0,39.0,8.18,Individual,Verified,CT,699.0,61912517,6.0,1
+2015-11-01,B5,36 months,MORTGAGE,700.0,0.0,18.6,11.53,Individual,Not Verified,TX,704.0,63408525,0.0,1
+2015-10-01,D1,36 months,RENT,675.0,0.0,66.0,15.61,Individual,Not Verified,NY,679.0,61358438,8.0,1
+2015-08-01,C4,60 months,MORTGAGE,720.0,0.0,46.6,13.99,Individual,Source Verified,NC,724.0,57235076,8.0,1
+2016-02-01,A1,36 months,MORTGAGE,745.0,0.0,22.6,5.32,Individual,Not Verified,TX,749.0,70895285,1.0,1
+2015-10-01,B4,36 months,MORTGAGE,670.0,1.0,83.6,10.99,Individual,Verified,FL,674.0,63467050,2.0,1
+2016-01-01,B4,36 months,RENT,690.0,0.0,50.9,10.78,Individual,Verified,PA,694.0,70142886,11.0,0
+2016-02-01,B3,36 months,RENT,695.0,0.0,63.3,9.75,Individual,Not Verified,CA,699.0,70030259,11.0,0
+2014-11-01,D4,60 months,OWN,665.0,8.0,24.9,17.57,Individual,Verified,OH,669.0,32499448,0.0,1
+2015-10-01,C1,36 months,MORTGAGE,660.0,0.0,74.6,12.29,Individual,Verified,CA,664.0,60863120,11.0,1
+2015-11-01,B4,60 months,MORTGAGE,705.0,0.0,46.9,10.99,Individual,Not Verified,NV,709.0,65414414,11.0,1
+2015-01-01,E5,60 months,MORTGAGE,675.0,0.0,61.9,21.99,Individual,Verified,OH,679.0,37711760,11.0,0
+2015-02-01,A2,36 months,RENT,725.0,0.0,68.1,6.39,Individual,Source Verified,TX,729.0,41020097,6.0,1
+2015-06-01,C2,60 months,MORTGAGE,675.0,0.0,84.8,12.69,Individual,Source Verified,TX,679.0,51065294,3.0,0
+2016-03-01,C2,36 months,MORTGAGE,660.0,0.0,99.6,12.99,Individual,Verified,AZ,664.0,73385830,0.0,0
+2014-11-01,C1,36 months,MORTGAGE,670.0,0.0,55.6,12.39,Individual,Source Verified,MA,674.0,34963993,11.0,1
+2015-11-01,C3,60 months,RENT,775.0,0.0,2.9,13.18,Individual,Source Verified,NY,779.0,65452705,2.0,1
+2015-01-01,C2,36 months,RENT,660.0,0.0,73.0,12.99,Individual,Not Verified,GA,664.0,39641922,2.0,1
+2015-02-01,B3,36 months,RENT,700.0,0.0,57.8,9.99,Individual,Verified,NJ,704.0,41021846,4.0,1
+2014-08-01,E2,60 months,MORTGAGE,665.0,0.0,52.3,19.52,Individual,Source Verified,GA,669.0,14698065,11.0,0
+2015-12-01,A2,36 months,MORTGAGE,820.0,0.0,8.1,6.24,Individual,Not Verified,FL,824.0,66390700,2.0,1
+2015-01-01,F3,60 months,OWN,660.0,0.0,78.4,24.5,Individual,Verified,NJ,664.0,39580746,9.0,1
+2014-05-01,F3,36 months,RENT,665.0,0.0,36.7,24.5,Individual,Not Verified,FL,669.0,15731206,7.0,1
+2016-01-01,B5,36 months,OWN,685.0,0.0,89.7,11.48,Individual,Source Verified,OH,689.0,68598425,1.0,1
+2014-05-01,C4,36 months,RENT,660.0,1.0,52.4,15.31,Individual,Source Verified,WY,664.0,14559650,11.0,1
+2014-03-01,C5,36 months,MORTGAGE,675.0,1.0,38.3,15.61,Individual,Source Verified,CA,679.0,12766374,11.0,1
+2016-03-01,C1,60 months,MORTGAGE,720.0,0.0,10.0,11.99,Individual,Source Verified,OH,724.0,72693869,0.0,1
+2014-05-01,C4,36 months,MORTGAGE,710.0,0.0,69.0,15.31,Individual,Verified,MN,714.0,15320934,0.0,1
+2014-03-01,C1,36 months,RENT,660.0,0.0,67.2,13.65,Individual,Source Verified,TX,664.0,12517345,11.0,1
+2016-06-01,A2,36 months,OWN,760.0,0.0,27.6,6.49,Individual,Not Verified,NC,764.0,80588522,11.0,1
+2015-01-01,A2,36 months,MORTGAGE,755.0,0.0,21.1,6.49,Individual,Verified,CA,759.0,39650034,11.0,1
+2015-11-01,C5,36 months,MORTGAGE,660.0,0.0,25.3,14.33,Individual,Source Verified,TX,664.0,63495768,11.0,1
+2015-03-01,A4,36 months,MORTGAGE,670.0,0.0,74.0,6.92,Individual,Source Verified,OH,674.0,42284627,2.0,1
+2015-07-01,B5,36 months,MORTGAGE,685.0,0.0,60.2,11.53,Individual,Source Verified,TX,689.0,55280879,6.0,1
+2016-04-01,D2,36 months,MORTGAGE,680.0,0.0,80.9,17.27,Individual,Source Verified,OH,684.0,72583595,11.0,1
+2014-10-01,C1,36 months,MORTGAGE,670.0,0.0,41.0,12.99,Individual,Verified,AL,674.0,31186426,11.0,1
+2014-01-01,C2,36 months,RENT,670.0,0.0,90.9,14.47,Individual,Source Verified,NY,674.0,10076341,0.0,1
+2015-01-01,C1,36 months,MORTGAGE,705.0,0.0,83.1,12.39,Individual,Verified,FL,709.0,38291244,11.0,1
+2014-10-01,C1,60 months,MORTGAGE,665.0,0.0,97.9,12.99,Individual,Source Verified,FL,669.0,31447836,11.0,1
+2016-03-01,C3,36 months,MORTGAGE,680.0,0.0,87.9,13.67,Individual,Source Verified,MD,684.0,70722716,11.0,1
+2014-03-01,C2,36 months,RENT,660.0,1.0,73.8,14.16,Individual,Verified,WA,664.0,12765781,0.0,1
+2015-10-01,A3,36 months,MORTGAGE,745.0,0.0,49.7,6.89,Individual,Verified,TN,749.0,62580208,5.0,1
+2014-08-01,A4,36 months,RENT,725.0,0.0,39.1,7.69,Individual,Not Verified,DE,729.0,23946253,1.0,1
+2014-11-01,C3,36 months,OWN,700.0,0.0,15.5,13.66,Individual,Source Verified,OK,704.0,34433661,5.0,1
+2014-09-01,D4,36 months,RENT,660.0,0.0,68.4,17.57,Individual,Source Verified,PA,664.0,26179228,2.0,1
+2015-05-01,D3,60 months,RENT,700.0,0.0,49.1,16.99,Individual,Source Verified,NC,704.0,46446273,6.0,1
+2015-08-01,D1,36 months,MORTGAGE,680.0,0.0,31.8,15.61,Individual,Verified,NY,684.0,53192431,0.0,1
+2016-01-01,B4,36 months,RENT,775.0,0.0,3.1,10.78,Individual,Verified,FL,779.0,70113220,5.0,1
+2014-10-01,D3,36 months,OWN,680.0,0.0,71.8,16.99,Individual,Source Verified,DC,684.0,28072019,6.0,0
+2015-04-01,D2,36 months,MORTGAGE,665.0,1.0,16.9,16.55,Individual,Verified,TX,669.0,46366996,11.0,1
+2014-10-01,B3,36 months,MORTGAGE,680.0,0.0,90.0,10.99,Individual,Verified,NC,684.0,29003467,0.0,1
+2015-05-01,A2,36 months,MORTGAGE,715.0,0.0,26.2,6.24,Individual,Not Verified,MD,719.0,50626361,7.0,1
+2015-08-01,A5,36 months,MORTGAGE,665.0,1.0,24.7,7.89,Individual,Not Verified,NJ,669.0,57094833,0.0,1
+2014-05-01,D2,60 months,MORTGAGE,670.0,0.0,20.8,16.29,Individual,Not Verified,IL,674.0,16101690,8.0,1
+2016-03-01,E3,36 months,MORTGAGE,675.0,0.0,33.5,21.18,Individual,Verified,DE,679.0,75059374,0.0,0
+2015-07-01,B3,60 months,MORTGAGE,705.0,0.0,55.0,9.99,Individual,Source Verified,VA,709.0,55139115,11.0,1
+2014-10-01,D3,60 months,OWN,690.0,0.0,45.6,16.99,Individual,Source Verified,MA,694.0,29134095,7.0,0
+2014-02-01,B1,36 months,RENT,725.0,1.0,20.0,9.67,Individual,Source Verified,OH,729.0,11385999,5.0,1
+2016-03-01,B5,36 months,MORTGAGE,685.0,0.0,94.2,11.47,Individual,Source Verified,CA,689.0,71727320,11.0,1
+2015-01-01,B2,36 months,RENT,680.0,0.0,47.7,9.49,Individual,Not Verified,NJ,684.0,40307735,2.0,1
+2016-04-01,B1,36 months,MORTGAGE,675.0,0.0,94.0,8.39,Individual,Verified,MD,679.0,75101924,6.0,1
+2016-01-01,A5,36 months,MORTGAGE,710.0,0.0,90.0,7.91,Individual,Verified,CA,714.0,68774062,11.0,1
+2015-03-01,C1,36 months,RENT,670.0,0.0,61.9,12.29,Individual,Not Verified,OR,674.0,44076320,4.0,0
+2015-01-01,B4,36 months,RENT,680.0,0.0,58.6,11.44,Individual,Source Verified,NV,684.0,40107762,11.0,1
+2014-08-01,A1,36 months,RENT,720.0,0.0,56.1,6.03,Individual,Not Verified,KY,724.0,24816512,4.0,1
+2015-11-01,D1,36 months,RENT,700.0,0.0,34.4,15.61,Individual,Verified,FL,704.0,63488706,0.0,1
+2014-08-01,D5,36 months,RENT,700.0,0.0,81.7,18.24,Individual,Source Verified,NY,704.0,25747169,8.0,1
+2014-09-01,D1,36 months,RENT,700.0,0.0,7.1,15.61,Individual,Source Verified,MN,704.0,26259961,3.0,1
+2015-07-01,B3,60 months,MORTGAGE,710.0,0.0,68.5,9.99,Individual,Not Verified,MA,714.0,51848779,8.0,1
+2015-05-01,D2,36 months,RENT,665.0,0.0,78.5,16.55,Individual,Not Verified,IL,669.0,49268049,0.0,0
+2015-04-01,B5,36 months,RENT,695.0,0.0,89.5,11.53,Individual,Not Verified,VA,699.0,45295523,2.0,1
+2016-04-01,A1,36 months,MORTGAGE,820.0,0.0,1.2,5.32,Individual,Not Verified,TX,824.0,77311103,1.0,1
+2014-06-01,B5,36 months,OWN,805.0,0.0,2.5,12.49,Individual,Not Verified,FL,809.0,19067318,4.0,1
+2016-03-01,B2,60 months,MORTGAGE,765.0,0.0,6.9,9.16,Individual,Not Verified,CA,769.0,76113473,11.0,1
+2016-02-01,B4,36 months,MORTGAGE,705.0,0.0,75.3,10.75,Individual,Verified,WY,709.0,70892625,11.0,1
+2015-12-01,D4,36 months,RENT,675.0,0.0,27.6,17.57,Individual,Source Verified,NY,679.0,67808836,2.0,0
+2015-08-01,D1,60 months,RENT,725.0,0.0,53.4,15.61,Individual,Source Verified,OK,729.0,55910599,7.0,1
+2016-02-01,B1,36 months,RENT,710.0,0.0,9.0,8.39,Individual,Not Verified,NV,714.0,70964151,3.0,1
+2015-05-01,C1,36 months,MORTGAGE,675.0,0.0,57.7,12.29,Individual,Not Verified,IN,679.0,48716657,2.0,1
+2015-05-01,B1,36 months,MORTGAGE,685.0,1.0,28.0,8.18,Individual,Source Verified,CT,689.0,48755913,11.0,1
+2015-09-01,D2,36 months,MORTGAGE,725.0,0.0,79.9,16.55,Individual,Source Verified,LA,729.0,58993605,11.0,1
+2015-04-01,A5,36 months,MORTGAGE,685.0,0.0,56.1,7.89,Individual,Not Verified,WI,689.0,45754451,11.0,1
+2015-11-01,C1,36 months,RENT,765.0,0.0,17.9,12.05,Individual,Verified,IL,769.0,63978104,3.0,1
+2014-01-01,C3,36 months,MORTGAGE,675.0,1.0,42.1,14.98,Individual,Verified,UT,679.0,10616209,5.0,1
+2015-08-01,D3,60 months,RENT,685.0,0.0,49.7,16.99,Individual,Source Verified,TX,689.0,57722344,1.0,0
+2015-12-01,C1,36 months,RENT,665.0,1.0,8.6,11.99,Individual,Not Verified,CA,669.0,67296656,2.0,1
+2016-03-01,E2,36 months,MORTGAGE,715.0,1.0,9.0,20.75,Individual,Verified,MS,719.0,75160059,11.0,1
+2014-07-01,B5,36 months,RENT,745.0,0.0,13.2,12.49,Individual,Not Verified,NY,749.0,21200757,5.0,1
+2015-04-01,E5,36 months,RENT,670.0,1.0,28.8,21.67,Individual,Source Verified,NY,674.0,44825766,3.0,0
+2015-06-01,D2,60 months,MORTGAGE,665.0,4.0,59.6,16.55,Individual,Source Verified,WV,669.0,50941311,8.0,0
+2014-03-01,C3,36 months,MORTGAGE,670.0,0.0,67.6,14.64,Individual,Source Verified,TN,674.0,12905652,4.0,1
+2015-11-01,B5,36 months,MORTGAGE,670.0,1.0,95.0,11.53,Individual,Verified,NY,674.0,61942443,11.0,1
+2016-03-01,D5,60 months,RENT,695.0,0.0,66.2,19.53,Individual,Source Verified,NY,699.0,74954695,6.0,1
+2015-11-01,C5,36 months,MORTGAGE,670.0,0.0,81.7,14.33,Individual,Source Verified,MD,674.0,65412245,11.0,1
+2015-02-01,B5,36 months,RENT,665.0,0.0,94.1,11.53,Individual,Not Verified,NY,669.0,41060996,11.0,0
+2015-10-01,C3,36 months,RENT,660.0,2.0,37.4,13.33,Individual,Not Verified,CT,664.0,60791110,1.0,1
+2016-01-01,C4,36 months,RENT,670.0,0.0,24.8,13.99,Individual,Source Verified,TX,674.0,70371683,2.0,1
+2016-02-01,D5,60 months,MORTGAGE,715.0,0.0,74.4,19.53,Individual,Not Verified,MA,719.0,70550630,0.0,0
+2015-10-01,A2,36 months,MORTGAGE,680.0,0.0,39.3,6.24,Individual,Verified,NC,684.0,61358426,11.0,1
+2016-03-01,C4,36 months,RENT,670.0,1.0,25.6,14.46,Individual,Verified,VA,674.0,73793333,11.0,1
+2015-06-01,E2,60 months,RENT,685.0,0.0,56.7,18.55,Individual,Source Verified,CO,689.0,50606482,3.0,0
+2016-02-01,A4,36 months,MORTGAGE,780.0,0.0,15.5,7.39,Individual,Not Verified,WA,784.0,70985487,11.0,1
+2015-04-01,D2,60 months,RENT,675.0,0.0,77.0,16.55,Individual,Source Verified,MD,679.0,46358080,3.0,0
+2015-10-01,B5,60 months,RENT,665.0,1.0,34.2,11.53,Individual,Source Verified,WA,669.0,60850420,11.0,1
+2015-06-01,E3,60 months,OWN,680.0,0.0,41.7,19.19,Individual,Source Verified,NC,684.0,48031552,7.0,0
+2014-01-01,B5,36 months,MORTGAGE,690.0,0.0,65.7,13.53,Individual,Not Verified,WV,694.0,10774975,1.0,1
+2014-11-01,A3,36 months,RENT,660.0,7.0,70.7,7.12,Individual,Source Verified,IN,664.0,33351867,5.0,1
+2015-01-01,D2,60 months,MORTGAGE,665.0,1.0,26.5,15.99,Individual,Source Verified,CT,669.0,38508046,11.0,0
+2015-11-01,A4,36 months,MORTGAGE,745.0,0.0,54.3,7.26,Individual,Verified,PA,749.0,61662472,11.0,1
+2015-02-01,B5,36 months,OWN,740.0,0.0,24.7,11.53,Individual,Source Verified,IN,744.0,40736991,3.0,1
+2015-10-01,E2,60 months,MORTGAGE,675.0,0.0,75.6,18.55,Individual,Source Verified,OH,679.0,63355987,8.0,1
+2016-02-01,C2,36 months,RENT,730.0,0.0,0.7,12.99,Individual,Source Verified,CA,734.0,72785679,11.0,1
+2016-05-01,B3,36 months,MORTGAGE,720.0,0.0,22.8,9.75,Individual,Source Verified,CT,724.0,77296293,1.0,1
+2015-07-01,B4,36 months,RENT,680.0,0.0,44.0,10.99,Individual,Verified,NJ,684.0,54048001,0.0,1
+2016-01-01,C5,36 months,RENT,680.0,0.0,85.6,14.85,Individual,Verified,CA,684.0,68864260,2.0,1
+2015-05-01,A2,36 months,RENT,710.0,0.0,50.8,6.24,Individual,Source Verified,CA,714.0,49944143,2.0,1
+2016-05-01,C2,36 months,MORTGAGE,685.0,1.0,61.3,12.99,Individual,Not Verified,TX,689.0,80739636,7.0,1
+2016-03-01,D3,60 months,RENT,675.0,4.0,36.0,18.25,Individual,Verified,NC,679.0,73701243,1.0,0
+2015-12-01,B4,36 months,MORTGAGE,670.0,0.0,77.0,10.64,Individual,Source Verified,CA,674.0,66026014,11.0,1
+2016-03-01,A1,36 months,RENT,755.0,0.0,21.7,5.32,Individual,Not Verified,DE,759.0,74596365,1.0,1
+2016-01-01,B4,36 months,MORTGAGE,670.0,0.0,58.7,10.78,Individual,Not Verified,NY,674.0,68956405,6.0,1
+2014-03-01,D1,60 months,MORTGAGE,715.0,0.0,35.0,16.59,Individual,Source Verified,WV,719.0,12295265,11.0,1
+2015-04-01,C4,36 months,RENT,690.0,0.0,54.7,13.99,Individual,Verified,KS,694.0,46255198,1.0,0
+2015-01-01,D4,60 months,MORTGAGE,670.0,0.0,84.9,17.14,Individual,Source Verified,LA,674.0,38614305,9.0,1
+2014-05-01,C4,60 months,RENT,715.0,0.0,90.9,14.49,Individual,Verified,GA,719.0,15751371,11.0,0
+2016-03-01,C5,36 months,RENT,680.0,3.0,36.4,15.31,Individual,Verified,OH,684.0,73688209,5.0,1
+2015-08-01,B5,36 months,MORTGAGE,685.0,0.0,76.4,11.53,Individual,Verified,FL,689.0,59013195,0.0,1
+2015-08-01,B4,36 months,MORTGAGE,715.0,0.0,58.5,10.99,Individual,Verified,TX,719.0,55228783,11.0,1
+2014-03-01,B5,36 months,RENT,690.0,1.0,67.0,12.99,Individual,Not Verified,NC,694.0,12507292,3.0,1
+2015-05-01,C5,36 months,MORTGAGE,690.0,0.0,99.9,14.65,Individual,Not Verified,NY,694.0,48202543,9.0,1
+2015-04-01,A5,36 months,RENT,680.0,0.0,73.9,7.89,Individual,Not Verified,CT,684.0,44896991,2.0,1
+2015-01-01,B3,36 months,RENT,695.0,0.0,33.6,10.49,Individual,Source Verified,AZ,699.0,39420518,7.0,1
+2015-10-01,B1,36 months,RENT,665.0,1.0,75.0,8.18,Individual,Source Verified,CA,669.0,61401737,7.0,1
+2016-02-01,B5,36 months,RENT,680.0,0.0,32.0,11.47,Individual,Verified,NY,684.0,70953015,3.0,1
+2014-11-01,D5,36 months,MORTGAGE,680.0,0.0,66.9,17.86,Individual,Source Verified,FL,684.0,34383688,11.0,0
+2015-07-01,A4,36 months,RENT,695.0,0.0,40.9,7.26,Individual,Source Verified,CA,699.0,56078815,1.0,1
+2015-12-01,B4,36 months,OWN,665.0,1.0,38.2,10.64,Individual,Source Verified,FL,669.0,67418325,0.0,1
+2016-03-01,C1,36 months,RENT,695.0,0.0,44.7,11.99,Individual,Verified,NY,699.0,74515052,0.0,1
+2016-05-01,A4,36 months,RENT,695.0,0.0,52.5,7.39,Individual,Source Verified,TX,699.0,78579000,1.0,1
+2014-10-01,E5,36 months,RENT,680.0,0.0,43.2,22.15,Individual,Verified,NV,684.0,28132189,7.0,0
+2016-01-01,C5,36 months,RENT,670.0,1.0,53.1,14.85,Individual,Verified,FL,674.0,68772016,4.0,1
+2014-07-01,B4,36 months,RENT,680.0,0.0,83.9,11.67,Individual,Source Verified,CA,684.0,22292378,0.0,1
+2015-05-01,E2,60 months,MORTGAGE,660.0,1.0,56.5,18.84,Individual,Source Verified,FL,664.0,47675448,11.0,0
+2015-10-01,D5,60 months,RENT,680.0,0.0,93.1,17.86,Individual,Verified,CA,684.0,61398842,4.0,1
+2015-11-01,C4,36 months,RENT,690.0,0.0,80.1,13.67,Individual,Source Verified,FL,694.0,65615269,0.0,1
+2014-11-01,C4,36 months,MORTGAGE,670.0,1.0,57.3,14.31,Individual,Not Verified,OH,674.0,34633526,11.0,1
+2015-03-01,A3,36 months,MORTGAGE,680.0,0.0,57.2,6.68,Individual,Not Verified,IL,684.0,43429588,8.0,1
+2015-09-01,B5,36 months,RENT,675.0,0.0,43.3,11.53,Individual,Source Verified,CT,679.0,58722860,3.0,0
+2014-10-01,C2,36 months,RENT,730.0,0.0,36.1,13.35,Individual,Verified,CA,734.0,30525964,11.0,1
+2016-02-01,B4,36 months,RENT,660.0,0.0,54.3,10.75,Individual,Verified,CA,664.0,71796859,11.0,1
+2014-10-01,B4,36 months,RENT,660.0,1.0,53.0,11.67,Individual,Source Verified,CA,664.0,28954076,2.0,1
+2015-09-01,B3,60 months,RENT,710.0,0.0,24.2,9.99,Individual,Not Verified,CA,714.0,60295718,2.0,0
+2015-01-01,C2,60 months,MORTGAGE,660.0,0.0,55.1,12.99,Individual,Source Verified,PA,664.0,38494659,4.0,1
+2015-10-01,D1,60 months,RENT,740.0,2.0,16.0,15.61,Individual,Source Verified,MD,744.0,63506982,11.0,0
+2015-10-01,B4,36 months,RENT,745.0,0.0,55.3,10.99,Individual,Source Verified,TN,749.0,61449488,0.0,0
+2016-02-01,C4,36 months,MORTGAGE,675.0,0.0,78.9,14.46,Individual,Source Verified,SC,679.0,70273484,8.0,1
+2014-11-01,E4,60 months,MORTGAGE,665.0,2.0,70.9,20.99,Individual,Source Verified,CA,669.0,34813413,11.0,1
+2015-09-01,D5,36 months,RENT,670.0,1.0,35.0,17.86,Individual,Verified,PA,674.0,60625279,6.0,1
+2015-08-01,A5,36 months,OWN,665.0,0.0,52.6,7.89,Individual,Source Verified,TX,669.0,57732546,2.0,1
+2016-03-01,B2,36 months,MORTGAGE,710.0,0.0,35.7,9.16,Individual,Not Verified,OH,714.0,73823910,0.0,1
+2015-06-01,B1,36 months,RENT,675.0,0.0,78.8,8.18,Individual,Not Verified,IL,679.0,51828182,2.0,1
+2014-08-01,C5,36 months,RENT,665.0,0.0,60.2,14.99,Individual,Source Verified,WV,669.0,22332035,4.0,1
+2016-04-01,E1,60 months,MORTGAGE,720.0,0.0,52.9,19.99,Individual,Not Verified,CA,724.0,75388200,9.0,0
+2014-10-01,E3,60 months,RENT,660.0,1.0,72.0,20.2,Individual,Source Verified,MN,664.0,28773601,1.0,0
+2015-12-01,B5,36 months,MORTGAGE,685.0,0.0,52.2,11.22,Individual,Source Verified,LA,689.0,67317309,2.0,1
+2014-02-01,C2,36 months,MORTGAGE,660.0,1.0,41.8,14.16,Individual,Source Verified,NC,664.0,12496506,11.0,1
+2015-04-01,E2,60 months,MORTGAGE,675.0,1.0,62.0,18.84,Individual,Verified,MI,679.0,44125981,0.0,1
+2016-05-01,E2,36 months,OWN,660.0,0.0,32.9,20.75,Individual,Verified,SC,664.0,77306385,6.0,1
+2015-10-01,B4,60 months,OWN,750.0,0.0,34.0,10.99,Individual,Not Verified,MI,754.0,60772717,11.0,1
+2016-06-01,D4,36 months,RENT,680.0,2.0,49.2,19.99,Individual,Verified,CA,684.0,82930617,2.0,1
+2015-03-01,B1,36 months,MORTGAGE,735.0,0.0,18.6,8.18,Individual,Source Verified,CA,739.0,35893495,2.0,1
+2016-03-01,A2,36 months,MORTGAGE,685.0,0.0,61.3,6.49,Individual,Not Verified,WI,689.0,75547429,1.0,1
+2014-04-01,B1,36 months,RENT,705.0,0.0,76.6,9.67,Individual,Verified,CA,709.0,13848121,5.0,1
+2016-02-01,B1,36 months,RENT,695.0,0.0,32.9,8.39,Individual,Source Verified,MA,699.0,72684918,2.0,1
+2015-11-01,B2,36 months,MORTGAGE,690.0,0.0,49.4,9.17,Individual,Source Verified,CA,694.0,65715480,7.0,1
+2015-04-01,C5,36 months,OWN,680.0,0.0,53.6,14.65,Individual,Not Verified,NJ,684.0,46348015,0.0,1
+2015-10-01,A3,36 months,MORTGAGE,710.0,0.0,71.9,6.89,Individual,Not Verified,LA,714.0,61459456,11.0,1
+2016-01-01,D4,60 months,RENT,730.0,0.0,22.5,17.97,Individual,Not Verified,CT,734.0,68994412,1.0,1
+2015-09-01,C5,60 months,RENT,720.0,0.0,35.1,14.65,Individual,Verified,CA,724.0,60266062,8.0,1
+2015-07-01,A5,36 months,MORTGAGE,675.0,0.0,89.3,7.89,Individual,Not Verified,MD,679.0,55410302,7.0,1
+2015-05-01,A1,36 months,RENT,805.0,0.0,0.0,5.32,Individual,Verified,PA,809.0,49524022,11.0,1
+2015-10-01,C4,36 months,MORTGAGE,670.0,0.0,25.1,13.99,Individual,Not Verified,GA,674.0,62794531,11.0,1
+2016-03-01,A1,36 months,MORTGAGE,680.0,0.0,58.8,5.32,Individual,Not Verified,CA,684.0,74602655,11.0,1
+2014-05-01,D2,60 months,MORTGAGE,660.0,1.0,60.0,16.29,Individual,Not Verified,IN,664.0,16393111,8.0,1
+2015-12-01,C4,60 months,RENT,685.0,0.0,56.9,13.67,Individual,Not Verified,MN,689.0,65766571,6.0,0
+2015-12-01,C4,36 months,MORTGAGE,695.0,0.0,89.7,13.67,Individual,Verified,VA,699.0,67808970,11.0,1
+2014-11-01,C2,60 months,MORTGAGE,735.0,0.0,10.5,12.99,Individual,Not Verified,NY,739.0,32519013,3.0,1
+2015-10-01,E1,60 months,OWN,660.0,0.0,20.8,18.25,Individual,Source Verified,CA,664.0,60964136,7.0,1
+2015-06-01,C3,36 months,MORTGAGE,660.0,0.0,71.4,13.33,Individual,Not Verified,GA,664.0,51696308,5.0,1
+2014-06-01,C3,60 months,MORTGAGE,740.0,0.0,33.1,13.98,Individual,Source Verified,CT,744.0,18905276,9.0,0
+2016-04-01,D1,60 months,RENT,675.0,0.0,81.3,16.29,Individual,Source Verified,FL,679.0,77377116,11.0,0
+2015-04-01,D1,60 months,MORTGAGE,705.0,0.0,78.9,15.61,Individual,Source Verified,WA,709.0,46682335,11.0,0
+2015-08-01,B1,36 months,MORTGAGE,700.0,0.0,32.6,8.18,Individual,Not Verified,CA,704.0,58450918,8.0,1
+2015-07-01,E1,36 months,MORTGAGE,665.0,0.0,97.0,18.25,Individual,Verified,DE,669.0,55255433,11.0,1
+2015-07-01,B3,36 months,RENT,670.0,2.0,34.1,9.99,Individual,Source Verified,WI,674.0,55565050,0.0,1
+2016-01-01,A4,36 months,MORTGAGE,690.0,0.0,51.7,7.49,Individual,Not Verified,KY,694.0,69226450,1.0,1
+2015-10-01,E1,60 months,MORTGAGE,680.0,0.0,27.5,18.25,Individual,Source Verified,OK,684.0,61480155,11.0,0
+2015-07-01,C3,36 months,MORTGAGE,690.0,0.0,58.7,13.33,Individual,Source Verified,IL,694.0,55099357,1.0,1
+2014-07-01,A3,36 months,MORTGAGE,785.0,0.0,42.4,7.12,Individual,Source Verified,NC,789.0,21431344,5.0,1
+2014-12-01,B4,36 months,RENT,680.0,0.0,92.4,11.44,Individual,Source Verified,WA,684.0,37397113,11.0,1
+2015-12-01,A1,36 months,RENT,750.0,0.0,30.0,5.32,Individual,Not Verified,NY,754.0,67277172,11.0,1
+2015-04-01,B5,36 months,OWN,670.0,1.0,65.4,11.53,Individual,Not Verified,NY,674.0,45474327,11.0,1
+2014-05-01,C2,36 months,RENT,660.0,0.0,62.1,13.35,Individual,Not Verified,HI,664.0,16412408,11.0,1
+2015-07-01,C3,36 months,RENT,700.0,0.0,40.0,13.33,Individual,Verified,OH,704.0,53040410,0.0,1
+2016-06-01,B4,36 months,MORTGAGE,665.0,0.0,39.3,10.99,Individual,Source Verified,IL,669.0,82799210,3.0,0
+2014-09-01,A5,36 months,RENT,800.0,0.0,14.5,8.39,Individual,Source Verified,CT,804.0,26289545,2.0,1
+2015-04-01,D3,60 months,MORTGAGE,675.0,0.0,83.7,16.99,Individual,Source Verified,MD,679.0,46044232,11.0,0
+2014-11-01,C1,60 months,MORTGAGE,695.0,0.0,85.5,12.39,Individual,Source Verified,CO,699.0,34021966,11.0,1
+2014-01-01,B1,36 months,OWN,670.0,0.0,52.4,9.67,Individual,Verified,TX,674.0,11054906,3.0,1
+2014-10-01,B4,36 months,OWN,680.0,1.0,75.8,11.67,Individual,Verified,NY,684.0,29715534,11.0,1
+2016-05-01,B3,36 months,RENT,675.0,2.0,28.8,9.75,Individual,Not Verified,MN,679.0,79002961,11.0,1
+2015-08-01,A1,36 months,RENT,695.0,0.0,42.2,5.32,Individual,Source Verified,CA,699.0,57256178,3.0,1
+2014-02-01,C5,36 months,OWN,680.0,0.0,26.1,15.61,Individual,Verified,TX,684.0,11764656,11.0,1
+2015-04-01,A5,36 months,MORTGAGE,670.0,0.0,61.6,7.89,Individual,Verified,OH,674.0,45394345,11.0,1
+2015-02-01,D2,36 months,RENT,700.0,0.0,20.2,15.99,Individual,Source Verified,NY,704.0,40353917,11.0,1
+2014-11-01,D1,60 months,RENT,705.0,0.0,70.1,15.59,Individual,Source Verified,TX,709.0,35441210,11.0,0
+2014-08-01,B3,36 months,MORTGAGE,680.0,1.0,44.3,10.99,Individual,Source Verified,IN,684.0,24234889,11.0,1
+2016-04-01,A3,36 months,MORTGAGE,685.0,0.0,35.3,6.97,Individual,Not Verified,OH,689.0,76332534,0.0,1
+2014-08-01,A2,36 months,RENT,710.0,0.0,79.6,6.49,Individual,Source Verified,CO,714.0,23343340,11.0,1
+2015-08-01,C5,60 months,RENT,705.0,0.0,92.7,14.65,Individual,Not Verified,CA,709.0,56523075,11.0,1
+2015-06-01,B3,36 months,RENT,725.0,0.0,79.5,9.99,Individual,Source Verified,NY,729.0,51857363,11.0,1
+2015-04-01,F3,60 months,MORTGAGE,690.0,0.0,27.2,24.5,Individual,Source Verified,MN,694.0,46436219,7.0,1
+2014-02-01,C5,60 months,MORTGAGE,670.0,0.0,48.5,15.61,Individual,Source Verified,TX,674.0,12465647,11.0,1
+2015-12-01,B1,36 months,MORTGAGE,695.0,0.0,36.4,8.38,Individual,Not Verified,MI,699.0,67969220,3.0,1
+2015-04-01,C2,36 months,RENT,665.0,0.0,57.6,12.69,Individual,Source Verified,CA,669.0,43520353,5.0,1
+2015-03-01,F2,36 months,RENT,660.0,0.0,85.5,23.99,Individual,Verified,TX,664.0,43924597,5.0,1
+2016-03-01,A1,36 months,MORTGAGE,690.0,1.0,32.2,5.32,Individual,Not Verified,IL,694.0,73691800,11.0,1
+2014-01-01,B3,36 months,RENT,725.0,0.0,20.3,11.99,Individual,Source Verified,NJ,729.0,11034647,4.0,1
+2015-11-01,A1,36 months,MORTGAGE,735.0,0.0,23.1,5.32,Individual,Not Verified,AR,739.0,66104573,11.0,1
+2014-09-01,B1,36 months,RENT,770.0,0.0,7.8,9.17,Individual,Source Verified,IL,774.0,26218057,3.0,1
+2015-10-01,B4,36 months,RENT,685.0,0.0,31.1,10.99,Individual,Verified,TX,689.0,61542262,0.0,0
+2015-07-01,B5,36 months,RENT,775.0,0.0,8.1,11.53,Individual,Not Verified,CA,779.0,54534365,5.0,1
+2014-07-01,A2,36 months,MORTGAGE,730.0,0.0,41.8,6.49,Individual,Verified,NY,734.0,21059969,0.0,1
+2016-05-01,B5,60 months,RENT,665.0,1.0,30.1,11.47,Individual,Not Verified,FL,669.0,78368204,2.0,1
+2015-06-01,C3,36 months,RENT,670.0,1.0,15.3,13.33,Individual,Source Verified,FL,674.0,52668670,3.0,1
+2016-01-01,B1,36 months,OWN,715.0,0.0,16.3,8.49,Individual,Source Verified,MI,719.0,69733536,11.0,1
+2016-04-01,E3,60 months,MORTGAGE,695.0,0.0,83.2,21.18,Individual,Verified,FL,699.0,76192089,6.0,1
+2015-07-01,B1,60 months,RENT,705.0,0.0,56.5,8.18,Individual,Source Verified,TX,709.0,53924232,11.0,0
+2014-09-01,B1,36 months,MORTGAGE,675.0,1.0,48.1,9.17,Individual,Source Verified,NY,679.0,26900134,11.0,1
+2014-11-01,B4,60 months,MORTGAGE,785.0,0.0,20.0,11.44,Individual,Verified,KS,789.0,34332599,11.0,0
+2015-12-01,B1,36 months,MORTGAGE,675.0,0.0,78.0,8.38,Individual,Source Verified,OH,679.0,66250256,0.0,1
+2014-04-01,B2,36 months,RENT,685.0,0.0,21.3,10.99,Individual,Source Verified,MN,689.0,13667772,3.0,1
+2015-08-01,A3,36 months,RENT,765.0,0.0,2.0,6.89,Individual,Not Verified,NY,769.0,59309295,2.0,1
+2016-06-01,A2,36 months,MORTGAGE,725.0,0.0,64.2,6.99,Individual,Source Verified,MT,729.0,81357215,11.0,1
+2015-05-01,C2,36 months,MORTGAGE,720.0,0.0,35.1,12.69,Individual,Source Verified,NH,724.0,45374720,4.0,1
+2014-10-01,A5,36 months,RENT,705.0,0.0,35.4,8.39,Individual,Verified,CA,709.0,29934702,9.0,1
+2015-10-01,D3,36 months,OWN,690.0,0.0,67.9,16.99,Individual,Source Verified,TX,694.0,62315337,6.0,1
+2015-09-01,D1,60 months,MORTGAGE,710.0,0.0,88.7,15.61,Individual,Source Verified,WA,714.0,59070841,3.0,1
+2016-06-01,B3,36 months,RENT,720.0,0.0,30.3,9.75,Individual,Source Verified,CA,724.0,78469180,6.0,0
+2015-12-01,C2,36 months,RENT,780.0,0.0,3.8,12.59,Individual,Verified,WY,784.0,66340697,0.0,1
+2014-07-01,D4,36 months,OWN,675.0,0.0,62.0,17.57,Individual,Not Verified,AR,679.0,22431975,1.0,1
+2014-05-01,C2,36 months,RENT,675.0,0.0,71.8,14.16,Individual,Source Verified,CA,679.0,15750255,5.0,1
+2015-09-01,C2,60 months,MORTGAGE,685.0,0.0,71.8,12.69,Individual,Source Verified,FL,689.0,60115759,3.0,1
+2016-03-01,E2,60 months,MORTGAGE,690.0,1.0,82.8,20.75,Individual,Source Verified,LA,694.0,72062341,2.0,0
+2014-01-01,A4,36 months,MORTGAGE,770.0,0.0,18.1,7.9,Individual,Not Verified,GA,774.0,10122335,5.0,1
+2014-01-01,C4,60 months,MORTGAGE,715.0,0.0,61.1,15.61,Individual,Verified,MO,719.0,10534950,11.0,1
+2015-06-01,B3,36 months,OWN,670.0,0.0,82.8,9.99,Individual,Source Verified,TX,674.0,49037379,0.0,1
+2015-07-01,A4,36 months,MORTGAGE,720.0,0.0,80.3,7.26,Individual,Not Verified,NC,724.0,55078909,11.0,1
+2014-11-01,C2,60 months,OWN,680.0,0.0,54.1,13.35,Individual,Source Verified,WA,684.0,33330430,7.0,0
+2015-04-01,A4,36 months,RENT,725.0,0.0,97.3,6.92,Individual,Source Verified,GA,729.0,46406822,2.0,1
+2016-02-01,A2,36 months,RENT,790.0,0.0,2.3,6.49,Individual,Not Verified,TX,794.0,71827601,0.0,1
+2016-03-01,B3,36 months,RENT,675.0,0.0,90.0,9.75,Individual,Source Verified,NY,679.0,74221498,3.0,1
+2015-01-01,C1,36 months,MORTGAGE,680.0,0.0,68.7,12.39,Individual,Verified,CA,684.0,37968468,1.0,1
+2016-01-01,D4,60 months,RENT,675.0,0.0,69.4,17.97,Individual,Verified,GA,679.0,70192011,1.0,0
+2016-03-01,A2,36 months,MORTGAGE,665.0,1.0,38.2,6.49,Individual,Source Verified,FL,669.0,75299799,11.0,1
+2014-07-01,B5,36 months,RENT,670.0,0.0,51.4,12.49,Individual,Verified,CA,674.0,22402409,0.0,1
+2015-10-01,A2,36 months,RENT,720.0,0.0,21.6,6.24,Individual,Not Verified,CT,724.0,63374356,11.0,1
+2014-12-01,F1,60 months,RENT,685.0,0.0,53.1,22.99,Individual,Verified,TX,689.0,37207262,4.0,0
+2015-10-01,A1,36 months,MORTGAGE,780.0,0.0,17.0,5.32,Individual,Source Verified,CO,784.0,61822161,5.0,1
+2015-08-01,A5,36 months,OWN,705.0,0.0,84.6,7.89,Individual,Source Verified,KY,709.0,59090154,11.0,1
+2014-06-01,A2,36 months,RENT,685.0,0.0,47.4,6.49,Individual,Source Verified,CA,689.0,17293464,3.0,1
+2016-02-01,C2,36 months,MORTGAGE,710.0,0.0,45.9,12.99,Individual,Not Verified,IL,714.0,71736829,11.0,1
+2014-08-01,B5,60 months,MORTGAGE,720.0,0.0,83.0,12.49,Individual,Not Verified,TX,724.0,24715385,5.0,1
+2014-11-01,A1,36 months,RENT,740.0,0.0,23.7,6.03,Individual,Verified,IL,744.0,34753111,0.0,1
+2014-02-01,B5,36 months,RENT,675.0,0.0,21.5,12.99,Individual,Not Verified,NJ,679.0,12405712,3.0,1
+2016-01-01,D1,36 months,MORTGAGE,680.0,1.0,50.8,15.77,Individual,Verified,FL,684.0,70181973,11.0,1
+2015-11-01,E2,60 months,RENT,660.0,0.0,99.4,18.49,Individual,Verified,CA,664.0,63823200,1.0,0
+2015-10-01,C1,36 months,MORTGAGE,680.0,0.0,51.3,12.29,Individual,Not Verified,LA,684.0,62195719,11.0,1
+2016-03-01,B4,36 months,MORTGAGE,695.0,0.0,59.9,10.75,Individual,Verified,CA,699.0,73451036,11.0,1
+2015-01-01,D5,60 months,MORTGAGE,695.0,0.0,58.7,17.86,Individual,Source Verified,OH,699.0,40410527,5.0,1
+2016-01-01,G1,60 months,RENT,690.0,0.0,42.3,26.99,Joint App,Source Verified,NV,694.0,68994683,0.0,1
+2015-05-01,C3,36 months,RENT,675.0,0.0,85.0,13.33,Individual,Not Verified,GA,679.0,49683438,1.0,0
+2014-10-01,C1,36 months,MORTGAGE,680.0,0.0,55.6,12.99,Individual,Source Verified,TX,684.0,32128331,8.0,1
+2016-06-01,C4,36 months,OWN,660.0,7.0,46.6,14.46,Individual,Verified,CA,664.0,80611885,4.0,1
+2015-09-01,E1,60 months,RENT,695.0,1.0,71.9,18.25,Individual,Verified,CA,699.0,59269455,7.0,0
+2016-02-01,B3,60 months,OWN,690.0,0.0,44.1,9.75,Individual,Not Verified,CA,694.0,71016557,11.0,1
+2014-08-01,D3,36 months,MORTGAGE,685.0,2.0,30.8,16.99,Individual,Verified,OK,689.0,22274251,0.0,1
+2014-04-01,B3,36 months,MORTGAGE,665.0,0.0,35.6,11.99,Individual,Not Verified,WY,669.0,13927466,7.0,1
+2016-04-01,D1,36 months,RENT,670.0,0.0,53.6,16.29,Individual,Source Verified,GA,674.0,77039076,8.0,0
+2016-02-01,C3,60 months,MORTGAGE,675.0,0.0,81.9,13.67,Individual,Verified,NY,679.0,71986361,3.0,1
+2016-02-01,A1,36 months,MORTGAGE,775.0,0.0,13.9,5.32,Individual,Not Verified,IL,779.0,70911617,0.0,1
+2015-03-01,F4,36 months,RENT,680.0,0.0,52.1,24.99,Individual,Source Verified,CA,684.0,43044396,3.0,0
+2015-10-01,B3,36 months,MORTGAGE,690.0,0.0,92.9,9.99,Individual,Source Verified,NY,694.0,60915228,11.0,1
+2015-04-01,B1,60 months,MORTGAGE,750.0,0.0,59.7,8.18,Individual,Source Verified,NC,754.0,46134247,2.0,1
+2015-08-01,C3,36 months,MORTGAGE,670.0,0.0,83.0,13.33,Individual,Verified,MI,674.0,58100127,9.0,1
+2014-07-01,D5,60 months,MORTGAGE,670.0,0.0,32.2,18.24,Individual,Source Verified,MN,674.0,19176985,7.0,0
+2015-07-01,E1,36 months,RENT,685.0,0.0,59.6,18.25,Individual,Source Verified,CA,689.0,55218370,7.0,0
+2015-04-01,C4,60 months,MORTGAGE,685.0,0.0,94.0,13.99,Individual,Source Verified,CA,689.0,46348917,8.0,1
+2015-08-01,C2,60 months,RENT,680.0,0.0,77.0,12.69,Individual,Verified,CA,684.0,56081204,1.0,1
+2016-02-01,C2,36 months,MORTGAGE,665.0,1.0,31.1,12.99,Individual,Verified,CA,669.0,70341803,11.0,1
+2016-04-01,B5,36 months,OWN,670.0,0.0,67.3,11.47,Individual,Verified,FL,674.0,76202370,0.0,1
+2015-12-01,B1,36 months,RENT,695.0,0.0,65.1,8.38,Individual,Source Verified,CA,699.0,67585749,0.0,1
+2014-04-01,C4,36 months,MORTGAGE,685.0,1.0,76.3,15.31,Individual,Verified,CA,689.0,14348568,11.0,1
+2014-08-01,B5,36 months,RENT,670.0,0.0,62.3,12.49,Individual,Not Verified,CA,674.0,23835851,4.0,1
+2016-04-01,A1,36 months,MORTGAGE,780.0,0.0,33.7,5.32,Individual,Not Verified,SC,784.0,76181769,7.0,1
+2016-03-01,B3,60 months,RENT,685.0,0.0,27.6,9.75,Individual,Not Verified,CA,689.0,75162053,2.0,1
+2015-09-01,B3,36 months,OWN,705.0,0.0,64.0,9.99,Individual,Source Verified,NY,709.0,60377151,11.0,1
+2015-11-01,B3,36 months,MORTGAGE,690.0,0.0,68.6,9.76,Individual,Source Verified,WA,694.0,65986310,11.0,1
+2015-04-01,A3,36 months,MORTGAGE,730.0,0.0,43.6,6.68,Individual,Not Verified,IL,734.0,44633263,2.0,1
+2015-12-01,B4,60 months,RENT,755.0,0.0,26.1,10.78,Individual,Source Verified,NY,759.0,66220405,11.0,1
+2015-05-01,A4,36 months,MORTGAGE,715.0,0.0,13.7,6.92,Individual,Source Verified,CA,719.0,48594958,2.0,1
+2016-03-01,B5,36 months,MORTGAGE,665.0,0.0,47.8,11.47,Individual,Not Verified,VA,669.0,75369482,11.0,0
+2016-02-01,C2,36 months,OWN,670.0,0.0,91.8,12.99,Individual,Verified,OK,674.0,71934796,5.0,1
+2014-05-01,B3,36 months,MORTGAGE,700.0,0.0,45.6,10.99,Individual,Not Verified,FL,704.0,16303088,2.0,1
+2015-05-01,A5,36 months,RENT,680.0,0.0,52.0,7.89,Individual,Verified,CA,684.0,47048283,11.0,1
+2015-08-01,C5,60 months,MORTGAGE,670.0,0.0,73.3,14.65,Individual,Source Verified,GA,674.0,57990355,5.0,1
+2015-10-01,D4,36 months,MORTGAGE,690.0,0.0,23.3,17.57,Individual,Verified,FL,694.0,62073274,9.0,1
+2014-06-01,B3,36 months,RENT,775.0,0.0,7.2,10.99,Individual,Not Verified,NY,779.0,17293256,9.0,1
+2014-11-01,B5,36 months,OWN,670.0,0.0,68.7,11.99,Individual,Not Verified,MD,674.0,34373834,5.0,1
+2014-03-01,E2,60 months,RENT,670.0,1.0,71.4,20.49,Individual,Source Verified,CA,674.0,12437583,7.0,0
+2016-03-01,A4,36 months,MORTGAGE,745.0,0.0,70.6,7.39,Individual,Not Verified,GA,749.0,75961838,11.0,1
+2016-02-01,C3,36 months,MORTGAGE,670.0,1.0,0.0,13.67,Individual,Source Verified,WV,674.0,71795449,11.0,1
+2014-05-01,B5,36 months,MORTGAGE,700.0,0.0,71.2,12.49,Individual,Source Verified,TX,704.0,8905842,9.0,1
+2016-01-01,C3,36 months,RENT,705.0,0.0,47.7,13.44,Individual,Source Verified,NY,709.0,69096426,0.0,0
+2014-10-01,C2,36 months,RENT,705.0,0.0,23.1,13.35,Individual,Verified,MN,709.0,30285828,0.0,1
+2015-12-01,F1,60 months,MORTGAGE,670.0,0.0,82.6,21.99,Individual,Source Verified,MD,674.0,67426259,7.0,1
+2014-06-01,E3,60 months,MORTGAGE,685.0,0.0,57.2,20.2,Individual,Verified,TX,689.0,18815013,4.0,1
+2015-04-01,C2,36 months,RENT,700.0,0.0,73.5,12.69,Individual,Source Verified,TX,704.0,46772306,3.0,1
+2016-02-01,C3,36 months,MORTGAGE,685.0,0.0,79.7,13.44,Joint App,Verified,MO,689.0,68864312,11.0,1
+2014-09-01,C1,36 months,RENT,700.0,0.0,75.3,12.99,Individual,Source Verified,NY,704.0,26730088,11.0,1
+2016-05-01,B2,36 months,MORTGAGE,660.0,0.0,77.9,9.16,Individual,Source Verified,PA,664.0,78240173,0.0,1
+2015-10-01,C1,36 months,MORTGAGE,705.0,0.0,64.9,12.29,Individual,Not Verified,CA,709.0,63496228,11.0,1
+2015-07-01,B4,36 months,OWN,765.0,0.0,18.9,10.99,Individual,Source Verified,RI,769.0,54197569,11.0,1
+2014-07-01,C3,60 months,RENT,690.0,0.0,68.4,13.98,Individual,Source Verified,OH,694.0,17734252,3.0,0
+2014-03-01,E4,36 months,OWN,680.0,1.0,30.5,21.99,Individual,Verified,MI,684.0,12987882,3.0,1
+2016-03-01,D1,36 months,RENT,685.0,0.0,48.4,16.29,Individual,Source Verified,TX,689.0,74685713,1.0,1
+2015-02-01,B2,36 months,MORTGAGE,690.0,0.0,111.7,9.49,Individual,Source Verified,OR,694.0,40167403,7.0,1
+2014-11-01,E3,60 months,MORTGAGE,690.0,0.0,33.0,19.99,Individual,Verified,NV,694.0,33240758,5.0,1
+2015-10-01,B3,36 months,RENT,660.0,0.0,55.0,9.99,Individual,Source Verified,NM,664.0,62297664,3.0,1
+2015-04-01,A4,36 months,OWN,745.0,0.0,23.6,6.92,Individual,Source Verified,MI,749.0,46436374,11.0,1
+2016-03-01,D1,60 months,OWN,670.0,1.0,63.0,16.29,Individual,Not Verified,ME,674.0,73903527,11.0,0
+2016-02-01,B5,36 months,MORTGAGE,690.0,0.0,89.9,11.47,Individual,Source Verified,AL,694.0,70912848,4.0,1
+2015-09-01,B1,60 months,MORTGAGE,690.0,0.0,77.5,8.18,Individual,Source Verified,IL,694.0,59179830,9.0,1
+2015-06-01,F4,60 months,MORTGAGE,675.0,0.0,55.4,24.99,Individual,Not Verified,MA,679.0,50637442,4.0,0
+2014-01-01,B4,36 months,OWN,715.0,0.0,29.4,12.85,Individual,Verified,FL,719.0,10103684,0.0,1
+2015-12-01,B1,36 months,RENT,740.0,0.0,15.9,8.38,Individual,Not Verified,PA,744.0,66076772,0.0,1
+2015-10-01,A4,36 months,MORTGAGE,715.0,0.0,37.8,7.26,Individual,Not Verified,WA,719.0,60974132,5.0,1
+2015-12-01,A1,36 months,MORTGAGE,690.0,0.0,56.9,5.32,Individual,Source Verified,TN,694.0,66180919,11.0,1
+2016-04-01,E1,36 months,RENT,690.0,1.0,41.9,19.99,Individual,Verified,NY,694.0,77555457,0.0,1
+2014-10-01,D1,36 months,RENT,665.0,1.0,63.0,15.61,Individual,Not Verified,CA,669.0,31557417,11.0,1
+2014-06-01,B2,36 months,RENT,675.0,1.0,46.6,10.15,Individual,Not Verified,NY,679.0,18955778,5.0,1
+2016-03-01,A1,36 months,RENT,755.0,0.0,23.9,5.32,Individual,Not Verified,NV,759.0,73479750,7.0,1
+2014-04-01,A4,36 months,MORTGAGE,730.0,0.0,47.8,7.9,Individual,Not Verified,MI,734.0,13057381,8.0,1
+2015-05-01,B4,36 months,RENT,685.0,0.0,89.9,10.99,Individual,Verified,CA,689.0,46849117,11.0,1
+2015-12-01,B3,36 months,RENT,695.0,0.0,23.1,9.99,Individual,Source Verified,NY,699.0,65757606,0.0,1
+2015-02-01,C4,36 months,MORTGAGE,675.0,0.0,98.8,13.99,Individual,Source Verified,OH,679.0,41039218,11.0,0
+2014-03-01,A3,36 months,MORTGAGE,725.0,0.0,34.1,7.62,Individual,Source Verified,GA,729.0,13108065,6.0,1
+2015-11-01,E1,60 months,MORTGAGE,725.0,0.0,53.6,18.2,Individual,Verified,MD,729.0,64069036,0.0,1
+2015-12-01,E2,60 months,RENT,665.0,0.0,38.4,18.49,Individual,Verified,RI,669.0,66015367,0.0,1
+2015-07-01,B1,36 months,RENT,685.0,0.0,63.0,8.18,Individual,Source Verified,GA,689.0,55261211,3.0,1
+2015-04-01,E1,36 months,RENT,670.0,0.0,65.8,18.25,Individual,Verified,TX,674.0,44905349,11.0,1
+2014-10-01,A5,36 months,MORTGAGE,685.0,0.0,48.1,8.39,Individual,Verified,NY,689.0,30225760,6.0,1
+2016-01-01,D5,36 months,MORTGAGE,715.0,0.0,84.2,18.49,Individual,Source Verified,TN,719.0,69483796,5.0,1
+2015-02-01,B4,60 months,RENT,700.0,0.0,63.1,11.44,Individual,Source Verified,CT,704.0,40491507,4.0,1
+2015-06-01,A2,36 months,MORTGAGE,685.0,0.0,97.4,6.24,Individual,Verified,NC,689.0,48274727,11.0,1
+2014-11-01,D4,60 months,RENT,705.0,0.0,49.4,17.14,Individual,Source Verified,AZ,709.0,33801665,9.0,1
+2015-10-01,B5,36 months,MORTGAGE,695.0,0.0,59.6,11.53,Individual,Verified,NY,699.0,63469132,0.0,1
+2014-10-01,A1,36 months,MORTGAGE,720.0,0.0,61.6,6.03,Individual,Source Verified,OH,724.0,29403951,11.0,1
+2015-10-01,B4,36 months,MORTGAGE,675.0,0.0,42.5,10.99,Individual,Source Verified,MO,679.0,62337159,11.0,1
+2016-01-01,D1,60 months,MORTGAGE,735.0,0.0,62.1,15.77,Individual,Source Verified,MA,739.0,69562645,5.0,1
+2016-04-01,A1,36 months,MORTGAGE,730.0,0.0,23.5,5.32,Individual,Not Verified,TX,734.0,76222604,4.0,1
+2015-07-01,C3,36 months,RENT,690.0,0.0,23.9,13.33,Individual,Source Verified,FL,694.0,54423995,8.0,1
+2015-07-01,E1,60 months,MORTGAGE,660.0,1.0,73.0,18.25,Individual,Verified,GA,664.0,53544747,11.0,1
+2015-12-01,A5,36 months,MORTGAGE,690.0,0.0,32.0,7.89,Individual,Source Verified,WI,694.0,66440123,5.0,1
+2015-03-01,B4,60 months,MORTGAGE,695.0,0.0,55.5,10.99,Individual,Verified,MD,699.0,41870384,2.0,1
+2014-10-01,B4,36 months,RENT,690.0,0.0,65.6,11.67,Individual,Not Verified,FL,694.0,31296869,11.0,1
+2015-01-01,B3,36 months,MORTGAGE,675.0,0.0,89.6,10.49,Individual,Not Verified,VA,679.0,38578313,5.0,1
+2015-07-01,C5,60 months,MORTGAGE,720.0,0.0,54.6,14.65,Individual,Source Verified,OH,724.0,54168400,3.0,1
+2015-11-01,D1,36 months,RENT,665.0,0.0,45.5,15.41,Individual,Verified,NY,669.0,65735587,0.0,1
+2015-04-01,D5,36 months,MORTGAGE,670.0,1.0,55.0,17.86,Individual,Verified,NV,674.0,46486219,1.0,1
+2016-03-01,C1,60 months,MORTGAGE,695.0,0.0,86.3,11.99,Individual,Not Verified,ID,699.0,75235304,11.0,1
+2015-06-01,B2,36 months,RENT,690.0,0.0,63.0,9.17,Individual,Source Verified,VA,694.0,49673193,1.0,1
+2014-05-01,C3,60 months,MORTGAGE,715.0,0.0,54.6,13.98,Individual,Source Verified,NJ,719.0,16302223,11.0,1
+2014-03-01,A3,36 months,OWN,715.0,0.0,90.9,7.62,Individual,Not Verified,TX,719.0,12458999,0.0,1
+2016-06-01,B2,36 months,MORTGAGE,685.0,0.0,40.7,9.16,Individual,Verified,GA,689.0,81367451,8.0,1
+2014-12-01,A3,36 months,MORTGAGE,690.0,1.0,20.7,6.99,Individual,Verified,TX,694.0,37711286,5.0,1
+2015-01-01,C3,36 months,MORTGAGE,675.0,0.0,60.7,13.66,Individual,Source Verified,CO,679.0,39330573,8.0,1
+2014-01-01,B4,36 months,MORTGAGE,690.0,0.0,64.4,12.85,Individual,Source Verified,WA,694.0,10634595,11.0,1
+2016-01-01,D1,36 months,MORTGAGE,690.0,0.0,102.3,15.77,Individual,Verified,TX,694.0,69902118,8.0,0
+2014-06-01,A3,36 months,MORTGAGE,745.0,0.0,43.4,7.12,Individual,Not Verified,WI,749.0,16462910,11.0,1
+2015-11-01,F1,60 months,MORTGAGE,660.0,1.0,27.7,21.99,Individual,Verified,CA,664.0,65442479,5.0,0
+2014-08-01,B2,36 months,RENT,665.0,1.0,63.6,10.15,Individual,Source Verified,UT,669.0,24094841,0.0,1
+2016-02-01,B3,60 months,MORTGAGE,760.0,0.0,21.7,9.75,Individual,Not Verified,TX,764.0,70896776,4.0,1
+2016-02-01,C3,36 months,MORTGAGE,725.0,0.0,57.8,13.67,Individual,Not Verified,NV,729.0,71062936,0.0,1
+2014-07-01,C2,60 months,RENT,680.0,0.0,53.5,13.35,Individual,Source Verified,VA,684.0,21740916,11.0,1
+2014-05-01,E1,60 months,RENT,685.0,0.0,95.3,18.99,Individual,Verified,FL,689.0,15700936,11.0,1
+2015-03-01,D1,36 months,RENT,675.0,1.0,21.9,15.61,Individual,Source Verified,NC,679.0,43550361,11.0,1
+2014-01-01,E3,60 months,MORTGAGE,675.0,0.0,56.4,22.4,Individual,Verified,GA,679.0,10604734,9.0,1
+2015-01-01,E2,60 months,MORTGAGE,665.0,0.0,87.0,19.24,Individual,Verified,MN,669.0,38506040,11.0,1
+2015-03-01,A2,36 months,MORTGAGE,680.0,1.0,33.2,6.39,Individual,Not Verified,NC,684.0,43540429,1.0,1
+2015-06-01,B3,36 months,RENT,670.0,0.0,100.4,9.99,Individual,Verified,NY,674.0,50910127,11.0,1
+2015-04-01,B2,36 months,MORTGAGE,690.0,2.0,28.2,9.17,Individual,Verified,MI,694.0,46377746,8.0,0
+2016-01-01,A5,36 months,OWN,695.0,0.0,62.7,7.91,Individual,Source Verified,NY,699.0,69493668,0.0,1
+2014-01-01,C2,60 months,MORTGAGE,700.0,0.0,80.4,14.47,Individual,Source Verified,AZ,704.0,10182196,11.0,1
+2016-06-01,C1,36 months,MORTGAGE,660.0,0.0,68.2,12.79,Individual,Not Verified,UT,664.0,84000561,0.0,1
+2015-03-01,C5,60 months,RENT,690.0,0.0,51.2,14.65,Individual,Source Verified,NV,694.0,42884506,1.0,0
+2015-04-01,D1,60 months,MORTGAGE,675.0,0.0,44.7,15.61,Individual,Not Verified,WI,679.0,46645220,11.0,1
+2015-10-01,B3,36 months,RENT,710.0,0.0,49.7,9.99,Individual,Verified,IL,714.0,63498380,5.0,1
+2016-06-01,A4,36 months,MORTGAGE,675.0,0.0,40.3,7.39,Individual,Source Verified,PA,679.0,79493154,11.0,1
+2016-04-01,B5,36 months,OWN,660.0,0.0,42.7,11.47,Individual,Source Verified,OH,664.0,77040182,4.0,0
+2014-05-01,D2,36 months,MORTGAGE,675.0,0.0,59.7,17.57,Individual,Not Verified,FL,679.0,15370482,0.0,0
+2015-01-01,B1,60 months,RENT,695.0,0.0,63.8,8.67,Individual,Source Verified,MD,699.0,38434883,0.0,1
+2014-09-01,C1,36 months,RENT,685.0,1.0,83.7,12.99,Individual,Source Verified,NY,689.0,26319873,11.0,0
+2014-06-01,E4,60 months,MORTGAGE,665.0,0.0,96.5,20.99,Individual,Source Verified,VA,669.0,17654703,7.0,1
+2015-10-01,A2,36 months,RENT,715.0,0.0,45.2,6.24,Individual,Verified,FL,719.0,62326973,11.0,1
+2014-11-01,D4,36 months,RENT,705.0,0.0,17.9,17.14,Individual,Verified,CA,709.0,34683304,0.0,0
+2015-10-01,B2,36 months,MORTGAGE,690.0,0.0,43.7,9.17,Individual,Source Verified,SC,694.0,62914209,11.0,1
+2015-05-01,A1,36 months,OWN,730.0,0.0,41.9,5.32,Individual,Not Verified,WI,734.0,49884140,4.0,1
+2016-02-01,A1,36 months,OWN,735.0,0.0,44.1,5.32,Individual,Not Verified,GA,739.0,69979677,0.0,1
+2016-02-01,C1,36 months,MORTGAGE,670.0,0.0,93.3,11.99,Individual,Not Verified,RI,674.0,70904425,11.0,1
+2014-06-01,C2,36 months,RENT,700.0,0.0,38.2,13.35,Individual,Source Verified,FL,704.0,18625572,5.0,1
+2015-10-01,D2,36 months,RENT,670.0,0.0,46.5,16.55,Individual,Not Verified,AZ,674.0,63174905,0.0,0
+2014-09-01,B5,60 months,MORTGAGE,700.0,0.0,74.3,12.49,Individual,Verified,NM,704.0,28142441,11.0,1
+2015-08-01,B3,36 months,MORTGAGE,670.0,0.0,96.2,9.99,Individual,Verified,MI,674.0,56001231,11.0,1
+2015-01-01,C2,36 months,OWN,665.0,1.0,40.7,12.99,Individual,Verified,CA,669.0,38700485,11.0,1
+2015-07-01,D5,36 months,MORTGAGE,685.0,0.0,46.8,17.86,Individual,Not Verified,FL,689.0,53484636,1.0,1
+2014-02-01,C1,36 months,RENT,665.0,1.0,32.8,13.98,Individual,Source Verified,CT,669.0,11674902,11.0,1
+2016-04-01,D2,36 months,OWN,710.0,0.0,63.4,17.27,Individual,Not Verified,MT,714.0,76422925,11.0,1
+2016-05-01,D1,36 months,RENT,670.0,0.0,27.2,16.29,Individual,Source Verified,FL,674.0,79925464,9.0,1
+2014-10-01,E1,36 months,MORTGAGE,660.0,0.0,91.0,18.99,Individual,Verified,WY,664.0,31727784,2.0,1
+2016-01-01,A5,36 months,MORTGAGE,700.0,0.0,13.7,7.91,Individual,Not Verified,FL,704.0,69483304,5.0,1
+2015-02-01,C3,36 months,RENT,740.0,0.0,22.5,13.33,Individual,Verified,OH,744.0,41960595,2.0,1
+2014-07-01,B3,36 months,RENT,665.0,0.0,60.3,10.99,Individual,Not Verified,FL,669.0,12695965,11.0,1
+2015-04-01,A5,36 months,MORTGAGE,715.0,0.0,30.6,7.89,Individual,Verified,PA,719.0,45049856,2.0,1
+2014-02-01,B2,36 months,RENT,710.0,0.0,67.6,10.99,Individual,Source Verified,TX,714.0,11357434,2.0,1
+2015-01-01,D2,60 months,MORTGAGE,660.0,0.0,49.7,15.99,Individual,Verified,FL,664.0,38222335,5.0,1
+2014-04-01,B5,36 months,OWN,665.0,1.0,43.6,12.99,Individual,Source Verified,AZ,669.0,13097162,2.0,1
+2014-07-01,C5,36 months,RENT,660.0,0.0,87.5,14.99,Individual,Not Verified,GA,664.0,19736721,5.0,1
+2015-05-01,B5,36 months,MORTGAGE,660.0,1.0,65.8,11.53,Individual,Not Verified,WV,664.0,48717409,2.0,0
+2015-07-01,C3,36 months,MORTGAGE,700.0,0.0,71.0,13.33,Individual,Verified,TX,704.0,55270680,5.0,1
+2014-07-01,B1,36 months,MORTGAGE,715.0,0.0,31.0,9.17,Individual,Not Verified,FL,719.0,22221345,3.0,1
+2014-09-01,B5,36 months,MORTGAGE,665.0,0.0,51.4,12.49,Individual,Verified,AZ,669.0,26299113,11.0,1
+2014-10-01,A5,36 months,MORTGAGE,705.0,1.0,45.5,8.39,Individual,Verified,MI,709.0,31667226,0.0,1
+2015-05-01,C4,36 months,MORTGAGE,660.0,1.0,62.3,13.99,Individual,Not Verified,MS,664.0,48715502,4.0,1
+2014-10-01,F1,36 months,MORTGAGE,705.0,0.0,70.8,23.43,Individual,Verified,CA,709.0,29183790,4.0,0
+2015-09-01,B5,36 months,RENT,660.0,0.0,73.0,11.53,Individual,Not Verified,WI,664.0,60636178,3.0,1
+2015-05-01,C3,36 months,RENT,670.0,0.0,85.0,13.33,Individual,Not Verified,CA,674.0,49773978,11.0,1
+2014-01-01,C1,36 months,RENT,660.0,0.0,72.9,13.98,Individual,Not Verified,CA,664.0,10586478,5.0,1
+2015-09-01,B2,36 months,RENT,685.0,1.0,63.1,9.17,Individual,Not Verified,GA,689.0,60327069,0.0,1
+2015-11-01,B1,36 months,MORTGAGE,665.0,0.0,66.0,8.18,Individual,Not Verified,WA,669.0,65805419,4.0,1
+2014-11-01,F4,60 months,OWN,670.0,0.0,72.3,24.99,Individual,Source Verified,HI,674.0,33351735,9.0,0
+2015-07-01,A2,36 months,MORTGAGE,805.0,0.0,4.6,6.24,Individual,Source Verified,NC,809.0,52526322,11.0,1
+2014-07-01,D1,36 months,MORTGAGE,695.0,0.0,52.3,15.61,Individual,Not Verified,FL,699.0,20028720,7.0,1
+2015-09-01,B1,36 months,RENT,680.0,2.0,52.7,8.18,Individual,Not Verified,CA,684.0,59522527,11.0,1
+2014-04-01,A3,36 months,MORTGAGE,710.0,0.0,68.2,7.62,Individual,Not Verified,OR,714.0,13366755,7.0,1
+2016-06-01,A1,36 months,MORTGAGE,815.0,0.0,9.8,5.32,Individual,Source Verified,CA,819.0,81332826,2.0,1
+2015-12-01,C1,36 months,MORTGAGE,680.0,0.0,100.5,11.99,Individual,Verified,TX,684.0,67306150,11.0,1
+2015-08-01,E1,60 months,RENT,700.0,0.0,78.7,18.25,Individual,Source Verified,NY,704.0,57326795,11.0,0
+2014-11-01,B2,36 months,RENT,660.0,2.0,53.0,10.15,Individual,Verified,AL,664.0,32289795,5.0,1
+2016-01-01,B1,36 months,MORTGAGE,665.0,0.0,73.6,8.49,Individual,Not Verified,MS,669.0,70026193,9.0,1
+2016-06-01,B5,36 months,OWN,685.0,0.0,55.3,11.49,Individual,Verified,CA,689.0,81641436,0.0,1
+2016-02-01,B5,36 months,MORTGAGE,660.0,0.0,95.1,11.47,Individual,Verified,CA,664.0,71056992,11.0,1
+2014-10-01,B3,36 months,OWN,695.0,0.0,87.5,10.99,Individual,Verified,MN,699.0,33110381,0.0,0
+2015-03-01,D2,60 months,RENT,685.0,0.0,23.7,16.55,Individual,Source Verified,SC,689.0,42733302,2.0,0
+2015-02-01,B1,36 months,MORTGAGE,670.0,1.0,9.5,8.67,Individual,Not Verified,MD,674.0,40561726,2.0,1
+2015-02-01,C1,36 months,MORTGAGE,665.0,1.0,65.4,12.29,Individual,Source Verified,OH,669.0,41130755,3.0,1
+2016-03-01,B4,36 months,MORTGAGE,705.0,0.0,35.9,10.75,Individual,Source Verified,LA,709.0,75860187,11.0,1
+2015-06-01,C3,36 months,MORTGAGE,670.0,0.0,38.7,13.33,Individual,Source Verified,AR,674.0,51235174,11.0,1
+2015-10-01,A5,60 months,MORTGAGE,790.0,0.0,10.9,7.89,Individual,Not Verified,MA,794.0,61481844,11.0,1
+2015-10-01,B1,36 months,RENT,700.0,0.0,35.6,8.18,Individual,Not Verified,NY,704.0,63247226,5.0,1
+2015-10-01,C1,36 months,MORTGAGE,665.0,0.0,59.9,12.29,Individual,Source Verified,NY,669.0,62704598,1.0,1
+2015-12-01,F5,36 months,MORTGAGE,680.0,1.0,39.1,25.99,Individual,Verified,NY,684.0,66574154,11.0,1
+2015-02-01,D5,36 months,RENT,665.0,0.0,55.6,17.86,Individual,Verified,FL,669.0,41276929,7.0,0
+2016-06-01,B5,60 months,MORTGAGE,670.0,0.0,79.0,11.47,Individual,Source Verified,AL,674.0,81533555,9.0,0
+2016-06-01,C3,60 months,OWN,685.0,0.0,47.4,13.67,Individual,Verified,TX,689.0,79875574,2.0,1
+2015-08-01,G2,60 months,MORTGAGE,670.0,1.0,17.6,27.31,Individual,Source Verified,AZ,674.0,55991180,11.0,1
+2015-11-01,B5,36 months,MORTGAGE,660.0,1.0,16.5,11.49,Individual,Source Verified,NY,664.0,65735833,0.0,1
+2014-03-01,C4,60 months,MORTGAGE,725.0,0.0,84.6,15.31,Individual,Verified,CA,729.0,12586020,4.0,1
+2014-10-01,C4,36 months,RENT,695.0,0.0,95.9,14.49,Individual,Source Verified,AZ,699.0,32330211,0.0,1
+2014-05-01,A2,36 months,RENT,680.0,0.0,63.4,6.49,Individual,Not Verified,CA,684.0,16191348,5.0,1
+2014-10-01,C1,36 months,RENT,700.0,0.0,64.5,12.99,Individual,Verified,NY,704.0,29284342,1.0,1
+2014-05-01,A2,36 months,RENT,680.0,0.0,54.2,6.49,Individual,Source Verified,CA,684.0,16411395,0.0,1
+2016-03-01,E4,60 months,MORTGAGE,705.0,0.0,98.7,21.97,Individual,Not Verified,DE,709.0,74611214,11.0,1
+2014-10-01,B2,36 months,OWN,680.0,0.0,54.5,10.15,Individual,Not Verified,CT,684.0,28963971,11.0,1
+2014-10-01,A4,36 months,RENT,705.0,0.0,34.6,7.69,Individual,Not Verified,PA,709.0,32500076,2.0,0
+2014-05-01,B1,36 months,MORTGAGE,770.0,0.0,9.4,9.67,Individual,Source Verified,CA,774.0,15750421,7.0,1
+2015-07-01,E3,36 months,RENT,675.0,0.0,63.0,19.19,Individual,Verified,CA,679.0,55340595,4.0,0
+2014-08-01,C1,60 months,OWN,725.0,0.0,45.0,12.99,Individual,Source Verified,TX,729.0,24785264,3.0,0
+2015-11-01,C1,36 months,OWN,695.0,0.0,63.6,12.05,Individual,Not Verified,KS,699.0,64250337,1.0,1
+2014-01-01,C1,36 months,MORTGAGE,665.0,1.0,59.9,13.98,Individual,Source Verified,GA,669.0,10577289,2.0,1
+2014-11-01,E2,60 months,RENT,670.0,0.0,90.2,19.24,Individual,Source Verified,PA,674.0,36048140,2.0,1
+2016-03-01,A1,36 months,MORTGAGE,840.0,0.0,5.1,5.32,Individual,Not Verified,TX,844.0,74806161,11.0,1
+2016-01-01,G5,60 months,RENT,660.0,0.0,84.6,28.99,Individual,Verified,CA,664.0,70111519,11.0,0
+2014-03-01,C2,36 months,MORTGAGE,690.0,0.0,62.4,14.16,Individual,Verified,OK,694.0,11905077,3.0,1
+2016-03-01,C3,36 months,MORTGAGE,675.0,0.0,91.3,13.67,Individual,Verified,IL,679.0,73935831,0.0,0
+2015-10-01,E3,36 months,RENT,700.0,0.0,14.6,19.19,Individual,Verified,FL,704.0,60774538,5.0,1
+2015-12-01,C4,60 months,MORTGAGE,660.0,0.0,90.8,13.67,Individual,Verified,TX,664.0,67909914,0.0,1
+2015-07-01,A3,36 months,RENT,690.0,0.0,80.7,6.89,Individual,Not Verified,TX,694.0,55401078,7.0,1
+2015-03-01,C1,36 months,MORTGAGE,685.0,0.0,78.8,12.29,Individual,Source Verified,WV,689.0,43420521,11.0,1
+2015-12-01,C4,60 months,MORTGAGE,695.0,0.0,69.6,13.67,Individual,Verified,CT,699.0,68018192,6.0,0
+2015-11-01,C3,36 months,RENT,675.0,0.0,75.5,13.18,Individual,Source Verified,CA,679.0,65402679,4.0,1
+2014-06-01,C1,36 months,MORTGAGE,685.0,0.0,78.9,12.99,Individual,Verified,IL,689.0,17863993,11.0,1
+2014-08-01,A1,36 months,MORTGAGE,795.0,0.0,19.1,6.03,Individual,Source Verified,PA,799.0,892579,5.0,1
+2015-12-01,B4,36 months,RENT,700.0,0.0,92.3,10.64,Individual,Verified,NY,704.0,66410304,11.0,1
+2014-11-01,C3,36 months,MORTGAGE,715.0,0.0,83.4,13.66,Individual,Source Verified,TX,719.0,33390612,1.0,1
+2016-04-01,B5,60 months,MORTGAGE,745.0,0.0,33.4,11.47,Individual,Not Verified,MN,749.0,76314934,0.0,1
+2016-06-01,D2,36 months,OWN,665.0,0.0,84.0,17.99,Individual,Source Verified,WI,669.0,82749202,3.0,0
+2014-05-01,D1,36 months,MORTGAGE,725.0,0.0,74.9,15.61,Individual,Verified,AK,729.0,16091544,8.0,1
+2014-06-01,B3,36 months,RENT,675.0,0.0,81.7,10.99,Individual,Not Verified,FL,679.0,17804975,3.0,0
+2016-03-01,B3,36 months,RENT,670.0,0.0,34.4,9.75,Joint App,Not Verified,CO,674.0,75488668,3.0,1
+2015-11-01,B4,36 months,OWN,660.0,0.0,45.1,10.99,Individual,Not Verified,CA,664.0,63999179,5.0,1
+2015-05-01,B5,36 months,MORTGAGE,740.0,0.0,73.0,11.53,Individual,Source Verified,WV,744.0,49208019,1.0,1
+2015-12-01,A4,36 months,OWN,730.0,1.0,16.9,7.26,Individual,Not Verified,AL,734.0,66405443,11.0,1
+2014-03-01,C5,36 months,MORTGAGE,690.0,1.0,86.6,15.61,Individual,Verified,VA,694.0,11685494,1.0,1
+2014-05-01,B1,36 months,OWN,710.0,0.0,38.5,9.17,Individual,Not Verified,RI,714.0,16291947,7.0,1
+2016-05-01,F2,60 months,MORTGAGE,695.0,0.0,100.9,25.44,Individual,Not Verified,GA,699.0,78349223,6.0,0
+2014-07-01,B5,36 months,RENT,665.0,1.0,36.9,12.49,Individual,Not Verified,FL,669.0,21280282,11.0,1
+2015-12-01,A1,36 months,RENT,720.0,0.0,24.2,5.32,Individual,Not Verified,GA,724.0,67418620,2.0,1
+2016-03-01,A5,36 months,RENT,730.0,0.0,5.5,7.89,Individual,Not Verified,CO,734.0,73324291,4.0,1
+2016-04-01,E4,36 months,MORTGAGE,705.0,0.0,55.8,21.97,Individual,Source Verified,OH,709.0,76435648,5.0,0
+2015-07-01,A2,36 months,MORTGAGE,695.0,0.0,28.7,6.24,Individual,Not Verified,FL,699.0,54534166,11.0,1
+2015-01-01,A3,36 months,MORTGAGE,740.0,0.0,32.4,6.99,Individual,Not Verified,CO,744.0,37782042,3.0,1
+2014-08-01,F1,60 months,RENT,705.0,0.0,77.6,23.43,Individual,Verified,AL,709.0,22333057,9.0,1
+2015-12-01,B4,36 months,MORTGAGE,670.0,0.0,68.4,10.64,Individual,Source Verified,OR,674.0,67989140,5.0,1
+2014-03-01,B5,36 months,RENT,670.0,2.0,57.4,12.99,Individual,Source Verified,CA,674.0,12918445,2.0,1
+2014-11-01,B1,36 months,RENT,710.0,0.0,64.1,9.17,Individual,Source Verified,WA,714.0,33320127,1.0,0
+2014-04-01,B4,36 months,OWN,685.0,0.0,57.9,12.49,Individual,Verified,GA,689.0,13237061,5.0,1
+2015-10-01,B1,36 months,RENT,710.0,0.0,30.7,8.18,Individual,Source Verified,CA,714.0,61431396,1.0,1
+2015-05-01,B1,60 months,MORTGAGE,715.0,0.0,44.0,8.18,Individual,Verified,FL,719.0,48364180,0.0,1
+2014-06-01,B2,36 months,MORTGAGE,745.0,0.0,81.9,10.15,Individual,Verified,CA,749.0,19446114,2.0,1
+2015-11-01,G2,60 months,OWN,660.0,1.0,65.4,27.31,Individual,Source Verified,VA,664.0,63529083,5.0,0
+2014-04-01,B3,36 months,MORTGAGE,675.0,0.0,61.7,11.99,Individual,Source Verified,MI,679.0,14630891,9.0,1
+2015-05-01,D2,36 months,RENT,665.0,0.0,93.6,16.55,Individual,Not Verified,IL,669.0,48606516,5.0,1
+2015-04-01,C5,36 months,OWN,670.0,0.0,71.9,14.65,Individual,Source Verified,FL,674.0,43947205,5.0,0
+2014-10-01,A5,60 months,RENT,775.0,0.0,5.4,8.39,Individual,Verified,PA,779.0,30315075,2.0,1
+2014-04-01,C4,60 months,MORTGAGE,695.0,0.0,69.4,15.31,Individual,Not Verified,CA,699.0,14368185,6.0,1
+2016-02-01,E1,36 months,RENT,710.0,0.0,46.1,19.99,Individual,Verified,IL,714.0,69484553,5.0,0
+2015-05-01,C3,36 months,RENT,690.0,0.0,40.4,13.33,Individual,Source Verified,CA,694.0,49513241,11.0,1
+2015-12-01,C1,36 months,RENT,675.0,0.0,49.3,11.99,Individual,Verified,IN,679.0,68535736,0.0,0
+2015-07-01,C1,36 months,MORTGAGE,705.0,0.0,90.0,12.29,Individual,Verified,IL,709.0,53051772,11.0,1
+2015-06-01,A2,36 months,RENT,710.0,0.0,83.6,6.24,Individual,Source Verified,MD,714.0,51076074,11.0,1
+2016-01-01,B2,60 months,MORTGAGE,690.0,0.0,15.6,9.17,Individual,Source Verified,PA,694.0,69156528,4.0,1
+2015-11-01,C1,60 months,RENT,665.0,0.0,48.2,12.05,Individual,Not Verified,CA,669.0,63651837,11.0,0
+2015-01-01,D2,36 months,RENT,660.0,0.0,76.0,15.99,Individual,Verified,MO,664.0,39339956,0.0,1
+2015-11-01,B1,36 months,MORTGAGE,675.0,0.0,88.7,8.18,Individual,Source Verified,WI,679.0,65773467,3.0,1
+2016-03-01,C5,36 months,RENT,760.0,0.0,20.4,15.31,Individual,Source Verified,NY,764.0,73440608,0.0,1
+2015-04-01,F3,60 months,MORTGAGE,780.0,0.0,93.8,24.5,Individual,Source Verified,VA,784.0,44127058,11.0,0
+2015-11-01,E2,36 months,RENT,665.0,1.0,48.8,18.55,Individual,Source Verified,OH,669.0,61354734,0.0,0
+2014-11-01,B1,36 months,OWN,665.0,1.0,85.3,8.67,Individual,Source Verified,GA,669.0,34613575,11.0,1
+2016-04-01,C5,36 months,MORTGAGE,715.0,0.0,29.7,15.31,Individual,Source Verified,OR,719.0,75800724,11.0,1
+2014-10-01,E2,60 months,MORTGAGE,690.0,1.0,75.2,19.52,Individual,Source Verified,TX,694.0,28222089,4.0,1
+2015-10-01,A3,36 months,MORTGAGE,700.0,0.0,45.5,6.89,Individual,Verified,OR,704.0,63398727,11.0,1
+2016-01-01,B1,36 months,RENT,720.0,0.0,76.8,8.49,Individual,Not Verified,MA,724.0,68063781,0.0,1
+2015-04-01,C1,36 months,RENT,700.0,0.0,66.6,12.29,Individual,Source Verified,NC,704.0,45050357,1.0,1
+2014-10-01,B2,36 months,MORTGAGE,685.0,0.0,87.6,10.15,Individual,Not Verified,NY,689.0,32949992,11.0,1
+2014-04-01,C3,60 months,RENT,695.0,0.0,70.5,14.64,Individual,Source Verified,CA,699.0,14609810,11.0,0
+2014-03-01,F3,36 months,RENT,665.0,0.0,30.9,24.5,Individual,Not Verified,CA,669.0,13007186,6.0,0
+2014-05-01,F1,36 months,RENT,660.0,0.0,61.8,23.43,Individual,Source Verified,NY,664.0,16100828,8.0,0
+2015-08-01,A5,36 months,RENT,705.0,1.0,61.9,7.89,Individual,Not Verified,AZ,709.0,59110693,5.0,1
+2015-12-01,D2,36 months,MORTGAGE,700.0,0.0,79.7,16.55,Individual,Verified,TN,704.0,66625887,4.0,1
+2015-11-01,B3,36 months,MORTGAGE,710.0,0.0,53.0,9.99,Individual,Verified,RI,714.0,65741256,0.0,1
+2014-11-01,C2,36 months,RENT,705.0,0.0,77.0,12.99,Individual,Source Verified,CA,709.0,32218211,11.0,0
+2014-11-01,E3,60 months,RENT,680.0,1.0,66.2,20.2,Individual,Source Verified,MT,684.0,33019825,8.0,0
+2014-03-01,E1,36 months,RENT,705.0,0.0,36.1,19.99,Individual,Source Verified,IL,709.0,12297164,8.0,1
+2016-01-01,C4,36 months,MORTGAGE,675.0,0.0,67.2,13.99,Individual,Source Verified,NH,679.0,69176726,11.0,1
+2016-02-01,C1,60 months,RENT,700.0,1.0,33.7,11.99,Individual,Verified,NY,704.0,71926621,4.0,0
+2015-05-01,D4,36 months,RENT,660.0,0.0,55.6,17.57,Individual,Source Verified,NY,664.0,49964151,7.0,1
+2015-12-01,B1,36 months,MORTGAGE,690.0,0.0,81.2,8.38,Individual,Verified,MI,694.0,67918851,11.0,1
+2016-03-01,C1,36 months,MORTGAGE,690.0,0.0,84.7,11.99,Individual,Verified,TX,694.0,73904965,2.0,0
+2016-02-01,D5,60 months,MORTGAGE,745.0,0.0,30.4,19.53,Individual,Source Verified,IL,749.0,70912226,11.0,1
+2014-03-01,B1,36 months,RENT,675.0,1.0,73.9,9.67,Individual,Verified,NJ,679.0,12766194,0.0,0
+2015-05-01,C5,36 months,OWN,700.0,0.0,70.4,14.65,Individual,Source Verified,TX,704.0,48181518,1.0,1
+2014-11-01,B3,36 months,RENT,690.0,0.0,37.3,10.49,Individual,Not Verified,CA,694.0,35853218,2.0,1
+2015-04-01,E1,60 months,RENT,715.0,0.0,49.4,18.25,Individual,Verified,CA,719.0,46324745,3.0,0
+2014-06-01,D5,60 months,RENT,690.0,0.0,67.8,18.24,Individual,Verified,CO,694.0,17283531,0.0,0
+2015-02-01,E3,36 months,RENT,660.0,4.0,8.0,19.99,Individual,Source Verified,NY,664.0,40550697,1.0,0
+2016-02-01,A2,36 months,RENT,720.0,0.0,25.4,6.49,Individual,Not Verified,FL,724.0,72683294,9.0,1
+2016-02-01,C1,36 months,MORTGAGE,660.0,0.0,83.6,11.99,Individual,Source Verified,GA,664.0,71835374,0.0,1
+2016-02-01,B2,36 months,MORTGAGE,705.0,0.0,59.5,9.16,Individual,Not Verified,AL,709.0,70582545,4.0,1
+2015-01-01,B2,36 months,RENT,665.0,0.0,48.4,9.49,Individual,Not Verified,CA,669.0,39340708,1.0,1
+2015-04-01,D3,60 months,MORTGAGE,715.0,0.0,99.6,16.99,Individual,Not Verified,WA,719.0,44369790,11.0,0
+2015-12-01,A5,36 months,MORTGAGE,735.0,0.0,93.2,7.89,Individual,Not Verified,PA,739.0,65597231,6.0,1
+2015-06-01,B1,36 months,RENT,690.0,0.0,38.7,8.18,Individual,Not Verified,LA,694.0,50869306,8.0,1
+2015-07-01,A5,36 months,MORTGAGE,730.0,0.0,68.8,7.89,Individual,Not Verified,IN,734.0,55987833,0.0,1

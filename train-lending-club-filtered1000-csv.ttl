@@ -1,9 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix fibo_loan: <https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix fibo_loan: <https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications#> .
+@prefix wiki: <https://www.wikidata.org/wiki#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix fibo: <https://spec.edmcouncil.org/fibo/ontology> .
+@prefix fibo: <https://spec.edmcouncil.org/fibo/ontology#> .
 <http://localhost:3333/0> a fibo_loan:LoanApplication;
 owl:hasKey "65180191"^^<http://www.w3.org/2001/XMLSchema#int>;
 wiki:Q26726966 "2015-11-01T00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;

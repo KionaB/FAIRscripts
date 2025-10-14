@@ -1,0 +1,170 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+
+ex:Requester            a rdfs:Class .
+ex:Loan_Application     a rdfs:Class .
+
+ex:RequesterShape a sh:NodeShape ;
+	sh:targetClass ex:Requester ;
+	sh:name "Applicant" ;
+	sh:property [
+		sh:path ex:home_ownership ;
+		sh:name "Home ownership type" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:string ;
+		sh:in (
+			"MORTGAGE"
+			"OWN"
+			"RENT"
+		) ;
+	], [
+		sh:path ex:employment_length ;
+		sh:name "Total employment duration in years" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+		sh:minInclusive 0 ;
+	], [
+		sh:path ex:fico_min ;
+		sh:name "Minimum fico value" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+		sh:minInclusive 300 ;
+		sh:maxInclusive 850 ;
+	], [
+		sh:path ex:fico_max ;
+		sh:name "Maximum fico value" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+		sh:minInclusive 300 ;
+		sh:maxInclusive 850 ;
+	], [
+		sh:path ex:state ;
+		sh:name "Address state" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:string ;
+	], [
+		sh:path ex:public_record_count ;
+		sh:name "Number of public records" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+		sh:minInclusive 0 ;
+	], [
+		sh:path ex:requester ;
+		sh:name "Application" ;
+		sh:minCount 1 ;
+		sh:nodeKind sh:IRI ;
+		sh:class ex:Loan_Application ;
+	] .
+
+ex:LoanApplicationShape a sh:NodeShape ;
+	sh:targetClass ex:Loan_Application ;
+	sh:name "Loan application" ;
+	sh:property [
+		sh:path schema:IRI ;
+		sh:name "Application ID" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+	], [
+		sh:path ex:issue_date ;
+		sh:name "Loan issue date" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:date ;
+	], [
+		sh:path ex:verification_status ;
+		sh:name "Verification status" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:string ;
+		sh:in (
+			"Not Verified"
+			"Source Verified"
+			"Verified"
+		) ;
+	], [
+		sh:path ex:loan_status ;
+		sh:name "Loan approval status" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:boolean ;
+	], [
+		sh:path ex:application_type ;
+		sh:name "Loan application type" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:string ;
+		sh:in (
+			"Individual"
+			"Joint App"
+		) ;
+	], [
+		sh:path ex:term ;
+		sh:name "Loan term" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:integer ;
+		sh:minInclusive 1 ;
+	], [
+		sh:path ex:interest_rate ;
+		sh:name "Loan interest rate" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:decimal ;
+		sh:minInclusive "0.0"^^xsd:decimal ;
+		sh:maxInclusive "1.0"^^xsd:decimal ;
+	], [
+		sh:path ex:sub_grade ;
+		sh:name "Loan sub-grade" ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:datatype xsd:string ;
+		sh:in (
+			"A1"
+			"A2"
+			"A3"
+			"A4"
+			"A5"
+			"B1"
+			"B2"
+			"B3"
+			"B4"
+			"B5"
+			"C1"
+			"C2"
+			"C3"
+			"C4"
+			"C5"
+			"D1"
+			"D2"
+			"D3"
+			"D4"
+			"D5"
+			"E1"
+			"E2"
+			"E3"
+			"E4"
+			"E5"
+			"F1"
+			"F2"
+			"F3"
+			"F4"
+			"F5"
+			"G1"
+			"G2"
+			"G3"
+			"G4"
+			"G5"
+		) ;
+	] .
+
+

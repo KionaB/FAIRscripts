@@ -30,5 +30,7 @@ unique_sample =find_unique_vals(df_sample.copy())
 for key in unique_ori.keys():
     print(key +"_original: " + str(len(unique_ori[key])))
     print(key + "_sample: " + str(len(unique_sample[key])))
+
+print(unique_ori)
 #Write DataFrame to CSV
-df_sample.to_csv('train-lending-club-filtered1000.csv', index=False)
+# df_sample.to_csv('train-lending-club-filtered1000.csv', index=False)

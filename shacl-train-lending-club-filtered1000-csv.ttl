@@ -51,7 +51,7 @@ ex:RequesterShape a sh:NodeShape ;
 		sh:minInclusive 300 ;
 		sh:maxInclusive 850 ;
 	], [
-		sh:path wiki:Q852446 ;
+		sh:path wiki:319608 ;
 		sh:name "Address state" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
@@ -114,62 +114,60 @@ ex:LoanApplicationShape a sh:NodeShape ;
 			"Joint App"
 		) ;
 	], [
-		sh:path <fibo:FND/Agreements/Contracts/hasContractDuration> ;
+		sh:path <https://spec.edmcouncil.org/fibo/ontologyFND/Agreements/Contracts/hasContractDuration> ;
 		sh:name "Loan term" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:datatype xsd:int ;
 		sh:minInclusive 1 ;
 	], [
-		sh:path <fibo:FBC/DebtAndEquities/Debt/hasInterestRate> ;
+		sh:path <https://spec.edmcouncil.org/fibo/ontologyFBC/DebtAndEquities/Debt/hasInterestRate> ;
 		sh:name "Loan interest rate" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:decimal ;
-		sh:minInclusive "0.0"^^xsd:decimal ;
-		sh:maxInclusive "1.0"^^xsd:decimal ;
+		sh:datatype xsd:double ;
+		sh:minInclusive "0.0"^^xsd:double ;
 	], [
-		sh:path <fibo:FBC/DebtAndEquities/CreditRatings/CreditRatingScale?version=master/2025Q2> ;
+		sh:path <https://spec.edmcouncil.org/fibo/ontologyFND/Arrangements/Ratings/RatingScore> ;
 		sh:name "Loan sub-grade" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:string ;
 		sh:in (
-			"A1"
-			"A2"
-			"A3"
-			"A4"
-			"A5"
-			"B1"
-			"B2"
-			"B3"
-			"B4"
-			"B5"
-			"C1"
-			"C2"
-			"C3"
-			"C4"
-			"C5"
-			"D1"
-			"D2"
-			"D3"
-			"D4"
-			"D5"
-			"E1"
-			"E2"
-			"E3"
-			"E4"
-			"E5"
-			"F1"
-			"F2"
-			"F3"
-			"F4"
-			"F5"
-			"G1"
-			"G2"
-			"G3"
-			"G4"
-			"G5"
+			local:A1
+			local:A2
+			local:A3
+			local:A4
+			local:A5
+			local:B1
+			local:B2
+			local:B3
+			local:B4
+			local:B5
+			local:C1
+			local:C2
+			local:C3
+			local:C4
+			local:C5
+			local:D1
+			local:D2
+			local:D3
+			local:D4
+			local:D5
+			local:E1
+			local:E2
+			local:E3
+			local:E4
+			local:E5
+			local:F1
+			local:F2
+			local:F3
+			local:F4
+			local:F5
+			local:G1
+			local:G2
+			local:G3
+			local:G4
+			local:G5
 		) ;
 	] .
 

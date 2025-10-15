@@ -1,5 +1,3 @@
-from venv import logger
-
 from pyshacl import validate
 import logging
 
@@ -12,18 +10,18 @@ logging.basicConfig(filename='validation.log',
                     level=logging.DEBUG)
 
 r = validate(data_graph,
-      shacl_graph=shacl_graph,
-      ont_graph=ont_graph,
-      inference='rdfs',
-      abort_on_first=False,
-      allow_infos=False,
-      allow_warnings=False,
-      meta_shacl=False,
-      advanced=False,
-      js=False,
-      debug=False)
+             shacl_graph=shacl_graph,
+             ont_graph=ont_graph,
+             inference='rdfs',
+             abort_on_first=False,
+             allow_infos=False,
+             allow_warnings=False,
+             meta_shacl=False,
+             advanced=False,
+             js=False,
+             debug=False)
 conforms, results_graph, results_text = r
 
 logging.info(str(conforms))
-logging.debug(str(results_graph))
+logging.info(str(results_graph))
 logging.debug(str(results_text))

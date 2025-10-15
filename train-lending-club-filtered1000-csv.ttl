@@ -10,8 +10,8 @@ wiki:Q26726966 "2015-11-01T00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
 <http://localhost:3333/isVerified> "Not Verified";
 fibo_loan:LoanApplicationStatus "1"^^<http://www.w3.org/2001/XMLSchema#boolean>;
 <http://localhost:3333/isOfType> "Individual";
-<https://spec.edmcouncil.org/fibo/ontologyFND/Agreements/Contracts/hasContractDuration> "36"^^<http://www.w3.org/2001/XMLSchema#int>;
-<https://spec.edmcouncil.org/fibo/ontologyFBC/DebtAndEquities/Debt/hasInterestRate> "5.32"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractDuration> "36"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate> "5.32"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://localhost:3333/A1> a <fibo:FBC/DebtAndEquities/CreditRatings/CreditRatingScale?version=master/2025Q2>;
 <https://spec.edmcouncil.org/fibo/ontologyFBC/DebtAndEquities/Debt/isBasedOn> "8"^^<http://www.w3.org/2001/XMLSchema#int>,"MORTGAGE","0"^^<http://www.w3.org/2001/XMLSchema#int>,"725"^^<http://www.w3.org/2001/XMLSchema#int>,"729"^^<http://www.w3.org/2001/XMLSchema#int>;
 <https://www.omg.org/spec/Commons/20221101/ContextualDesignators/appliesTo> "5.32"^^<http://www.w3.org/2001/XMLSchema#double> .

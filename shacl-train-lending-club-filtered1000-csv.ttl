@@ -3,15 +3,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fibo_loan: <https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix fibo: <https://spec.edmcouncil.org/fibo/ontology/> .
+@prefix local: <http://localhost:3333/> .
 
 ex:Requester            a rdfs:Class .
-ex:Loan_Application     a rdfs:Class .
+ex:LoanApplication     a rdfs:Class .
 
 ex:RequesterShape a sh:NodeShape ;
-	sh:targetClass ex:Requester ;
+	sh:targetClass <fibo:FND/Arrangements/Reporting/Requester> ;
 	sh:name "Applicant" ;
 	sh:property [
-		sh:path ex:home_ownership ;
+		sh:path local:has ;
 		sh:name "Home ownership type" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
@@ -22,66 +28,66 @@ ex:RequesterShape a sh:NodeShape ;
 			"RENT"
 		) ;
 	], [
-		sh:path ex:employment_length ;
+		sh:path <fibo:FND/Organizations/FormalOrganizations/Employment> ;
 		sh:name "Total employment duration in years" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 		sh:minInclusive 0 ;
 	], [
-		sh:path ex:fico_min ;
+		sh:path fibo_loan:IndividualPersonCreditRating ;
 		sh:name "Minimum fico value" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 		sh:minInclusive 300 ;
 		sh:maxInclusive 850 ;
 	], [
-		sh:path ex:fico_max ;
+		sh:path fibo_loan:IndividualPersonCreditRating ;
 		sh:name "Maximum fico value" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 		sh:minInclusive 300 ;
 		sh:maxInclusive 850 ;
 	], [
-		sh:path ex:state ;
+		sh:path wiki:Q852446 ;
 		sh:name "Address state" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:datatype xsd:string ;
 	], [
-		sh:path ex:public_record_count ;
+		sh:path fibo_loan:PublicRecord ;
 		sh:name "Number of public records" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 		sh:minInclusive 0 ;
 	], [
-		sh:path ex:requester ;
+		sh:path fibo_loan:LoanApplication;
 		sh:name "Application" ;
 		sh:minCount 1 ;
-		sh:nodeKind sh:IRI ;
-		sh:class ex:Loan_Application ;
+		sh:nodeKind fibo_loan:LoanApplication ;
+		sh:class fibo_loan:LoanApplication ;
 	] .
 
 ex:LoanApplicationShape a sh:NodeShape ;
-	sh:targetClass ex:Loan_Application ;
+	sh:targetClass fibo_loan:LoanApplication ;
 	sh:name "Loan application" ;
 	sh:property [
-		sh:path schema:IRI ;
-		sh:name "Application ID" ;
+		sh:path owl:hasKey ;
+		sh:name "owl:hasKey" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 	], [
-		sh:path ex:issue_date ;
+		sh:path wiki:Q26726966 ;
 		sh:name "Loan issue date" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:date ;
+		sh:datatype xsd:dateTime ;
 	], [
-		sh:path ex:verification_status ;
+		sh:path local:isVerified ;
 		sh:name "Verification status" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
@@ -92,13 +98,13 @@ ex:LoanApplicationShape a sh:NodeShape ;
 			"Verified"
 		) ;
 	], [
-		sh:path ex:loan_status ;
+		sh:path fibo_loan:LoanApplicationStatus ;
 		sh:name "Loan approval status" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:datatype xsd:boolean ;
 	], [
-		sh:path ex:application_type ;
+		sh:path local:isOfType ;
 		sh:name "Loan application type" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
@@ -108,14 +114,14 @@ ex:LoanApplicationShape a sh:NodeShape ;
 			"Joint App"
 		) ;
 	], [
-		sh:path ex:term ;
+		sh:path <fibo:FND/Agreements/Contracts/hasContractDuration> ;
 		sh:name "Loan term" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:datatype xsd:integer ;
+		sh:datatype xsd:int ;
 		sh:minInclusive 1 ;
 	], [
-		sh:path ex:interest_rate ;
+		sh:path <fibo:FBC/DebtAndEquities/Debt/hasInterestRate> ;
 		sh:name "Loan interest rate" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
@@ -123,7 +129,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:minInclusive "0.0"^^xsd:decimal ;
 		sh:maxInclusive "1.0"^^xsd:decimal ;
 	], [
-		sh:path ex:sub_grade ;
+		sh:path <fibo:FBC/DebtAndEquities/CreditRatings/CreditRatingScale?version=master/2025Q2> ;
 		sh:name "Loan sub-grade" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;

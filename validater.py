@@ -1,8 +1,15 @@
+from venv import logger
+
 from pyshacl import validate
+import logging
 
 data_graph = "train-lending-club-filtered1000-csv.ttl"
 shacl_graph = "shacl-train-lending-club-filtered1000-csv.ttl"
 ont_graph = None
+
+logging.basicConfig(filename='validation.log',
+                    filemode='w',
+                    level=logging.DEBUG)
 
 r = validate(data_graph,
       shacl_graph=shacl_graph,
@@ -14,8 +21,9 @@ r = validate(data_graph,
       meta_shacl=False,
       advanced=False,
       js=False,
-      debug=True)
+      debug=False)
 conforms, results_graph, results_text = r
-print(conforms)
-print(results_graph)
-print(results_text)
+
+logging.info(str(conforms))
+logging.debug(str(results_graph))
+logging.debug(str(results_text))

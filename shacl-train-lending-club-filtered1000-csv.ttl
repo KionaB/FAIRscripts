@@ -113,7 +113,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 	sh:name "Loan application" ;
 	sh:property [
 		sh:path owl:hasKey;
-		sh:name "Loan ID" ;
+		sh:name "Loan ID" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [ sh:path <fibo:LOAN/RealEstateLoans/HomeMortgageDisclosureActCoveredMortgages/UniversalLoanIdentifier>;
@@ -127,7 +127,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 					];
 				], [
 		sh:path <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateReceived> ;
-		sh:name "Loan issue date" ;
+		sh:name "Loan issue date" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [
@@ -142,7 +142,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 					];
 	], [
 		sh:path <fibo:LOAN/LoansGeneral/LoanApplications/UnderwritingDecision>  ;
-		sh:name "Verification status" ;
+		sh:name "Verification status" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [
@@ -158,7 +158,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 
 	], [
 		sh:path fibo_loan:LoanApplicationStatus ;
-		sh:name "Loan approval status" ;
+		sh:name "Loan approval status" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property  [sh:path owl:hasValue ;
@@ -168,7 +168,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		;
 	], [
 		sh:path local:loanApplicationType ;
-		sh:name "Loan application type" ;
+		sh:name "Loan application type" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [
@@ -183,7 +183,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 
 	], [
 		sh:path <https://spec.edmcouncil.org/fibo/ontologyFND/Agreements/Contracts/hasContractDuration> ;
-		sh:name "Loan term" ;
+		sh:name "Loan term" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [
@@ -196,7 +196,7 @@ ex:LoanApplicationShape a sh:NodeShape ;
 
 	], [
 		sh:path <https://spec.edmcouncil.org/fibo/ontologyFBC/DebtAndEquities/Debt/hasInterestRate> ;
-		sh:name "Loan interest rate" ;
+		sh:name "Loan interest rate" ; #TODO
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [

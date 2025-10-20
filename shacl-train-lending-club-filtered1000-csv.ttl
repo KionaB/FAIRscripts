@@ -17,19 +17,56 @@ ex:RequesterShape a sh:NodeShape ;
 	sh:targetClass <fibo:FND/Arrangements/Reporting/Requester> ;
 	sh:name "Applicant" ;
 	sh:property [
-		sh:path local:has ;
+		sh:path <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord> ;
 		sh:name "Home ownership type" ;
-		sh:minCount 1 ;
-		sh:maxCount 1 ;
+		sh:minCount 3 ;
+		sh:maxCount 3 ;
 		sh:property [
-			sh:path owl:hasValue ;
+			sh:path <http://localhost:3333/fibo_loan:PublicRecordCategory-RealEstate> ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+			sh:datatype xsd:string ;
+			sh:in (
+				"MORTGAGE"
+				"OWN"
+				"RENT"
+			)
+				];
+		sh:property [
+			sh:path fibo_loan:IndividualPersonCreditRating ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+			sh:property [
+				sh:path <fibo:BP/SecuritiesIssuance/AgencyMBSIssuance/minimumRating> ;
+				sh:name "Minimum fico value" ;
+				sh:minCount 1 ;
+				sh:maxCount 1 ;
+				sh:property [
+								sh:path owl:hasValue ;
+								sh:minCount 1 ;
+								sh:maxCount 1 ;
+							sh:datatype xsd:int ;
+							sh:minInclusive 300 ;
+							sh:maxInclusive 850 ;];
+
+				];
+
+			sh:property [
+			sh:path <http://localhost:3333/FND/Arrangements/Ratings/RatingScore> ;
+			sh:name "Maximum fico value" ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+			sh:property [
+				sh:path owl:hasValue ;
+				sh:minCount 1 ;
+				sh:maxCount 1 ;
+				sh:datatype xsd:int ;
+				sh:minInclusive 300 ;
+				sh:maxInclusive 850 ;
+				];
+
+		];
 			];
-		sh:datatype xsd:string ;
-		sh:in (
-			"MORTGAGE"
-			"OWN"
-			"RENT"
-		) ;
 	], [
 		sh:path <fibo:FND/Organizations/FormalOrganizations/Employment> ;
 		sh:name "Total employment duration in years" ;
@@ -37,40 +74,19 @@ ex:RequesterShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 			sh:path owl:hasValue ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+			sh:datatype xsd:int ;
+			sh:minInclusive 0 ;
 			];
-		sh:datatype xsd:int ;
-		sh:minInclusive 0 ;
-	], [
-		sh:path fibo_loan:IndividualPersonCreditRating ;
-		sh:name "Minimum fico value" ;
-		sh:minCount 1 ;
-		sh:maxCount 1 ;
-		sh:property [
-			sh:path owl:hasValue ;
-			];
-		sh:datatype xsd:int ;
-		sh:minInclusive 300 ;
-		sh:maxInclusive 850 ;
-	], [
-		sh:path fibo_loan:IndividualPersonCreditRating ;
-		sh:name "Maximum fico value" ;
-		sh:minCount 1 ;
-		sh:maxCount 1 ;
-		sh:property [
-			sh:path owl:hasValue ;
-			];
-		sh:datatype xsd:int ;
-		sh:minInclusive 300 ;
-		sh:maxInclusive 850 ;
-	], [
+
+	],  [
 		sh:path wiki:319608 ;
 		sh:name "Address state" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:property [
-			sh:path owl:hasValue ;
-			];
 		sh:datatype xsd:string ;
+
 	], [
 		sh:path fibo_loan:PublicRecord ;
 		sh:name "Number of public records" ;
@@ -78,9 +94,12 @@ ex:RequesterShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 			sh:path owl:hasValue ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
+			sh:datatype xsd:int ;
+			sh:minInclusive 0 ;
 			];
-		sh:datatype xsd:int ;
-		sh:minInclusive 0 ;
+
 	], [
 		sh:path fibo_loan:LoanApplication;
 		sh:name "Application" ;
@@ -97,17 +116,30 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:name "Loan ID" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:property [
-						sh:path owl:hasValue;
-					sh:datatype xsd:int;];
+		sh:property [ sh:path <fibo:LOAN/RealEstateLoans/HomeMortgageDisclosureActCoveredMortgages/UniversalLoanIdentifier>;
+					  sh:minCount 1 ;
+					  sh:maxCount 1 ;
+					  sh:property [ sh:path owl:hasValue;
+									sh:minCount 1 ;
+									sh:maxCount 1 ;
+									sh:datatype xsd:int;
+								  ];
+					];
 				], [
-		sh:path wiki:Q26726966 ;
+		sh:path <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateReceived> ;
 		sh:name "Loan issue date" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property [
-						sh:path owl:hasValue ;
-					 sh:datatype xsd:dateTime] ;
+						sh:path <wiki:Q26726966>;
+						sh:minCount 1 ;
+						sh:maxCount 1 ;
+						sh:property [
+										sh:path owl:hasValue ;
+										sh:minCount 1 ;
+										sh:maxCount 1 ;
+									 	sh:datatype xsd:dateTime] ;
+					];
 	], [
 		sh:path <fibo:LOAN/LoansGeneral/LoanApplications/UnderwritingDecision>  ;
 		sh:name "Verification status" ;
@@ -115,6 +147,8 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 						sh:path owl:hasValue ;
+						sh:minCount 1 ;
+						sh:maxCount 1 ;
 					 	sh:datatype xsd:string ;
 						sh:in (
 							"Not Verified"
@@ -128,6 +162,8 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		sh:property  [sh:path owl:hasValue ;
+					  sh:minCount 1 ;
+					  sh:maxCount 1 ;
 					 sh:datatype xsd:boolean ;]
 		;
 	], [
@@ -137,6 +173,8 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 			sh:path owl:hasValue ;
+					sh:minCount 1 ;
+					sh:maxCount 1 ;
 					sh:datatype xsd:string ;
 					sh:in (
 						"Individual"
@@ -150,6 +188,8 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 			sh:path owl:hasValue ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
 			sh:datatype xsd:int ;
 			sh:minInclusive 1 ;
 			];
@@ -161,6 +201,8 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:maxCount 1 ;
 		sh:property [
 			sh:path owl:hasValue ;
+			sh:minCount 1 ;
+			sh:maxCount 1 ;
 			sh:datatype xsd:double ;
 			sh:minInclusive "0.0"^^xsd:double ;
 			];
@@ -170,8 +212,6 @@ ex:LoanApplicationShape a sh:NodeShape ;
 		sh:name "Loan sub-grade" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
-		sh:property [
-			sh:path owl:hasValue ;
 			sh:in (
 			local:A1
 			local:A2
@@ -209,7 +249,6 @@ ex:LoanApplicationShape a sh:NodeShape ;
 			local:G4
 			local:G5
 		) ;
-			];
 
 	] .
 

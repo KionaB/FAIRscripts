@@ -10,10 +10,9 @@
 @prefix fibo: <https://spec.edmcouncil.org/fibo/ontology/> .
 @prefix local: <http://localhost:3333/> .
 
-ex:Requester            a rdfs:Class .
-ex:LoanApplication     a rdfs:Class .
-
-ex:RequesterShape a sh:NodeShape ;
+local:0 a fibo_loan:LoanApplication;
+ex:isVerified "Not Verified".
+fibo:Requester a rdfs:Class, sh:NodeShape ;
 	sh:targetClass <fibo:FND/Arrangements/Reporting/Requester> ;
 	sh:name "Applicant" ;
 	sh:property [
@@ -108,7 +107,7 @@ ex:RequesterShape a sh:NodeShape ;
 		sh:class fibo_loan:LoanApplication ;
 	] .
 
-ex:LoanApplicationShape a sh:NodeShape ;
+fibo_loan:LoanApplication a rdfs:Class, sh:NodeShape ;
 	sh:targetClass fibo_loan:LoanApplication ;
 	sh:name "Loan application" ;
 	sh:property [
@@ -141,20 +140,24 @@ ex:LoanApplicationShape a sh:NodeShape ;
 									 	sh:datatype xsd:dateTime] ;
 					];
 	], [
-		sh:path <fibo:LOAN/LoansGeneral/LoanApplications/UnderwritingDecision>  ;
-		sh:name "Verification status" ; #TODO
-		sh:minCount 1 ;
-		sh:maxCount 1 ;
-		sh:property [
-						sh:path owl:hasValue ;
-						sh:minCount 1 ;
-						sh:maxCount 1 ;
-					 	sh:datatype xsd:string ;
-						sh:in (
-							"Not Verified"
-							"Source Verified"
-							"Verified"
-						) ;] ;
+#		sh:path <fibo:LOAN/LoansGeneral/LoanApplications/UnderwritingDecision>  ;
+		sh:path ex:isVerified ;
+		sh:name "Verification status" ;
+      sh:minCount 1;
+      sh:maxCount 1;
+      sh:in ("Not Verified" "Source Verified" "Verified");
+#		sh:minCount 1 ;
+#		sh:maxCount 1 ;
+#		sh:property [
+#						sh:path owl:hasValue ;
+#						sh:minCount 1 ;
+#						sh:maxCount 1 ;
+#					 	sh:datatype xsd:string ;
+#						sh:in (
+#							"Not Verified"
+#							"Source Verified"
+#							"Verified"
+#						) ;] ;
 
 	], [
 		sh:path fibo_loan:LoanApplicationStatus ;

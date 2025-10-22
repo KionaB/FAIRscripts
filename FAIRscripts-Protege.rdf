@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#"
+     xml:base="https://w3id.org/FAIR-course-UT/2025-2026/12/ont"
+     xmlns:ont="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range_low"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasApplicant -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasApplicant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasEmployment -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasEmployment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#employment_length"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasFicoRange -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasFicoRange">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasHomeOwnershipStatus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasHomeOwnershipStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home_owenership_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasInterestRate -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasInterestRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest_rate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasSubgrade -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#hasSubgrade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Subgrade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#influencedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#influencedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#employment_length"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home_owenership_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest_rate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#public_record"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Subgrade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#ID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#ID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#application_type -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#application_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#employment_length -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#employment_length">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range_high -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range_high">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range_low -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range_low">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home_owenership_status -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home_owenership_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest_rate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#issue_date -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#issue_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#loan_status -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#loan_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#public_record -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#public_record">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#revolving_utilisation -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#revolving_utilisation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#state -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#state">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#sub_grade -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#sub_grade"/>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#term -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#term">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#verification_status -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#verification_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Subgrade -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Subgrade"/>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#applicant001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#applicant001">
+        <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Applicant"/>
+        <hasEmployment rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#emp001"/>
+        <hasFicoRange rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico001"/>
+        <hasHomeOwnershipStatus rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#emp001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#emp001">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#employment_length"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdf:type>
+        <influencedBy rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <employment_length rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</employment_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico001">
+        <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#fico_range"/>
+        <influencedBy rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <fico_range_high rdf:datatype="http://www.w3.org/2001/XMLSchema#int">750</fico_range_high>
+        <fico_range_low rdf:datatype="http://www.w3.org/2001/XMLSchema#int">650</fico_range_low>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home001">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#home_owenership_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <influencedBy rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <home_owenership_status>RENT</home_owenership_status>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest001">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest_rate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdf:type>
+        <influencedBy rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <interest_rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.32</interest_rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#loan001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#loan001">
+        <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Loan_Application"/>
+        <hasApplicant rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#applicant001"/>
+        <hasInterestRate rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#interest001"/>
+        <hasSubgrade rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <term rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</term>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#publicrec001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#publicrec001">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#public_record"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdf:type>
+        <influencedBy rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001"/>
+        <public_record rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</public_record>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#subgrade001">
+        <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#Subgrade"/>
+        <sub_grade rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A1</sub_grade>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

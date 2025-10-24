@@ -32,17 +32,18 @@ schema:EmailProperty
 	sh:name "E-mail address";
 	sh:datatype xsd:string ;
 	sh:minCount 1 ;
+    sh:order 45;
 .
 
 ex:NameProperty
   sh:path schema:name ;
-	sh:group fair:ContactPropertyGroup ;
+  sh:group fair:ContactPropertyGroup ;
   sh:name "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;
   sh:maxCount 1 ;
   sh:minCount 1 ;
-  sh:order 1 ;
+  sh:order 44 ;
 .
 
 fair:ContactPropertyGroup

@@ -13,7 +13,7 @@
 @prefix fdp: <https://w3id.org/fdp/fdp-o#> .
 
 fair:FDPShape
-	a sh:NodeShape ;
+    a sh:NodeShape ;
   sh:targetClass fdp:FAIRDataPoint ;
 	rdfs:label "Fair Data Point metadata";
   sh:property  fair:StartDateProperty,
@@ -22,11 +22,11 @@ fair:FDPShape
 				fair:MetaDataIdentifierProperty,
 				fair:MetaDataIssuedProperty,
 				fair:MetaDataModifiedProperty,
-				ex:NameProperty,
-				schema:EmailProperty;
+				fair:NameProperty,
+				fair:EmailProperty;
 .
 
-schema:EmailProperty
+fair:EmailProperty
 	sh:path schema:email;
 	sh:group fair:ContactPropertyGroup ;
 	sh:name "E-mail address";
@@ -35,7 +35,7 @@ schema:EmailProperty
     sh:order 45;
 .
 
-ex:NameProperty
+fair:NameProperty
   sh:path schema:name ;
   sh:group fair:ContactPropertyGroup ;
   sh:name "Name";
@@ -49,7 +49,7 @@ ex:NameProperty
 fair:ContactPropertyGroup
 	a sh:PropertyGroup ;
 	rdfs:label "Contact person";
-	sh:order "1"^^xsd:decimal
+#	sh:order "1"^^xsd:decimal
 .
 
 fair:StartDateProperty

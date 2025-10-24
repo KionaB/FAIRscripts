@@ -25,7 +25,7 @@ schema:EmailProperty
 
 ex:NameProperty
   sh:path schema:name ;
-  sh:name "Name", "Imię"@pl ;
+  sh:name "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;
   sh:maxCount 1 ;

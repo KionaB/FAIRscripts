@@ -16,14 +16,14 @@ fair:FDPShape
     a sh:NodeShape ;
   sh:targetClass fdp:FAIRDataPoint ;
 	rdfs:label "Fair Data Point metadata";
-  sh:property  fair:StartDateProperty,
+  sh:property  fair:NameProperty,
+				fair:EmailProperty,
+                fair:StartDateProperty,
 				fair:EndDateProperty,
 				fair:UILanguageProperty,
 				fair:MetaDataIdentifierProperty,
 				fair:MetaDataIssuedProperty,
-				fair:MetaDataModifiedProperty,
-				fair:NameProperty,
-				fair:EmailProperty;
+				fair:MetaDataModifiedProperty;
 .
 
 fair:EmailProperty

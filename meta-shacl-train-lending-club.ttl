@@ -51,9 +51,14 @@ fair:ContactPropertyGroup
 	rdfs:label "Contact person";
 #	sh:order "1"^^xsd:decimal
 .
+fair:MetaDataPropertyGroup
+    a sh:PropertyGroup ;
+    rdfs:label "Metadata";
+.
 
 fair:StartDateProperty
     sh:path fdp:startDate ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:datatype xsd:date ;
     sh:maxCount 1 ;
     dash:editor dash:DatePickerEditor ;
@@ -63,6 +68,7 @@ fair:StartDateProperty
 
 fair:EndDateProperty
     sh:path fdp:endDate ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:datatype xsd:date ;
     sh:maxCount 1 ;
     dash:editor dash:DatePickerEditor ;
@@ -72,6 +78,7 @@ fair:EndDateProperty
 
 fair:UILanguageProperty
     sh:path fdp:uiLanguage ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:nodeKind sh:IRI ;
     sh:maxCount 1 ;
     sh:defaultValue <http://id.loc.gov/vocabulary/iso639-1/en>;
@@ -82,6 +89,7 @@ fair:UILanguageProperty
 
 fair:MetaDataIdentifierProperty
     sh:path fdp:metadataIdentifier ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:nodeKind sh:IRI ;
     sh:maxCount 1 ;
     dash:editor dash:URIEditor ;
@@ -91,6 +99,7 @@ fair:MetaDataIdentifierProperty
 
 fair:MetaDataIssuedProperty
     sh:path fdp:metadataIssued ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:datatype xsd:dateTime ;
     sh:maxCount 1 ;
     dash:viewer dash:LiteralViewer ;
@@ -98,6 +107,7 @@ fair:MetaDataIssuedProperty
 
 fair:MetaDataModifiedProperty
     sh:path fdp:metadataModified ;
+    sh:group fair:MetaDataPropertyGroup;
     sh:datatype xsd:dateTime ;
     sh:maxCount 1 ;
     dash:viewer dash:LiteralViewer ;

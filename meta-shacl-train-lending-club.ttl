@@ -5,19 +5,30 @@
 @prefix dash: <http://datashapes.org/dash#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-
 @prefix ex: <http://example.com/> .
 @prefix lexvo: <http://lexvo.org/id/iso639-1/> .
+@prefix fair: <http://fairdatapoint.org/> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fdp: <https://w3id.org/fdp/fdp-o#> .
 
-schema:ContactPoint
-	a sh:NodeShape;
-	sh:targetClass schema:Person;
-	rdfs:label "Contact person";
-	sh:property schema:EmailProperty,
-				ex:NameProperty;
+fair:FDPShape
+	a sh:NodeShape ;
+  sh:targetClass fdp:FAIRDataPoint ;
+	rdfs:label "Fair Data Point metadata";
+  sh:property  fair:StartDateProperty,
+				fair:EndDateProperty,
+				fair:UILanguageProperty,
+				fair:MetaDataIdentifierProperty,
+				fair:MetaDataIssuedProperty,
+				fair:MetaDataModifiedProperty,
+				ex:NameProperty,
+				schema:EmailProperty;
 .
+
 schema:EmailProperty
 	sh:path schema:email;
+	sh:group fair:ContactPropertyGroup ;
 	sh:name "E-mail address";
 	sh:datatype xsd:string ;
 	sh:minCount 1 ;
@@ -25,6 +36,7 @@ schema:EmailProperty
 
 ex:NameProperty
   sh:path schema:name ;
+	sh:group fair:ContactPropertyGroup ;
   sh:name "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;
@@ -33,30 +45,31 @@ ex:NameProperty
   sh:order 1 ;
 .
 
-@prefix :         <http://fairdatapoint.org/> .
-@prefix dash:     <http://datashapes.org/dash#> .
-@prefix dct:      <http://purl.org/dc/terms/> .
-@prefix fdp:      <https://w3id.org/fdp/fdp-o#> .
-@prefix sh:       <http://www.w3.org/ns/shacl#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+fair:ContactPropertyGroup
+	a sh:PropertyGroup ;
+	rdfs:label "Contact person";
+	sh:order "1"^^xsd:decimal
+.
 
-:FDPShape a sh:NodeShape ;
-  sh:targetClass fdp:FAIRDataPoint ;
-  sh:property [
+fair:StartDateProperty
     sh:path fdp:startDate ;
     sh:datatype xsd:date ;
     sh:maxCount 1 ;
     dash:editor dash:DatePickerEditor ;
     dash:viewer dash:LiteralViewer ;
     sh:order 40 ;
-  ] , [
+ .
+
+fair:EndDateProperty
     sh:path fdp:endDate ;
     sh:datatype xsd:date ;
     sh:maxCount 1 ;
     dash:editor dash:DatePickerEditor ;
     dash:viewer dash:LiteralViewer ;
     sh:order 41 ;
-  ] , [
+  .
+
+fair:UILanguageProperty
     sh:path fdp:uiLanguage ;
     sh:nodeKind sh:IRI ;
     sh:maxCount 1 ;
@@ -64,21 +77,29 @@ ex:NameProperty
     dash:editor dash:URIEditor ;
     dash:viewer dash:LabelViewer ;
     sh:order 42 ;
-  ] , [
+.
+
+fair:MetaDataIdentifierProperty
     sh:path fdp:metadataIdentifier ;
     sh:nodeKind sh:IRI ;
     sh:maxCount 1 ;
     dash:editor dash:URIEditor ;
     dash:viewer dash:LabelViewer ;
     sh:order 43 ;
-  ] , [
+.
+
+fair:MetaDataIssuedProperty
     sh:path fdp:metadataIssued ;
     sh:datatype xsd:dateTime ;
     sh:maxCount 1 ;
     dash:viewer dash:LiteralViewer ;
-  ] , [
+.
+
+fair:MetaDataModifiedProperty
     sh:path fdp:metadataModified ;
     sh:datatype xsd:dateTime ;
     sh:maxCount 1 ;
     dash:viewer dash:LiteralViewer ;
-  ] .
+.
+
+

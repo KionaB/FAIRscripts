@@ -31,6 +31,8 @@ fair:EmailProperty
 	sh:group fair:ContactPropertyGroup ;
 	sh:name "E-mail address";
 	sh:datatype xsd:string ;
+    dash:editor dash:TextFieldEditor ;
+    dash:viewer dash:LiteralViewer ;
 	sh:minCount 1 ;
     sh:order 45;
 .
@@ -41,6 +43,8 @@ fair:NameProperty
   sh:name "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;
+  dash:editor dash:TextFieldEditor ;
+  dash:viewer dash:LiteralViewer ;
   sh:maxCount 1 ;
   sh:minCount 1 ;
   sh:order 44 ;

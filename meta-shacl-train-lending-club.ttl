@@ -16,49 +16,79 @@ fair:FDPShape
     a sh:NodeShape ;
   sh:targetClass fdp:FAIRDataPoint ;
 	rdfs:label "Fair Data Point metadata";
-  sh:property  fair:NameProperty,
-				fair:EmailProperty,
-                fair:StartDateProperty,
+  sh:property   fair:StartDateProperty,
 				fair:EndDateProperty,
 				fair:UILanguageProperty,
 				fair:MetaDataIdentifierProperty,
 				fair:MetaDataIssuedProperty,
-				fair:MetaDataModifiedProperty;
+				fair:MetaDataModifiedProperty,
+                fair:ContactPersonProperty,
+                fair:SemanticModelProperty,
+                fair:DataSourceProperty,
+                fair:DataProvenanceProperty,
+                fair:DataVocabularyProperty,
+                fair:DataSampleProperty,
+                fair:DataSampleQueriesProperty,
+                fair:DataManagementPolicyProperty,
+                fair:DataAIgeneratedFlagProperty,
+                fair:DataLanguageProperty,
+                fair:ExtraInformationProperty;
 .
 
+#Groups are used to cluster questions together
+fair:ContactPropertyGroup
+	a sh:PropertyGroup ;
+	rdfs:label "Contact";
+.
+
+fair:ContactPersonProperty
+    a sh:PropertyShape  ;
+    sh:minCount 0;
+    dash:editor dash:DetailsEditor ;
+	dash:viewer dash:DetailsViewer ;
+	sh:name "Contact Person" ;
+	sh:node fair:ContactPersonDeets ;
+	sh:nodeKind sh:BlankNode .
+
+fair:ContactPersonDeets
+	a sh:NodeShape ;
+	rdfs:label "Value with weight" ;
+	sh:property fair:NameProperty, fair:EmailProperty;
+.
+
+#E-mail of the contact person for the data
 fair:EmailProperty
+    a sh:PropertyShape ;
 	sh:path schema:email;
 	sh:group fair:ContactPropertyGroup ;
-	sh:name "E-mail address";
+	rdfs:label "E-mail address";
 	sh:datatype xsd:string ;
     dash:editor dash:TextFieldEditor ;
     dash:viewer dash:LiteralViewer ;
-	sh:minCount 1 ;
+	sh:minCount 0 ;
     sh:order 45;
 .
 
+#Name of the contact person for the data
 fair:NameProperty
+    a sh:PropertyShape ;
   sh:path schema:name ;
   sh:group fair:ContactPropertyGroup ;
-  sh:name "Name";
+  rdfs:label  "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;
   dash:editor dash:TextFieldEditor ;
   dash:viewer dash:LiteralViewer ;
   sh:maxCount 1 ;
-  sh:minCount 1 ;
+  sh:minCount 0 ;
   sh:order 44 ;
 .
 
-fair:ContactPropertyGroup
-	a sh:PropertyGroup ;
-	rdfs:label "Contact person";
-#	sh:order "1"^^xsd:decimal
-.
 fair:MetaDataPropertyGroup
     a sh:PropertyGroup ;
     rdfs:label "Metadata";
 .
+
 
 fair:StartDateProperty
     sh:path fdp:startDate ;
@@ -70,6 +100,7 @@ fair:StartDateProperty
     sh:order 40 ;
  .
 
+
 fair:EndDateProperty
     sh:path fdp:endDate ;
     sh:group fair:MetaDataPropertyGroup;
@@ -80,6 +111,7 @@ fair:EndDateProperty
     sh:order 41 ;
   .
 
+#UI language for FDP
 fair:UILanguageProperty
     sh:path fdp:uiLanguage ;
     sh:group fair:MetaDataPropertyGroup;
@@ -91,6 +123,7 @@ fair:UILanguageProperty
     sh:order 42 ;
 .
 
+#ID that resolves to the metadata
 fair:MetaDataIdentifierProperty
     sh:path fdp:metadataIdentifier ;
     sh:group fair:MetaDataPropertyGroup;
@@ -101,6 +134,7 @@ fair:MetaDataIdentifierProperty
     sh:order 43 ;
 .
 
+#When this metadata was uploaded
 fair:MetaDataIssuedProperty
     sh:path fdp:metadataIssued ;
     sh:group fair:MetaDataPropertyGroup;
@@ -109,6 +143,7 @@ fair:MetaDataIssuedProperty
     dash:viewer dash:LiteralViewer ;
 .
 
+#When the metadata was last modified
 fair:MetaDataModifiedProperty
     sh:path fdp:metadataModified ;
     sh:group fair:MetaDataPropertyGroup;
@@ -117,4 +152,120 @@ fair:MetaDataModifiedProperty
     dash:viewer dash:LiteralViewer ;
 .
 
+fair:DataPropertyGroup
+    a sh:PropertyGroup ;
+    rdfs:label "Data properties";
+.
 
+#link to the semantic model(s)
+fair:SemanticModelProperty
+    sh:path fair:semanticModel;
+    rdfs:label "Semantic model link";
+    rdfs:comment "The semantic model for the data and/or the domain of the data";
+    sh:group fair:DataPropertyGroup;
+    sh:minCount 0;
+    sh:datatype xsd:anyURI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:HyperlinkViewer ;
+.
+
+#link to the source of the data
+fair:DataSourceProperty
+    sh:path dct:source;
+    rdfs:label "Data source";
+    rdfs:comment "Source of the data before current modification";
+    sh:group fair:DataPropertyGroup;
+    sh:datatype xsd:string  ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:HyperlinkViewer ;
+.
+
+#description of how dataset came to be / was changed
+fair:DataProvenanceProperty
+    sh:path fair:provenance;
+    rdfs:label "Data provenance";
+    rdfs:comment "How was this data obtained and/or modified";
+    sh:group fair:DataPropertyGroup;
+    sh:datatype xsd:string  ;
+    dash:editor dash:TextAreaEditor ;
+    dash:viewer dash:LiteralViewer ;
+.
+
+#List of vocabularies used
+fair:DataVocabularyProperty
+    sh:path fair:vocabularies;
+    rdfs:label "Vocabularies used";
+    rdfs:comment "Links to any vocabularies used in the data or metadata ";
+    sh:group fair:DataPropertyGroup;
+    sh:datatype xsd:anyURI ;
+    sh:minCount 0;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:URIViewer ;
+.
+
+#Sample of data
+fair:DataSampleProperty
+    sh:path fair:dataSample;
+    rdfs:label "Sample of data";
+    sh:group fair:DataPropertyGroup;
+    sh:data xsd:string ;
+    dash:editor dash:TextAreaEditor ;
+    dash:viewer dash:LiteralViewer ;
+.
+
+#Example queries
+fair:DataSampleQueriesProperty
+    sh:path fair:sampleQueries;
+    rdfs:label "Example queries";
+    rdfs:comment "Examples of queries this dataset answers and/or how to query the dataset";
+    sh:group fair:DataPropertyGroup;
+    sh:datatype xsd:string ;
+    dash:editor dash:TextAreaEditor ;
+    dash:viewer dash:LiteralViewer ;
+.
+
+#Data management policy
+fair:DataManagementPolicyProperty
+    sh:path fair:managementPolicy;
+    rdfs:label "Data management policy";
+    rdfs:comment "Describe or provide a link to the data management policy";
+    sh:group fair:MetaDataPropertyGroup;
+    sh:datatype xsd:string ;
+    dash:editor dash:TextAreaEditor ;
+    dash:viewer dash:LiteralViewer ;
+.
+
+#AI generated flag
+fair:DataAIgeneratedFlagProperty
+    sh:path fair:aiFlag;
+    rdfs:label "AI generated/synthetic data";
+    sh:group fair:MetaDataPropertyGroup;
+    sh:datatype xsd:boolean ;
+    sh:minCount 1;
+    sh:maxCount 1;
+    dash:editor dash:BooleanSelectEditor ;
+    dash:viewer dash:LiteralViewer ;
+.
+
+#Language(s) of the data
+fair:DataLanguageProperty
+    sh:path fair:dataLanguage;
+    rdfs:label "Language(s) used in the data";
+    sh:group fair:DataPropertyGroup;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 0;
+    sh:defaultValue <http://id.loc.gov/vocabulary/iso639-1/en>;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+.
+
+#Space for additional information
+fair:ExtraInformationProperty
+    sh:path fair:extraInformation;
+    rdfs:label "Additional information about the data";
+    rdfs:comment "Any additional information that may be useful to future users of this dataset";
+    sh:group fair:DataPropertyGroup;
+    sh:datatype xsd:string  ;
+    dash:editor dash:TextAreaEditor ;
+    dash:viewer dash:LiteralViewer ;
+.

@@ -43,6 +43,7 @@ fair:ContactPropertyGroup
 
 fair:ContactPersonProperty
     a sh:PropertyShape  ;
+    sh:group fair:ContactPropertyGroup ;
     sh:minCount 0;
     dash:editor dash:DetailsEditor ;
 	dash:viewer dash:DetailsViewer ;
@@ -60,7 +61,6 @@ fair:ContactPersonDeets
 fair:EmailProperty
     a sh:PropertyShape ;
 	sh:path schema:email;
-	sh:group fair:ContactPropertyGroup ;
 	rdfs:label "E-mail address";
 	sh:datatype xsd:string ;
     dash:editor dash:TextFieldEditor ;
@@ -73,7 +73,6 @@ fair:EmailProperty
 fair:NameProperty
     a sh:PropertyShape ;
   sh:path schema:name ;
-  sh:group fair:ContactPropertyGroup ;
   rdfs:label  "Name";
   sh:datatype xsd:string ;
   dash:singleLine true ;

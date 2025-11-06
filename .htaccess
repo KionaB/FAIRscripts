@@ -4,7 +4,7 @@ RewriteEngine on
 # RewriteRule ^/?(.*)$ https://gitlab.utwente.nl/lbonino/fair-course-2021-2022/$1 [R=307,L]
 
 #main repository
-Redirect 302 /FAIR-course-UT/2025/group12/ https://github.com/KionaB/FAIRscripts
+Redirect 302 /FAIR-course-UT/2025/group12/ https://github.com/KionaB/FAIRscripts https://github.com/KionaB/FAIRscripts/
 
 #original data csv
 Redirect 302 /FAIR-course-UT/2025/group12/originalData https://github.com/KionaB/FAIRscripts/blob/6e02ee18b7f15cf83bcfe7083cedb60cc042d1d8/original/train_lending_club.csv
@@ -19,10 +19,10 @@ Redirect 302 /FAIR-course-UT/2025/group12/ontology/rdf https://github.com/KionaB
 Redirect 302 /FAIR-course-UT/2025/group12/ontology/owlXML https://github.com/KionaB/FAIRscripts/blob/6e02ee18b7f15cf83bcfe7083cedb60cc042d1d8/fairified/metadata/Protege%20Fair%20Data%20group12.owx
 
 #semantic model
-Redirect 302 /FAIR-course-UT/2025/group12/semanticModel
+Redirect 302 /FAIR-course-UT/2025/group12/semanticModel https://github.com/KionaB/FAIRscripts/blob/474d8502dd63859eb5517b1dd14ead217428044a/fairified/metadata/updatedSemanticModel.png
 
 #data shacl
-Redirect 302 /FAIR-course-UT/2025/group12/dataSHACL
+Redirect 302 /FAIR-course-UT/2025/group12/dataSHACL https://github.com/KionaB/FAIRscripts/blob/474d8502dd63859eb5517b1dd14ead217428044a/fairified/metadata/shacl-train-lending-club-filtered1000-csv.ttl
 
 #fairified data ttl
 Redirect 302 /FAIR-course-UT/2025/group12/data https://github.com/KionaB/FAIRscripts/blob/6e02ee18b7f15cf83bcfe7083cedb60cc042d1d8/fairified/data/train-lending-club-filtered1000-csv.ttl

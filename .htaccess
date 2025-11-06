@@ -4,7 +4,7 @@ RewriteEngine on
 # RewriteRule ^/?(.*)$ https://gitlab.utwente.nl/lbonino/fair-course-2021-2022/$1 [R=307,L]
 
 #main repository
-Redirect 302 /FAIR-course-UT/2025/group12/ https://github.com/KionaB/FAIRscripts https://github.com/KionaB/FAIRscripts/
+Redirect 302 /FAIR-course-UT/2025/group12/main https://github.com/KionaB/FAIRscripts https://github.com/KionaB/FAIRscripts/
 
 #original data csv
 Redirect 302 /FAIR-course-UT/2025/group12/originalData https://github.com/KionaB/FAIRscripts/blob/6e02ee18b7f15cf83bcfe7083cedb60cc042d1d8/original/train_lending_club.csv

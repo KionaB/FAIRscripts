@@ -1,0 +1,26 @@
+# Train Lending Club data (fairified)
+This namespace is used for the FAIR Data Engineering course at the University of Twente in 2025 to fairify Train Lending Club financial loan data.
+The group (group 12) consisted of Kiona Bijker and Ragunath Seenivasagan. 
+
+## Original dataset
+The original dataset was published on Kaggle at https://datasetsearch.research.google.com/search?query=lending%20club%20-site%3Akaggle.com&docid=L2cvMTFzand2ZHJzYg%3D%3D
+
+## Pre-fairification
+Before the dataset could be used for the course it needed to be reduced. First columns were removed, leading to train-lending-club-columns-used.csv . Then the number of records was reduced to 1000 while preserving all variations possible using main.py , this resulted in train-lending-club-filtered1000.csv
+
+## Outside vocabularies
+Vocabularies used include FIBO, mainly the loan applications ontology (https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/) and wikidata. These vocabularies were extended using Protege, see FAIRscripts-Protege.rdf or Protege Fair Data group12.owx
+
+## SHACL
+Both for the data itself and for the metadata a shacl file was produced for validation. These files can be run using validater.py which outputs to validation.log 
+.
+The shacl-train-lending-club-filtered1000-csv.ttl describes the fairified data triplets and can be used to verify that future records are accurately triplified. 
+
+meta-shacl-train-lending-club.ttl describes the metadata form for Fair Data Point uploads of this dataset.
+
+## Contacts
+### Group 12
+* Kiona Bijker k.bijker@student.utwente.nl
+* Ragunath Seenivasagan r.seenivasagan@student.utwente.nl
+### Course teacher
+* Luiz Bonino l.o.boninodasilvasantos@utwente.nl

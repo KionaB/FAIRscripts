@@ -32,6 +32,7 @@ fair:FDPShape
                 fair:DataManagementPolicyProperty,
                 fair:DataAIgeneratedFlagProperty,
                 fair:DataLanguageProperty,
+                fair:LicenseProperty,
                 fair:ExtraInformationProperty;
 .
 
@@ -87,7 +88,6 @@ fair:MetaDataPropertyGroup
     a sh:PropertyGroup ;
     rdfs:label "Metadata";
 .
-
 
 fair:StartDateProperty
     sh:path fdp:startDate ;
@@ -154,6 +154,18 @@ fair:MetaDataModifiedProperty
 fair:DataPropertyGroup
     a sh:PropertyGroup ;
     rdfs:label "Data properties";
+.
+
+#License info
+fair:LicenseProperty
+    sh:path fair:licenseProperty;
+    rdfs:label "Data license";
+    rdfs:comment "Add a license to the data";
+    sh:group fair:DataPropertyGroup;
+    sh:minCount 1;
+    sh:datatype xsd:string ;
+    dash:editor dash:TextFieldEditor ;
+    dash:viewer dash:LiteralViewer ;
 .
 
 #link to the semantic model(s)

@@ -1,0 +1,53 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcite: <http://purl.org/spar/datacite/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sio: <http://semanticscience.org/resource/>.
+@prefix wd: <https://www.wikidata.org/wiki/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix c: <http://localhost:8080/catalog/>.
+@prefix n0: <http://localhost:8080/catalog/9d941c9a-290f-404f-a4c9-f815de51d456#>.
+@prefix pro: <http://localhost:8080/profile/>.
+@prefix met: <http://localhost:8080/catalog/9d941c9a-290f-404f-a4c9-f815de51d456/metrics/>.
+@prefix fdp: <https://w3id.org/fdp/fdp-o#>.
+@prefix d: <http://localhost:8080/dataset/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+
+c:9d941c9a-290f-404f-a4c9-f815de51d456
+    a dcat:Catalog, dcat:Resource;
+    dct:accessRights n0:accessRights;
+    dct:conformsTo pro:a0949e72-4466-4d53-8900-9436d1049a4b;
+    dct:isPartOf <http://localhost:8080>;
+    dct:issued "2025-11-06T14:05:56.003874169Z"^^xsd:dateTime;
+    dct:language language:en;
+    dct:license <http://purl.org/NET/rdflicense/cc-zero1.0>;
+    dct:modified "2025-11-06T14:05:56.003874169Z"^^xsd:dateTime;
+    dct:publisher [ a foaf:Agent; foaf:name "Ragunath Seenivasagan" ];
+    dct:title "FAIR Catalog";
+    sio:SIO_000628
+    met:445c0a70d1e214e545b261559e2842f4, met:5d27e854a9e78eb3f663331cd47cdc13;
+    rdfs:label "FAIR Catalog";
+    dcat:version "1.0";
+    fdp:metadataIdentifier n0:identifier;
+    fdp:metadataIssued "2025-11-06T14:05:56.003874169Z"^^xsd:dateTime;
+    fdp:metadataModified "2025-11-06T14:05:56.003874169Z"^^xsd:dateTime.
+met:445c0a70d1e214e545b261559e2842f4
+    sio:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt>;
+    sio:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt>.
+met:5d27e854a9e78eb3f663331cd47cdc13
+sio:SIO_000332 wd:Q8777; sio:SIO_000628 wd:Q8777.
+n0:accessRights
+    a dct:RightsStatement;
+    dct:description "This resource has no access restriction".
+n0:identifier
+    a dcite:Identifier;
+    dct:identifier
+    "http://localhost:8080/catalog/9d941c9a-290f-404f-a4c9-f815de51d456".
+d:
+    a ldp:DirectContainer;
+    dct:title "Datasets";
+    ldp:hasMemberRelation dcat:dataset;
+    ldp:membershipResource c:9d941c9a-290f-404f-a4c9-f815de51d456.
+pro:a0949e72-4466-4d53-8900-9436d1049a4b rdfs:label "Catalog Profile".

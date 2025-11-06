@@ -1,0 +1,56 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcite: <http://purl.org/spar/datacite/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix language: <http://id.loc.gov/vocabulary/iso639-1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sio: <http://semanticscience.org/resource/>.
+@prefix wd: <https://www.wikidata.org/wiki/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix d: <http://localhost:8080/dataset/>.
+@prefix n0: <http://localhost:8080/dataset/3fbade51-f0a1-4296-b028-5a718e0f8391#>.
+@prefix pro: <http://localhost:8080/profile/>.
+@prefix c: <http://localhost:8080/catalog/>.
+@prefix met: <http://localhost:8080/dataset/3fbade51-f0a1-4296-b028-5a718e0f8391/metrics/>.
+@prefix theme: <https://fairdatapoint.org/theme/>.
+@prefix fdp: <https://w3id.org/fdp/fdp-o#>.
+@prefix dis: <http://localhost:8080/distribution/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+
+d:3fbade51-f0a1-4296-b028-5a718e0f8391
+    a dcat:Dataset, dcat:Resource;
+    dct:accessRights n0:accessRights;
+    dct:conformsTo pro:2f08228e-1789-40f8-84cd-28e3288c3604;
+    dct:isPartOf c:9d941c9a-290f-404f-a4c9-f815de51d456;
+    dct:language language:en;
+    dct:license <http://purl.org/NET/rdflicense/cc-zero1.0>;
+    dct:publisher [ a foaf:Agent; foaf:name "Ragunath Seenivasagan" ];
+    dct:title "FAIR Loan Dataset";
+    sio:SIO_000628
+    met:445c0a70d1e214e545b261559e2842f4, met:5d27e854a9e78eb3f663331cd47cdc13;
+    rdfs:label "FAIR Loan Dataset";
+    dcat:keyword
+    "Applicant", "Credit score", "FICO", "Loan", "Mortgage", "Subgrade";
+    dcat:theme theme:loan;
+    dcat:version "1.0";
+    fdp:metadataIdentifier n0:identifier;
+    fdp:metadataIssued "2025-11-06T14:11:55.496937925Z"^^xsd:dateTime;
+    fdp:metadataModified "2025-11-06T14:11:55.496937925Z"^^xsd:dateTime.
+met:445c0a70d1e214e545b261559e2842f4
+    sio:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt>;
+    sio:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt>.
+met:5d27e854a9e78eb3f663331cd47cdc13
+sio:SIO_000332 wd:Q8777; sio:SIO_000628 wd:Q8777.
+n0:accessRights
+    a dct:RightsStatement;
+    dct:description "This resource has no access restriction".
+n0:identifier
+    a dcite:Identifier;
+    dct:identifier
+    "http://localhost:8080/dataset/3fbade51-f0a1-4296-b028-5a718e0f8391".
+dis:
+    a ldp:DirectContainer;
+    dct:title "Distributions";
+    ldp:hasMemberRelation dcat:distribution;
+    ldp:membershipResource d:3fbade51-f0a1-4296-b028-5a718e0f8391.
+pro:2f08228e-1789-40f8-84cd-28e3288c3604 rdfs:label "Dataset Profile".

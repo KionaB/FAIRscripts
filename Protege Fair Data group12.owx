@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/FAIR-course-UT/2025-2026/12/ont"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/FAIR-course-UT/2025-2026/12/ont">
+    <Prefix name="" IRI="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#"/>
+    <Prefix name="ont" IRI="https://w3id.org/FAIR-course-UT/2025-2026/12/ont#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Applicant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loan_Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subgrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fico_range"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplicant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmployment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFicoRange"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHomeOwnershipStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterestRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubgrade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influencedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#application_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employment_length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fico_range_high"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fico_range_low"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#home_owenership_status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#interest_rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#issue_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#loan_status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#public_record"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#revolving_utilisation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sub_grade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#term"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verification_status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#applicant001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emp001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fico001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#home001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interest001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loan001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#publicrec001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#subgrade001"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#fico_range"/>
+        <Class IRI="#Applicant"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Applicant"/>
+        <NamedIndividual IRI="#applicant001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#employment_length"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#emp001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fico_range"/>
+        <NamedIndividual IRI="#fico001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#home_owenership_status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#home001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#interest_rate"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#interest001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loan_Application"/>
+        <NamedIndividual IRI="#loan001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#public_record"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#publicrec001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subgrade"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEmployment"/>
+        <NamedIndividual IRI="#applicant001"/>
+        <NamedIndividual IRI="#emp001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFicoRange"/>
+        <NamedIndividual IRI="#applicant001"/>
+        <NamedIndividual IRI="#fico001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomeOwnershipStatus"/>
+        <NamedIndividual IRI="#applicant001"/>
+        <NamedIndividual IRI="#home001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencedBy"/>
+        <NamedIndividual IRI="#emp001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencedBy"/>
+        <NamedIndividual IRI="#fico001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencedBy"/>
+        <NamedIndividual IRI="#home001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencedBy"/>
+        <NamedIndividual IRI="#interest001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasApplicant"/>
+        <NamedIndividual IRI="#loan001"/>
+        <NamedIndividual IRI="#applicant001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInterestRate"/>
+        <NamedIndividual IRI="#loan001"/>
+        <NamedIndividual IRI="#interest001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubgrade"/>
+        <NamedIndividual IRI="#loan001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencedBy"/>
+        <NamedIndividual IRI="#publicrec001"/>
+        <NamedIndividual IRI="#subgrade001"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employment_length"/>
+        <NamedIndividual IRI="#emp001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fico_range_high"/>
+        <NamedIndividual IRI="#fico001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">750</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fico_range_low"/>
+        <NamedIndividual IRI="#fico001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#home_owenership_status"/>
+        <NamedIndividual IRI="#home001"/>
+        <Literal>RENT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#interest_rate"/>
+        <NamedIndividual IRI="#interest001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#term"/>
+        <NamedIndividual IRI="#loan001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#public_record"/>
+        <NamedIndividual IRI="#publicrec001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sub_grade"/>
+        <NamedIndividual IRI="#subgrade001"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApplicant"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEmployment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFicoRange"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHomeOwnershipStatus"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInterestRate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubgrade"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#influencedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#fico_range_low"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApplicant"/>
+        <Class IRI="#Loan_Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEmployment"/>
+        <Class IRI="#Applicant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFicoRange"/>
+        <Class IRI="#Applicant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHomeOwnershipStatus"/>
+        <Class IRI="#Applicant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInterestRate"/>
+        <Class IRI="#Loan_Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubgrade"/>
+        <Class IRI="#Applicant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubgrade"/>
+        <Class IRI="#Loan_Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <Class IRI="#fico_range"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#employment_length"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#home_owenership_status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#interest_rate"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#public_record"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApplicant"/>
+        <Class IRI="#Applicant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEmployment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#employment_length"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFicoRange"/>
+        <Class IRI="#fico_range"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHomeOwnershipStatus"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#home_owenership_status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterestRate"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#interest_rate"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubgrade"/>
+        <Class IRI="#Subgrade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influencedBy"/>
+        <Class IRI="#Subgrade"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#application_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employment_length"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fico_range_high"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fico_range_low"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#home_owenership_status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#interest_rate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#issue_date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#loan_status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#public_record"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#revolving_utilisation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#state"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#term"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#verification_status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#application_type"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employment_length"/>
+        <Class IRI="#Applicant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fico_range_high"/>
+        <Class IRI="#fico_range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fico_range_low"/>
+        <Class IRI="#fico_range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#home_owenership_status"/>
+        <Class IRI="#Applicant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#interest_rate"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#issue_date"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#loan_status"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#public_record"/>
+        <Class IRI="#Applicant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#revolving_utilisation"/>
+        <Class IRI="#Applicant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#state"/>
+        <Class IRI="#Applicant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#term"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verification_status"/>
+        <Class IRI="#Loan_Application"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#application_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employment_length"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fico_range_high"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fico_range_low"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#home_owenership_status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#interest_rate"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#issue_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#loan_status"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#public_record"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#revolving_utilisation"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#state"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#term"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verification_status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -112,7 +112,7 @@ fibo_loan:LoanApplication a rdfs:Class, sh:NodeShape ;
 	sh:name "Loan application" ;
 	sh:property [
 		sh:path owl:hasKey;
-		sh:name "Loan ID" ; #TODO
+		sh:name "Loan ID" ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 		], [

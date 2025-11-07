@@ -30,3 +30,14 @@ Redirect 302 /FAIR-course-UT/2025/group12/data https://github.com/KionaB/FAIRscr
 #metadata shacl
 Redirect 302 /FAIR-course-UT/2025/group12/metadataSHACL https://github.com/KionaB/FAIRscripts/blob/0e391216f144da221eed2a21d8d030ead39f92c9/FAIR%20Data%20Point/meta-shacl-train-lending-club.ttl
 
+#fdp Dataset
+Redirect 302 /FAIR-course-UT/2025/group12/fdpDataset hhttps://github.com/KionaB/FAIRscripts/blob/03e7875dd12f1302fa434973fe539459c43c4185/FAIR%20Data%20Point/FAIRified_Loan_Dataset.ttl
+
+#fdp Catalog
+Redirect 302 /FAIR-course-UT/2025/group12/fdpCatalog https://github.com/KionaB/FAIRscripts/blob/03e7875dd12f1302fa434973fe539459c43c4185/FAIR%20Data%20Point/FAIR_Catalog.ttl
+
+#fdp Original Distribution
+Redirect 302 /FAIR-course-UT/2025/group12/fdpOriginalDistribution https://github.com/KionaB/FAIRscripts/blob/03e7875dd12f1302fa434973fe539459c43c4185/FAIR%20Data%20Point/FAIR_Loan_Dataset.ttl
+
+#fdp Fairified Distribution
+Redirect 302 /FAIR-course-UT/2025/group12/fdpFairifiedDistribution https://github.com/KionaB/FAIRscripts/blob/03e7875dd12f1302fa434973fe539459c43c4185/FAIR%20Data%20Point/FAIRified_Loan_Dataset.ttl
